@@ -1,0 +1,274 @@
+{
+  "video_id": "CaBXcjkKQIw",
+  "video_title": "VW Taigun 3 Years Later - Would I Still Buy It?",
+  "aggregated": {
+    "sentiment_distribution": {
+      "positive": 40.0,
+      "neutral": 60.0,
+      "negative": 0.0
+    },
+    "sentiment_trend": [
+      {
+        "chunk_index": 0,
+        "score": 0.5
+      },
+      {
+        "chunk_index": 1,
+        "score": 0.9
+      }
+    ],
+    "overall_score": 0.62,
+    "overall_sentiment": "positive",
+    "brands": [
+      {
+        "name": "Volkswagen",
+        "count": 4
+      }
+    ],
+    "models": [
+      {
+        "name": "Taigun",
+        "count": 2
+      },
+      {
+        "name": "Tiguan GT",
+        "count": 2
+      },
+      {
+        "name": "Virtus",
+        "count": 1
+      },
+      {
+        "name": "Vento",
+        "count": 1
+      }
+    ],
+    "features": [
+      {
+        "name": "twin headlight setup",
+        "count": 1
+      },
+      {
+        "name": "driver side window motor",
+        "count": 1
+      },
+      {
+        "name": "paint quality",
+        "count": 1
+      },
+      {
+        "name": "engine performance",
+        "count": 1
+      },
+      {
+        "name": "direct steering feel",
+        "count": 1
+      },
+      {
+        "name": "stability on high speeds",
+        "count": 1
+      },
+      {
+        "name": "reliable engine",
+        "count": 1
+      },
+      {
+        "name": "suspension",
+        "count": 1
+      },
+      {
+        "name": "mileage",
+        "count": 1
+      },
+      {
+        "name": "1.5 litre TSI",
+        "count": 1
+      },
+      {
+        "name": "DSG gearbox",
+        "count": 1
+      },
+      {
+        "name": "AC console",
+        "count": 1
+      },
+      {
+        "name": "headlamp cluster",
+        "count": 1
+      },
+      {
+        "name": "reliability",
+        "count": 1
+      },
+      {
+        "name": "compact dimensions",
+        "count": 1
+      }
+    ],
+    "top_positives": [
+      "No issues after 30,000 km",
+      "Great choice for highway travel",
+      "Exceptional driving pleasure",
+      "Great engine performance",
+      "Direct steering feel",
+      "Stability at high speeds",
+      "handles India roads",
+      "no other issues in the car",
+      "Solid feel on the road",
+      "Peppy and exciting performance"
+    ],
+    "top_negatives": [
+      "Poor paint quality",
+      "Driver side window motor issues",
+      "Cost-cutting measures affecting features",
+      "Interiors could be better",
+      "Quality of parts could be improved",
+      "Some issues can only be fixed through jugaads",
+      "suspension is too stiff",
+      "doesn't soak in potholes",
+      "cheap accent",
+      "Cost-cutting in build quality"
+    ],
+    "total_chunks_analyzed": 5
+  },
+  "chunk_analyses": [
+    {
+      "chunk_id": "d2255ac9-5426-422b-8518-e0c1fa8fb485",
+      "source": "comments",
+      "chunk_index": 0,
+      "sentiment": "neutral",
+      "sentiment_score": 0.5,
+      "brands": [
+        "Volkswagen"
+      ],
+      "models": [
+        "Taigun",
+        "Virtus",
+        "Vento"
+      ],
+      "features": [
+        "twin headlight setup",
+        "driver side window motor",
+        "paint quality"
+      ],
+      "positives": [
+        "No issues after 30,000 km",
+        "Great choice for highway travel",
+        "Exceptional driving pleasure"
+      ],
+      "negatives": [
+        "Poor paint quality",
+        "Driver side window motor issues",
+        "Cost-cutting measures affecting features"
+      ]
+    },
+    {
+      "chunk_id": "b7b02cc1-0dea-4ef9-acca-e898e524d2bb",
+      "source": "comments",
+      "chunk_index": 1,
+      "sentiment": "positive",
+      "sentiment_score": 0.8,
+      "brands": [
+        "Volkswagen"
+      ],
+      "models": [
+        "Taigun"
+      ],
+      "features": [
+        "engine performance",
+        "direct steering feel",
+        "stability on high speeds",
+        "reliable engine"
+      ],
+      "positives": [
+        "Great engine performance",
+        "Direct steering feel",
+        "Stability at high speeds"
+      ],
+      "negatives": [
+        "Interiors could be better",
+        "Quality of parts could be improved",
+        "Some issues can only be fixed through jugaads"
+      ]
+    },
+    {
+      "chunk_id": "b1e21155-b2ef-4152-a8f6-cc55732659e3",
+      "source": "comments",
+      "chunk_index": 2,
+      "sentiment": "neutral",
+      "sentiment_score": 0.4,
+      "brands": [],
+      "models": [],
+      "features": [
+        "suspension",
+        "mileage"
+      ],
+      "positives": [
+        "handles India roads",
+        "no other issues in the car"
+      ],
+      "negatives": [
+        "suspension is too stiff",
+        "doesn't soak in potholes",
+        "cheap accent"
+      ]
+    },
+    {
+      "chunk_id": "6748a5f3-653c-42a1-b2d5-ff2fd153550a",
+      "source": "transcript",
+      "chunk_index": 0,
+      "sentiment": "neutral",
+      "sentiment_score": 0.5,
+      "brands": [
+        "Volkswagen"
+      ],
+      "models": [
+        "Tiguan GT"
+      ],
+      "features": [
+        "1.5 litre TSI",
+        "DSG gearbox",
+        "AC console",
+        "headlamp cluster"
+      ],
+      "positives": [
+        "Solid feel on the road",
+        "Peppy and exciting performance",
+        "Practicality for urban driving"
+      ],
+      "negatives": [
+        "Cost-cutting in build quality",
+        "Tacky AC console",
+        "Driver's side automated window malfunction"
+      ]
+    },
+    {
+      "chunk_id": "97368a75-2018-4460-b6fc-9761343ec44c",
+      "source": "transcript",
+      "chunk_index": 1,
+      "sentiment": "positive",
+      "sentiment_score": 0.9,
+      "brands": [
+        "Volkswagen"
+      ],
+      "models": [
+        "Tiguan GT"
+      ],
+      "features": [
+        "reliability",
+        "compact dimensions",
+        "ability to handle Indian roads"
+      ],
+      "positives": [
+        "no service costs in three years",
+        "super solid reliability",
+        "fun to drive"
+      ],
+      "negatives": [
+        "cost cutting",
+        "desire for a more premium cabin",
+        "overall experience may not satisfy some"
+      ]
+    }
+  ]
+}

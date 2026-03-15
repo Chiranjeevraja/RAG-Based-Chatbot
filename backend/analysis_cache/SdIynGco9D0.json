@@ -1,0 +1,1463 @@
+{
+  "video_id": "SdIynGco9D0",
+  "video_title": "Tata Sierra - Pros & Cons - Should You Buy One? | Faisal Khan",
+  "aggregated": {
+    "overall_sentiment": "neutral",
+    "overall_score": 0.4142,
+    "total_chunks_analyzed": 106,
+    "total_brands": 16,
+    "sentiment_distribution": {
+      "positive": 12.5,
+      "neutral": 31.2,
+      "negative": 56.2
+    },
+    "brand_analysis": {
+      "Tata": {
+        "overall_sentiment": "negative",
+        "overall_score": 0.3556,
+        "mention_count": 30,
+        "models": {
+          "General": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 15,
+            "features": [
+              {
+                "name": "alignment issue",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "bad after sales service",
+                "sentiment": "negative",
+                "score": 0.4
+              },
+              {
+                "name": "build quality",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "drift stability",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "durability",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "engine refinement",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "engine tuning inconsistencies",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "exclusive innovations",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "expensive maintenance",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "fit and finish",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "fit and finish issues",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "inconsistent quality",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "long-term reliability",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "mileage below 8kmpl",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "panel gaps",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "plastic quality",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "quality control",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "quality control issues",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "quality issues",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "range disappears below 40-45km",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "reliability",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "safety",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "safety king",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "safety rating",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "service problems",
+                "sentiment": "negative",
+                "score": 0.4
+              },
+              {
+                "name": "service quality",
+                "sentiment": "negative",
+                "score": 0.4
+              },
+              {
+                "name": "signature style",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "standard features",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "steering drift",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "sub-par quality products",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "support for indian brands",
+                "sentiment": "positive",
+                "score": 0.7
+              },
+              {
+                "name": "terrain modes",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "traction control",
+                "sentiment": "neutral",
+                "score": 0.5
+              }
+            ],
+            "top_positives": [
+              "support for Indian brands",
+              "some humor in comments"
+            ],
+            "top_negatives": [
+              "fit and finish issues",
+              "engine refinement problems",
+              "sub-par quality products"
+            ]
+          },
+          "Sierra": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 5,
+            "features": [
+              {
+                "name": "160 horsepower petrol engine",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "255 newton meters of torque",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "base models",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "better as a car",
+                "sentiment": "positive",
+                "score": 0.7
+              },
+              {
+                "name": "biggest tyres in the segment",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "design with flush door handles",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "electronic issues",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "feels special",
+                "sentiment": "positive",
+                "score": 0.8
+              },
+              {
+                "name": "fit finish needs improvement",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "inconsistent quality",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "left drift function",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "light bars with welcome and goodbye animations",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "longest wheelbase in the segment",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "manual transmission",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "paddle shifters malfunction",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "panel gaps",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "sunroof malfunction",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "three screens",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "unique features",
+                "sentiment": "positive",
+                "score": 0.7
+              }
+            ],
+            "top_positives": [
+              "feels special",
+              "better as a car",
+              "unique features"
+            ],
+            "top_negatives": [
+              "inconsistent quality",
+              "electronic issues",
+              "panel gaps"
+            ]
+          },
+          "Harrier": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "170 hp performance",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "initial lot issues",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "multiple visits to service stations",
+                "sentiment": "negative",
+                "score": 0.2
+              }
+            ],
+            "top_positives": [],
+            "top_negatives": [
+              "poor finishing quality",
+              "multiple issues in initial lots",
+              "frequent service station visits"
+            ]
+          },
+          "Altroz": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "cabin vibration",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "damping",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "fit and finish",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "music system",
+                "sentiment": "positive",
+                "score": 0.7
+              },
+              {
+                "name": "steering calibration",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "wheel alignment",
+                "sentiment": "negative",
+                "score": 0.3
+              }
+            ],
+            "top_positives": [
+              "good music system"
+            ],
+            "top_negatives": [
+              "bad fit and finish",
+              "poor damping causing cabin vibrations",
+              "wheel alignment issues"
+            ]
+          },
+          "Nexon": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "after sales service",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "alignment issue",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "fast acceleration (0-100 in 10 seconds)",
+                "sentiment": "positive",
+                "score": 0.85
+              },
+              {
+                "name": "good bass offering",
+                "sentiment": "positive",
+                "score": 0.8
+              },
+              {
+                "name": "low quality",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "navigation via android auto",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "panel gaps",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "phenomenal speakers",
+                "sentiment": "positive",
+                "score": 0.8
+              }
+            ],
+            "top_positives": [
+              "fast acceleration (0-100 in 10 seconds)",
+              "phenomenal speakers",
+              "good bass offering"
+            ],
+            "top_negatives": [
+              "low quality",
+              "alignment issue",
+              "after sales service not upto the mark"
+            ]
+          },
+          "Xuv 7xo": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.2,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "touch controls for features like ac",
+                "sentiment": "negative",
+                "score": 0.1
+              }
+            ],
+            "top_positives": [],
+            "top_negatives": [
+              "strong criticism of touch controls",
+              "safety concerns regarding touch controls",
+              "frustration with modern car features"
+            ]
+          },
+          "Hexa": {
+            "overall_sentiment": "neutral",
+            "overall_score": 0.5,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "hexa",
+                "sentiment": "neutral",
+                "score": 0.5
+              }
+            ],
+            "top_positives": [],
+            "top_negatives": [
+              "missed Tata Hexa"
+            ]
+          },
+          "Punch": {
+            "overall_sentiment": "positive",
+            "overall_score": 0.7,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "stability on pothole roads",
+                "sentiment": "positive",
+                "score": 0.75
+              }
+            ],
+            "top_positives": [
+              "one user had no issues on pothole roads",
+              "Tata Punch goes straight on rough roads"
+            ],
+            "top_negatives": [
+              "alignment issue mentioned",
+              "concern about driving in low visibility"
+            ]
+          },
+          "Xl6": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "reliability",
+                "sentiment": "negative",
+                "score": 0.3
+              }
+            ],
+            "top_positives": [
+              "some users find XL6 reliable",
+              "Tata safety reputation mentioned"
+            ],
+            "top_negatives": [
+              "concerns about Tata's quality control",
+              "perception of short-term profit focus"
+            ]
+          }
+        }
+      },
+      "Hyundai": {
+        "overall_sentiment": "neutral",
+        "overall_score": 0.58,
+        "mention_count": 7,
+        "models": {
+          "Creta": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 3,
+            "features": [
+              {
+                "name": "0-100 in 17-18 seconds",
+                "sentiment": "negative",
+                "score": 0.1
+              },
+              {
+                "name": "65 watt fast charger",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "after sales service",
+                "sentiment": "positive",
+                "score": 0.7
+              },
+              {
+                "name": "design",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "na petrol engine",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "panoramic roof",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "reclining seat",
+                "sentiment": "positive",
+                "score": 0.6
+              },
+              {
+                "name": "reliability",
+                "sentiment": "positive",
+                "score": 0.7
+              },
+              {
+                "name": "spacious rear seat",
+                "sentiment": "positive",
+                "score": 0.8
+              },
+              {
+                "name": "twin cup holders",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "usb-c charging sockets",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "wheel spin control",
+                "sentiment": "neutral",
+                "score": 0.5
+              }
+            ],
+            "top_positives": [
+              "spacious rear seat",
+              "reclining seat",
+              "after sales service"
+            ],
+            "top_negatives": [
+              "0-100 in 17-18 seconds",
+              "NA petrol engine performance",
+              "design criticized as frog-like"
+            ]
+          },
+          "General": {
+            "overall_sentiment": "neutral",
+            "overall_score": 0.5,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "general",
+                "sentiment": "neutral",
+                "score": 0.5
+              }
+            ],
+            "top_positives": [],
+            "top_negatives": []
+          },
+          "Seltos": {
+            "overall_sentiment": "positive",
+            "overall_score": 0.7,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "comfort",
+                "sentiment": "positive",
+                "score": 0.75
+              },
+              {
+                "name": "design",
+                "sentiment": "positive",
+                "score": 0.8
+              },
+              {
+                "name": "safety",
+                "sentiment": "negative",
+                "score": 0.3
+              }
+            ],
+            "top_positives": [
+              "design is appreciated",
+              "better alternative to Creta",
+              "comfort is prioritized"
+            ],
+            "top_negatives": [
+              "poor safety rating mentioned",
+              "some prefer other brands",
+              "design critique on front"
+            ]
+          },
+          "Elevate": {
+            "overall_sentiment": "positive",
+            "overall_score": 0.7,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "sensible choice",
+                "sentiment": "positive",
+                "score": 0.85
+              }
+            ],
+            "top_positives": [
+              "considered a sensible choice",
+              "better alternative to Creta",
+              "good for family use"
+            ],
+            "top_negatives": [
+              "not as popular as Creta",
+              "some prefer other brands like Toyota or Honda"
+            ]
+          },
+          "Alcazar": {
+            "overall_sentiment": "positive",
+            "overall_score": 0.7,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "7 seater",
+                "sentiment": "positive",
+                "score": 0.8
+              },
+              {
+                "name": "comfort",
+                "sentiment": "neutral",
+                "score": 0.5
+              }
+            ],
+            "top_positives": [
+              "considered a sensible choice for families",
+              "appreciated for its 7-seater capacity",
+              "compared favorably against competitors"
+            ],
+            "top_negatives": [
+              "some concerns about safety ratings",
+              "compared unfavorably to other brands like Toyota and Honda"
+            ]
+          }
+        }
+      },
+      "Kia": {
+        "overall_sentiment": "positive",
+        "overall_score": 0.75,
+        "mention_count": 6,
+        "models": {
+          "Seltos": {
+            "overall_sentiment": "positive",
+            "overall_score": 0.75,
+            "mention_count": 6,
+            "features": [
+              {
+                "name": "4 wheel disc brakes",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "after sales service",
+                "sentiment": "positive",
+                "score": 0.85
+              },
+              {
+                "name": "better qc",
+                "sentiment": "positive",
+                "score": 0.85
+              },
+              {
+                "name": "infotainment screen",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "infotainment with wireless connectivity",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "more affordable compared to sierra",
+                "sentiment": "positive",
+                "score": 0.7
+              },
+              {
+                "name": "na petrol engine",
+                "sentiment": "negative",
+                "score": 0.4
+              },
+              {
+                "name": "offers better value in the segment",
+                "sentiment": "positive",
+                "score": 0.8
+              },
+              {
+                "name": "performance",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "reliability",
+                "sentiment": "positive",
+                "score": 0.75
+              },
+              {
+                "name": "reverse camera",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "reverse parking camera",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "safety",
+                "sentiment": "negative",
+                "score": 0.4
+              }
+            ],
+            "top_positives": [
+              "Better QC and reliability",
+              "After sales service is much better",
+              "Offers better value in the segment"
+            ],
+            "top_negatives": [
+              "Concerns about safety ratings",
+              "Perceived as a 'tin can'",
+              "Slow NA engine"
+            ]
+          }
+        }
+      },
+      "Tata Motors": {
+        "overall_sentiment": "negative",
+        "overall_score": 0.275,
+        "mention_count": 5,
+        "models": {
+          "General": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "12-speaker jbl sound system",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "12.3-inch passenger screen",
+                "sentiment": "positive",
+                "score": 0.85
+              },
+              {
+                "name": "adjustable under-thigh support for front seats",
+                "sentiment": "positive",
+                "score": 0.85
+              },
+              {
+                "name": "ar head-up display",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "boss mode",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "dual tone horn",
+                "sentiment": "positive",
+                "score": 0.85
+              },
+              {
+                "name": "express cooling",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "extendable 8-way sun visors",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "fuel efficiency limited to 8 kmpl",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "gaming and video apps",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "gaming controller connectivity",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "gesture enabled electric tailgate",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "good amount of spray from wipers",
+                "sentiment": "positive",
+                "score": 0.85
+              },
+              {
+                "name": "headphones included",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "memory driver seat",
+                "sentiment": "positive",
+                "score": 0.85
+              },
+              {
+                "name": "nvh refinement",
+                "sentiment": "positive",
+                "score": 0.85
+              },
+              {
+                "name": "paddle shifters",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "performance consistency",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "quick gearbox shifts",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "smooth engine performance",
+                "sentiment": "positive",
+                "score": 0.85
+              },
+              {
+                "name": "turbo whistle",
+                "sentiment": "positive",
+                "score": 0.85
+              },
+              {
+                "name": "two drive modes (city and sport)",
+                "sentiment": "neutral",
+                "score": 0.5
+              }
+            ],
+            "top_positives": [
+              "smooth engine performance",
+              "good NVH refinement",
+              "feature-loaded car"
+            ],
+            "top_negatives": [
+              "inconsistent performance",
+              "limited fuel efficiency",
+              "lack of manual transmission option"
+            ]
+          },
+          "Harrier": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "170 horsepower",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "280 nm of torque",
+                "sentiment": "negative",
+                "score": 0.3
+              }
+            ],
+            "top_positives": [
+              "engine is really smooth",
+              "gearbox is quick with shifts",
+              "decent paddle shifters"
+            ],
+            "top_negatives": [
+              "performance isn't as great as expected",
+              "inconsistent performance",
+              "upshifting at low RPM"
+            ]
+          },
+          "Safari": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "170 horsepower",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "280 nm of torque",
+                "sentiment": "negative",
+                "score": 0.3
+              }
+            ],
+            "top_positives": [
+              "engine is really smooth",
+              "gearbox shifts are seamless",
+              "decent paddle shifters"
+            ],
+            "top_negatives": [
+              "performance isn't as great as expected",
+              "inconsistent performance",
+              "engine needs more testing"
+            ]
+          },
+          "Sierra": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.2,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "1.5-litre na petrol engine",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "diesel engine",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "heavy car feels sluggish",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "lacks refinement and has vibration",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "piano black panel and steering wheel pad are fingerprint magnets",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "poor ergonomics with touchpad issues",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "takes almost 13 seconds to go from 0 to 100 kmph",
+                "sentiment": "negative",
+                "score": 0.2
+              }
+            ],
+            "top_positives": [],
+            "top_negatives": [
+              "heavy car feels sluggish",
+              "lacks refinement and has vibration",
+              "poor ergonomics with touchpad issues"
+            ]
+          }
+        }
+      },
+      "Maruti": {
+        "overall_sentiment": "neutral",
+        "overall_score": 0.4667,
+        "mention_count": 3,
+        "models": {
+          "General": {
+            "overall_sentiment": "positive",
+            "overall_score": 0.8,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "better hybrid performance",
+                "sentiment": "positive",
+                "score": 0.85
+              }
+            ],
+            "top_positives": [
+              "better hybrid performance compared to competitors"
+            ],
+            "top_negatives": [
+              "some users prefer other brands for reliability"
+            ]
+          },
+          "Baleno": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "range disappears below 50km",
+                "sentiment": "negative",
+                "score": 0.2
+              }
+            ],
+            "top_positives": [],
+            "top_negatives": [
+              "range disappears below 50km",
+              "mileage complaints",
+              "perceived cheating in mileage"
+            ]
+          },
+          "Brezza": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "alignment",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "panel gaps",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "sound system",
+                "sentiment": "positive",
+                "score": 0.7
+              }
+            ],
+            "top_positives": [
+              "fast acceleration",
+              "good bass in speakers"
+            ],
+            "top_negatives": [
+              "alignment issues",
+              "panel gaps",
+              "decline in quality compared to previous models"
+            ]
+          }
+        }
+      },
+      "Mahindra": {
+        "overall_sentiment": "negative",
+        "overall_score": 0.2,
+        "mention_count": 2,
+        "models": {
+          "General": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.2,
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "build quality",
+                "sentiment": "negative",
+                "score": 0.1
+              },
+              {
+                "name": "perception issues",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "reliability",
+                "sentiment": "negative",
+                "score": 0.1
+              },
+              {
+                "name": "sales techniques",
+                "sentiment": "negative",
+                "score": 0.3
+              }
+            ],
+            "top_positives": [],
+            "top_negatives": [
+              "poor finishing on a high-cost car",
+              "concerns about reliability and build quality",
+              "initial production issues expected"
+            ]
+          }
+        }
+      },
+      "Volkswagen": {
+        "overall_sentiment": "positive",
+        "overall_score": 0.8,
+        "mention_count": 2,
+        "models": {
+          "Virtus": {
+            "overall_sentiment": "positive",
+            "overall_score": 0.8,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "volkswagen virtus",
+                "sentiment": "positive",
+                "score": 0.85
+              }
+            ],
+            "top_positives": [
+              "VW makes cars for the enthusiast",
+              "owner of a Virtus expresses love for the car",
+              "hopeful for VW's solid cars in the market"
+            ],
+            "top_negatives": [
+              "perceived bias from reviewers"
+            ]
+          },
+          "Virtus Gt": {
+            "overall_sentiment": "positive",
+            "overall_score": 0.8,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "1.5 dsg",
+                "sentiment": "positive",
+                "score": 0.85
+              },
+              {
+                "name": "70k kms driving experience",
+                "sentiment": "positive",
+                "score": 0.85
+              }
+            ],
+            "top_positives": [
+              "70k kms driving experience is appreciated",
+              "better performance compared to competitors",
+              "good for city driving"
+            ],
+            "top_negatives": [
+              "compared unfavorably to other models",
+              "some negative comments about engine performance"
+            ]
+          }
+        }
+      },
+      "Honda": {
+        "overall_sentiment": "negative",
+        "overall_score": 0.4,
+        "mention_count": 2,
+        "models": {
+          "Elevate": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "lack of new features",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "overdue for a facelift",
+                "sentiment": "negative",
+                "score": 0.2
+              },
+              {
+                "name": "upgrades",
+                "sentiment": "negative",
+                "score": 0.2
+              }
+            ],
+            "top_positives": [
+              "reliable build quality",
+              "good exterior design"
+            ],
+            "top_negatives": [
+              "lacks a lot of new features",
+              "overdue for a facelift and upgrades",
+              "infotainment is old school"
+            ]
+          },
+          "General": {
+            "overall_sentiment": "neutral",
+            "overall_score": 0.5,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "after sales service",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "reliability",
+                "sentiment": "neutral",
+                "score": 0.5
+              }
+            ],
+            "top_positives": [],
+            "top_negatives": [
+              "No specific mention of Honda General's after sales service",
+              "No specific mention of Honda General's reliability"
+            ]
+          }
+        }
+      },
+      "Škoda": {
+        "overall_sentiment": "negative",
+        "overall_score": 0.2,
+        "mention_count": 1,
+        "models": {
+          "General": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.2,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "awful controls",
+                "sentiment": "negative",
+                "score": 0.1
+              }
+            ],
+            "top_positives": [],
+            "top_negatives": [
+              "awful controls",
+              "touch controls criticized",
+              "safety concerns raised"
+            ]
+          }
+        }
+      },
+      "Mercedes-Benz": {
+        "overall_sentiment": "negative",
+        "overall_score": 0.2,
+        "mention_count": 1,
+        "models": {
+          "C Class": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.2,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "touch screen controls for all functions",
+                "sentiment": "negative",
+                "score": 0.1
+              }
+            ],
+            "top_positives": [],
+            "top_negatives": [
+              "touch screen controls criticized for safety",
+              "users express frustration with touch controls",
+              "general dislike for modern control designs"
+            ]
+          }
+        }
+      },
+      "MG": {
+        "overall_sentiment": "neutral",
+        "overall_score": 0.5,
+        "mention_count": 1,
+        "models": {
+          "Cyberster": {
+            "overall_sentiment": "neutral",
+            "overall_score": 0.5,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "technology integration",
+                "sentiment": "negative",
+                "score": 0.3
+              }
+            ],
+            "top_positives": [],
+            "top_negatives": [
+              "concerns about technology integration",
+              "preference for traditional car features",
+              "criticism of modern innovations"
+            ]
+          }
+        }
+      },
+      "General Motors": {
+        "overall_sentiment": "negative",
+        "overall_score": 0.3,
+        "mention_count": 1,
+        "models": {
+          "General": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "experience features",
+                "sentiment": "negative",
+                "score": 0.3
+              },
+              {
+                "name": "practical decision",
+                "sentiment": "negative",
+                "score": 0.2
+              }
+            ],
+            "top_positives": [
+              "Some users appreciate the Seltos for its reliability",
+              "Test driving both cars is recommended for informed decisions"
+            ],
+            "top_negatives": [
+              "General Motors General is not mentioned positively",
+              "Seltos is preferred over General Motors General",
+              "Concerns about quality and service for General Motors General"
+            ]
+          }
+        }
+      },
+      "Ford": {
+        "overall_sentiment": "negative",
+        "overall_score": 0.3,
+        "mention_count": 1,
+        "models": {
+          "General": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "reliability",
+                "sentiment": "negative",
+                "score": 0.2
+              }
+            ],
+            "top_positives": [],
+            "top_negatives": [
+              "Concerns about reliability issues",
+              "Comparison to higher quality foreign brands",
+              "Criticism of Indian manufacturing mentality"
+            ]
+          }
+        }
+      },
+      "Dodge": {
+        "overall_sentiment": "negative",
+        "overall_score": 0.3,
+        "mention_count": 1,
+        "models": {
+          "General": {
+            "overall_sentiment": "negative",
+            "overall_score": 0.3,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "reliability",
+                "sentiment": "negative",
+                "score": 0.2
+              }
+            ],
+            "top_positives": [],
+            "top_negatives": [
+              "Concerns about reliability issues",
+              "Criticism of Indian manufacturing quality",
+              "Perception of cost-cutting affecting product quality"
+            ]
+          }
+        }
+      },
+      "GMC": {
+        "overall_sentiment": "neutral",
+        "overall_score": 0.5,
+        "mention_count": 1,
+        "models": {
+          "Sierra": {
+            "overall_sentiment": "neutral",
+            "overall_score": 0.5,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "1.5 na manual",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "1.5 turbo petrol manual",
+                "sentiment": "neutral",
+                "score": 0.5
+              }
+            ],
+            "top_positives": [],
+            "top_negatives": []
+          }
+        }
+      },
+      "Toyota": {
+        "overall_sentiment": "neutral",
+        "overall_score": 0.5,
+        "mention_count": 1,
+        "models": {
+          "General": {
+            "overall_sentiment": "neutral",
+            "overall_score": 0.5,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "after sales service",
+                "sentiment": "neutral",
+                "score": 0.5
+              },
+              {
+                "name": "reliability",
+                "sentiment": "neutral",
+                "score": 0.5
+              }
+            ],
+            "top_positives": [],
+            "top_negatives": [
+              "No specific mention of Toyota General's after sales service",
+              "No specific mention of Toyota General's reliability"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

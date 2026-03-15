@@ -1,0 +1,12 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-dotenv==1.0.1
+youtube-transcript-api==0.6.3
+google-api-python-client==2.147.0
+openai>=1.57.0
+qdrant-client==1.12.0
+pytubefix
+tiktoken==0.7.0
+python-multipart==0.0.12
+pydantic==2.9.2
+langgraph

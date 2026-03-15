@@ -1,0 +1,129 @@
+{
+  "video_id": "iGTu_TA_Y40",
+  "video_title": "VW Taigun Off-Road Review | Tips for Driving in the Himalayas | Pune to Adi Kailash Road Trip",
+  "aggregated": {
+    "sentiment_distribution": {
+      "positive": 100.0,
+      "neutral": 0.0,
+      "negative": 0.0
+    },
+    "sentiment_trend": [
+      {
+        "chunk_index": 0,
+        "score": 0.8
+      }
+    ],
+    "overall_score": 0.8,
+    "overall_sentiment": "positive",
+    "brands": [
+      {
+        "name": "VW",
+        "count": 1
+      },
+      {
+        "name": "Volkswagen",
+        "count": 1
+      }
+    ],
+    "models": [
+      {
+        "name": "1500 cc",
+        "count": 1
+      },
+      {
+        "name": "Tiguan",
+        "count": 1
+      }
+    ],
+    "features": [
+      {
+        "name": "1.0 TSI AT",
+        "count": 1
+      },
+      {
+        "name": "1.5 TSI DSG",
+        "count": 1
+      },
+      {
+        "name": "ground clearance",
+        "count": 1
+      },
+      {
+        "name": "sports mode",
+        "count": 1
+      },
+      {
+        "name": "automatic transmission",
+        "count": 1
+      }
+    ],
+    "top_positives": [
+      "Insightful tips",
+      "Nice video",
+      "Good ground clearance for rough terrains",
+      "Responsive power in sports mode",
+      "Handles well on rocky roads"
+    ],
+    "top_negatives": [
+      "AC temperature setting confusion",
+      "Tires may wear out quickly",
+      "Requires skilled driving on rough roads",
+      "Limited traction on certain surfaces"
+    ],
+    "total_chunks_analyzed": 2
+  },
+  "chunk_analyses": [
+    {
+      "chunk_id": "1c0e30f4-8b98-4680-b8a1-946b8690711e",
+      "source": "comments",
+      "chunk_index": 0,
+      "sentiment": "positive",
+      "sentiment_score": 0.8,
+      "brands": [
+        "VW"
+      ],
+      "models": [
+        "1500 cc"
+      ],
+      "features": [
+        "1.0 TSI AT",
+        "1.5 TSI DSG"
+      ],
+      "positives": [
+        "Insightful tips",
+        "Nice video"
+      ],
+      "negatives": [
+        "AC temperature setting confusion"
+      ]
+    },
+    {
+      "chunk_id": "62b52e46-009f-46d4-b0eb-b3f85369c940",
+      "source": "transcript",
+      "chunk_index": 0,
+      "sentiment": "positive",
+      "sentiment_score": 0.8,
+      "brands": [
+        "Volkswagen"
+      ],
+      "models": [
+        "Tiguan"
+      ],
+      "features": [
+        "ground clearance",
+        "sports mode",
+        "automatic transmission"
+      ],
+      "positives": [
+        "Good ground clearance for rough terrains",
+        "Responsive power in sports mode",
+        "Handles well on rocky roads"
+      ],
+      "negatives": [
+        "Tires may wear out quickly",
+        "Requires skilled driving on rough roads",
+        "Limited traction on certain surfaces"
+      ]
+    }
+  ]
+}

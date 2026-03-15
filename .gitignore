@@ -205,3 +205,11 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ChromaDB vector store
+chroma_db/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
