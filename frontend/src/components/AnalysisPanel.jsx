@@ -4,17 +4,17 @@ import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
 // ── Design tokens ──────────────────────────────────────────────────────────────
 
 const C = {
-  positive: "#00f5a0",
-  neutral:  "#7b8cde",
-  negative: "#ff4d6d",
-  bg:       "#0a0e1a",
-  card:     "#0d1220",
-  border:   "#1a2340",
-  accent:   "#00c8ff",
-  dim:      "#2a3555",
-  muted:    "#4a5880",
-  text:     "#c8d8f0",
-  bright:   "#e8f0ff",
+  positive: "#16a34a",
+  neutral:  "#5865f2",
+  negative: "#dc2626",
+  bg:       "#f4f5f9",
+  card:     "#ffffff",
+  border:   "#d4d6e3",
+  accent:   "#5865f2",
+  dim:      "#e8eaf0",
+  muted:    "#8888a8",
+  text:     "#4a4a6a",
+  bright:   "#1a1a2e",
 };
 
 const glow = (color, px = 8) => `0 0 ${px}px ${color}55, 0 0 ${px * 2}px ${color}22`;
@@ -33,7 +33,7 @@ function Pip({ sentiment }) {
   );
 }
 
-function Badge({ sentiment, score }) {
+function Badge({ sentiment }) {
   const col = sentColor(sentiment);
   return (
     <span style={{
@@ -47,7 +47,7 @@ function Badge({ sentiment, score }) {
       fontFamily: "monospace",
     }}>
       <Pip sentiment={sentiment} />
-      {sentiment}{score !== undefined && ` ${Math.round(score * 100)}%`}
+      {sentiment}
     </span>
   );
 }
@@ -79,21 +79,81 @@ function GlowBar({ score, height = 4 }) {
 // ── Feature row ────────────────────────────────────────────────────────────────
 
 function FeatureRow({ f }) {
+  const [open, setOpen] = useState(false);
+  const col = sentColor(f.sentiment);
+  const hasVerbatim = f.verbatim?.length > 0;
+
   return (
-    <div style={{
-      display: "flex", alignItems: "center", gap: 12,
-      padding: "6px 0",
-      borderBottom: `1px solid ${C.border}`,
-    }}>
-      <span style={{
-        width: 160, fontSize: 11, color: C.text,
-        textTransform: "capitalize", flexShrink: 0,
-        fontFamily: "monospace",
-      }}>
-        {f.name}
-      </span>
-      <GlowBar score={f.score} />
-      <Badge sentiment={f.sentiment} />
+    <div style={{ borderBottom: `1px solid ${C.border}` }}>
+      {/* Feature header row — clickable if verbatim exists */}
+      <div
+        onClick={() => hasVerbatim && setOpen(o => !o)}
+        style={{
+          display: "flex", alignItems: "center", gap: 10,
+          padding: "7px 4px",
+          cursor: hasVerbatim ? "pointer" : "default",
+        }}
+      >
+        {/* Expand indicator */}
+        <span style={{
+          width: 14, fontSize: 8, color: hasVerbatim ? col : C.dim,
+          flexShrink: 0, textAlign: "center",
+        }}>
+          {hasVerbatim ? (open ? "▼" : "▶") : "·"}
+        </span>
+
+        {/* Feature name */}
+        <span style={{
+          flex: 1, fontSize: 11, color: C.text,
+          textTransform: "capitalize", fontFamily: "monospace",
+        }}>
+          {f.name}
+        </span>
+
+        {/* Mention count */}
+        {f.mention_count > 0 && (
+          <span style={{
+            fontSize: 9, fontFamily: "monospace",
+            color: C.muted, marginRight: 6,
+          }}>
+            {f.mention_count}×
+          </span>
+        )}
+
+        <Badge sentiment={f.sentiment} />
+      </div>
+
+      {/* Verbatim excerpts — shown on expand */}
+      {open && hasVerbatim && (
+        <div style={{
+          margin: "2px 0 8px 24px",
+          padding: "10px 12px",
+          background: `${col}08`,
+          border: `1px solid ${col}22`,
+          borderRadius: 4,
+        }}>
+          <p style={{
+            margin: "0 0 8px", fontSize: 8, fontWeight: 700,
+            letterSpacing: "0.15em", color: col, textTransform: "uppercase",
+          }}>
+            What was said
+          </p>
+          {f.verbatim.map((text, i) => (
+            <div key={i} style={{
+              display: "flex", gap: 8, marginBottom: i < f.verbatim.length - 1 ? 8 : 0,
+              alignItems: "flex-start",
+            }}>
+              <span style={{ color: col, fontSize: 9, marginTop: 2, flexShrink: 0 }}>❝</span>
+              <span style={{
+                fontSize: 11, color: C.text, lineHeight: 1.6,
+                fontStyle: "italic",
+              }}>
+                {text}
+              </span>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
@@ -103,6 +163,8 @@ function FeatureRow({ f }) {
 function ModelPanel({ modelName, data }) {
   const [open, setOpen] = useState(false);
   const col = sentColor(data.overall_sentiment);
+  if (!data.features?.length) return null;
+  const featureMentionTotal = (data.features || []).reduce((sum, f) => sum + (f.mention_count || 0), 0);
 
   return (
     <div style={{ marginBottom: 8 }}>
@@ -127,9 +189,9 @@ function ModelPanel({ modelName, data }) {
         <span style={{ flex: 1, fontSize: 12, fontWeight: 600, color: C.bright, letterSpacing: "0.05em" }}>
           {modelName}
         </span>
-        <Badge sentiment={data.overall_sentiment} score={data.overall_score} />
+        <Badge sentiment={data.overall_sentiment} />
         <span style={{ fontSize: 10, color: C.muted, fontFamily: "monospace" }}>
-          {data.mention_count}×
+          {featureMentionTotal}×
         </span>
       </div>
 
@@ -154,27 +216,6 @@ function ModelPanel({ modelName, data }) {
             </div>
           )}
 
-          {/* Positives / Negatives */}
-          {(data.top_positives?.length > 0 || data.top_negatives?.length > 0) && (
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginTop: 4 }}>
-              {[
-                { label: "Positives", items: data.top_positives, col: C.positive },
-                { label: "Negatives", items: data.top_negatives, col: C.negative },
-              ].map(({ label, items, col: lc }) => (
-                <div key={label}>
-                  <p style={{ margin: "0 0 6px", fontSize: 9, fontWeight: 700, letterSpacing: "0.15em", color: lc, textTransform: "uppercase" }}>
-                    {label}
-                  </p>
-                  {(items || []).map((t, i) => (
-                    <div key={i} style={{ display: "flex", gap: 6, marginBottom: 4, alignItems: "flex-start" }}>
-                      <span style={{ color: lc, fontSize: 10, marginTop: 1, flexShrink: 0 }}>◆</span>
-                      <span style={{ fontSize: 11, color: C.text, lineHeight: 1.4 }}>{t}</span>
-                    </div>
-                  ))}
-                </div>
-              ))}
-            </div>
-          )}
         </div>
       )}
     </div>
@@ -186,7 +227,12 @@ function ModelPanel({ modelName, data }) {
 function CompanyCard({ company, data }) {
   const [open, setOpen] = useState(false);
   const col = sentColor(data.overall_sentiment);
-  const modelCount = Object.keys(data.models || {}).length;
+  const modelsWithFeatures = Object.entries(data.models || {}).filter(([, m]) => m.features?.length > 0);
+  if (modelsWithFeatures.length === 0) return null;
+  const modelCount = modelsWithFeatures.length;
+  const displayedMentionCount = modelsWithFeatures.reduce(
+    (sum, [, m]) => sum + (m.features || []).reduce((s, f) => s + (f.mention_count || 0), 0), 0
+  );
 
   return (
     <div style={{
@@ -225,10 +271,10 @@ function CompanyCard({ company, data }) {
 
         {/* Meta */}
         <span style={{ fontSize: 10, color: C.muted, fontFamily: "monospace", marginRight: 8 }}>
-          {modelCount} model{modelCount !== 1 ? "s" : ""} · {data.mention_count}×
+          {modelCount} model{modelCount !== 1 ? "s" : ""} · {displayedMentionCount}×
         </span>
 
-        <Badge sentiment={data.overall_sentiment} score={data.overall_score} />
+        <Badge sentiment={data.overall_sentiment} />
 
         <span style={{
           marginLeft: 10, width: 20, height: 20,
@@ -282,6 +328,7 @@ export default function AnalysisPanel({ videoId, videoTitle }) {
 
   useEffect(() => {
     if (!videoId) { setAnalysis(null); setError(""); return; }
+    setAnalysis(null);
     fetch(`/api/analysis/${videoId}`)
       .then(r => r.ok ? r.json() : null)
       .then(d => { if (d) setAnalysis(d); })
@@ -324,7 +371,7 @@ export default function AnalysisPanel({ videoId, videoTitle }) {
     <div style={{
       height: "100%", overflowY: "auto", padding: "22px 24px",
       boxSizing: "border-box",
-      background: `linear-gradient(160deg, #080c18 0%, #0a0e1a 100%)`,
+      background: C.bg,
       fontFamily: "'Inter', 'Segoe UI', sans-serif",
     }}>
 
@@ -404,7 +451,7 @@ export default function AnalysisPanel({ videoId, videoTitle }) {
           {/* Overview row */}
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3,1fr)", gap: 10, marginBottom: 16 }}>
             <StatBox label="Overall Sentiment">
-              <Badge sentiment={agg.overall_sentiment} score={agg.overall_score} />
+              <Badge sentiment={agg.overall_sentiment} />
             </StatBox>
             <StatBox label="Companies">
               <span style={{ fontSize: 24, fontWeight: 700, color: C.accent, fontFamily: "monospace" }}>
@@ -444,13 +491,30 @@ export default function AnalysisPanel({ videoId, videoTitle }) {
               <p style={{ margin: "0 0 10px", fontSize: 9, color: C.muted, letterSpacing: "0.15em", textTransform: "uppercase", fontWeight: 700 }}>
                 Sentiment Distribution
               </p>
-              {pieData.map((entry, i) => (
-                <div key={entry.name} style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
-                  <Pip sentiment={["positive", "neutral", "negative"][i]} />
-                  <span style={{ fontSize: 11, color: C.text, flex: 1, fontFamily: "monospace" }}>{entry.name}</span>
-                  <GlowBar score={entry.value / 100} height={3} />
-                </div>
-              ))}
+              {pieData.map((entry, i) => {
+                const sent = ["positive", "neutral", "negative"][i];
+                const col = sentColor(sent);
+                const pct = Math.round(entry.value);
+                return (
+                  <div key={entry.name} style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 6 }}>
+                    <Pip sentiment={sent} />
+                    <span style={{ fontSize: 11, color: C.text, flex: 1, fontFamily: "monospace" }}>{entry.name}</span>
+                    <div style={{ flex: 1, display: "flex", alignItems: "center", gap: 8 }}>
+                      <div style={{ flex: 1, height: 3, borderRadius: 2, background: C.dim, overflow: "hidden" }}>
+                        <div style={{
+                          width: `${pct}%`, height: "100%", borderRadius: 2,
+                          background: `linear-gradient(90deg, ${col}88, ${col})`,
+                          boxShadow: glow(col, 4),
+                          transition: "width 0.4s ease",
+                        }} />
+                      </div>
+                      <span style={{ fontSize: 10, fontFamily: "monospace", color: col, width: 28, textAlign: "right" }}>
+                        {pct}%
+                      </span>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
 

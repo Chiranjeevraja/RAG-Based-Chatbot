@@ -1,0 +1,319 @@
+{
+  "video_id": "306905",
+  "video_title": "Yamaha Aerox E Review",
+  "aggregated": {
+    "overall_sentiment": "neutral",
+    "total_chunks_analyzed": 10,
+    "total_brands": 2,
+    "sentiment_distribution": {
+      "positive": 1.3,
+      "neutral": 98.7,
+      "negative": 0.0
+    },
+    "brand_analysis": {
+      "Yamaha Motor": {
+        "overall_sentiment": "neutral",
+        "mention_count": 70,
+        "models": {
+          "Aerox E": {
+            "overall_sentiment": "neutral",
+            "mention_count": 61,
+            "features": [
+              {
+                "name": "battery",
+                "sentiment": "negative",
+                "mention_count": 3,
+                "verbatim": [
+                  "The flap for the compartment that stores the swappable batteries feels a bit flimsy, though",
+                  "the Yamaha Aerox E comes with two 1.5 kWh swappable battery packs, taking the total output to 3 kWh.",
+                  "3kwh of Aerox E"
+                ]
+              },
+              {
+                "name": "braking",
+                "sentiment": "positive",
+                "mention_count": 5,
+                "verbatim": [
+                  "Strong and progressive brakes are confidence-inspiring and offer excellent stopping power",
+                  "the Aerox E comes with disc brakes at both the front and rear. There's a good amount of bite on both ends, and it kicks in progressively, which inspires confidence.",
+                  "you also get ... single-channel ABS",
+                  "The stopping power is impressive, and you also get single-channel ABS.",
+                  "a rear disk brake setup on Aerox E"
+                ]
+              },
+              {
+                "name": "build quality",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "Premium and solid build quality. Consistent fit & finish across the exteriors",
+                  "The materials have a solid premium feel to them, and the level of fit and finish is consistent on the exteriors"
+                ]
+              },
+              {
+                "name": "colour options",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the white colourway is exclusive to the Aerox E, and it is the only colour option on sale"
+                ]
+              },
+              {
+                "name": "dimensions",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "The wheelbase, however, has gone up by 10 mm and now measures 1,380 mm",
+                  "feels smaller compared to Aerox"
+                ]
+              },
+              {
+                "name": "ergonomics",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Poor ergonomics, especially for taller riders. Seat height has gone up, and its sloping design makes you slide forward under hard braking"
+                ]
+              },
+              {
+                "name": "features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Loaded with features such as a 5-inch TFT with smartphone connectivity, music controls, turn-by-turn navigation, three ride modes, traction control, single-channel ABS and a rear disc brake"
+                ]
+              },
+              {
+                "name": "handling",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "One of the better-handling electric scooters out there. Doesn't feel cumbersome to manoeuver at slow speeds",
+                  "the Aerox E is one of the better-handling electric scooters out there.",
+                  "Cornering grip is impressive, as well, and the tyres don't lock up easily under hard braking either"
+                ]
+              },
+              {
+                "name": "performance",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Performance in Power mode with Boost engaged is exhilarating and addictive"
+                ]
+              },
+              {
+                "name": "price",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "Expected to be priced higher compared to EC-06, which itself is priced at bit of a premium",
+                  "Aerox E is likely to be priced between 2 to 2.5 lakh"
+                ]
+              },
+              {
+                "name": "range",
+                "sentiment": "negative",
+                "mention_count": 3,
+                "verbatim": [
+                  "3 kWh battery pack and an IDC-claimed range of 117 km are below par",
+                  "The IDC-claimed range is 117 km.",
+                  "Riding it for ~30 km, the majority of which was in Power mode, used up 50 % of the charge."
+                ]
+              },
+              {
+                "name": "regenerative braking",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "Regenerative braking isn’t very strong. You’ll need to use the mechanical brakes often",
+                  "the regenerative braking is quite ineffective. Riding downhill in Aamby Valley almost felt like the scooter was coasting in neutral"
+                ]
+              },
+              {
+                "name": "ride modes",
+                "sentiment": "positive",
+                "mention_count": 10,
+                "verbatim": [
+                  "The '10.0' highlighted in green indicates that the Boost mode is available for use for 10 seconds",
+                  "the Aerox E features Boost mode, which provides an extra surge of power for 10 seconds, regardless of the riding mode you are in.",
+                  "There are three ride modes on offer - Eco, Standard and Power",
+                  "the Aerox E comes with three ride modes—Eco, Standard and Power—which alter the throttle response and top speed of the scooter.",
+                  "To engage reverse mode, you need to press and hold the top part of the switch for a couple of seconds"
+                ]
+              },
+              {
+                "name": "ride quality",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Rear suspension is very stiff. Ride quality can feel jarring over bad roads"
+                ]
+              },
+              {
+                "name": "seat height",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "One big change in terms of ergonomics is the increased seat height on the Aerox E compared to the regular Aerox"
+                ]
+              },
+              {
+                "name": "styling",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "Retains the ICE Aerox's sharp, sporty styling and unique, imposing stance",
+                  "imagine a scooter looking like a hawk on hunt, but moving like a pigeon"
+                ]
+              },
+              {
+                "name": "suspension",
+                "sentiment": "negative",
+                "mention_count": 3,
+                "verbatim": [
+                  "The Yamaha Aerox E features the same suspension hardware as its ICE counterpart. You have conventional telescopic forks up front and dual shocks at the rear.",
+                  "the rear is stiffly sprung, and if you are a lightweight rider, be prepared to be thrown off the seat when riding swiftly over bumps.",
+                  "the front feels much better in terms of absorption, and I didn't feel many jerks on the handlebar"
+                ]
+              },
+              {
+                "name": "traction control",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "you also get ... traction control"
+                ]
+              }
+            ]
+          },
+          "Aerox": {
+            "overall_sentiment": "neutral",
+            "mention_count": 5,
+            "features": [
+              {
+                "name": "braking",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Yamaha can’t seem to find a way to fit rear discs on this scooter"
+                ]
+              },
+              {
+                "name": "enthusiast appeal",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "it became the enthusiast's choice looking for a fun-to-ride ICE scooter"
+                ]
+              },
+              {
+                "name": "motor",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "With R15's liquid-cooled engine at its heart, putting out 14.75 BHP and 13.9 Nm"
+                ]
+              },
+              {
+                "name": "performance",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "a sports-maxi scooter with a sole focus on delivering the riding thrills while being unapologetically impractical",
+                  "does a lot more justice to the performance scooter nameplate"
+                ]
+              }
+            ]
+          },
+          "EC-06": {
+            "overall_sentiment": "neutral",
+            "mention_count": 4,
+            "features": [
+              {
+                "name": "practicality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "focuses more on all-around practicality"
+                ]
+              },
+              {
+                "name": "price",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "EC-06, which itself is priced at bit of a premium"
+                ]
+              },
+              {
+                "name": "regenerative braking",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the regenerative braking is not as strong or effective as the EC-06."
+                ]
+              },
+              {
+                "name": "ride modes",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the grunt over 20 km/h is relatively stronger than EC-06's Eco mode"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "TVS Motor Company": {
+        "overall_sentiment": "neutral",
+        "mention_count": 7,
+        "models": {
+          "TVS X": {
+            "overall_sentiment": "neutral",
+            "mention_count": 6,
+            "features": [
+              {
+                "name": "battery capacity",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "better 4.4kwh battery pack vs 3kwh of Aerox E"
+                ]
+              },
+              {
+                "name": "competitor models",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Once launched, the Aerox E is expected to rival performance electric scooters such as the ... TVS X"
+                ]
+              },
+              {
+                "name": "exterior design",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "TVS X looks better than the Aerox, it has quite a modern sharp design"
+                ]
+              },
+              {
+                "name": "vehicle price",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "TVS X is at ~2.6 lakh INR"
+                ]
+              }
+            ]
+          },
+          "TVS iQube": {
+            "overall_sentiment": "positive",
+            "mention_count": 1,
+            "features": []
+          }
+        }
+      }
+    }
+  }
+}

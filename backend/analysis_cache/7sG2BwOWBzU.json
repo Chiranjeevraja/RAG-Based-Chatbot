@@ -1,0 +1,54 @@
+{
+  "video_id": "7sG2BwOWBzU",
+  "video_title": "Santhanamalai Hills in the Mahindra XEV 9E | Electric Road Trip #mahindra #xev9e #electric",
+  "aggregated": {
+    "overall_sentiment": "positive",
+    "overall_score": 0.8,
+    "total_chunks_analyzed": 25,
+    "total_brands": 1,
+    "sentiment_distribution": {
+      "positive": 100.0,
+      "neutral": 0.0,
+      "negative": 0.0
+    },
+    "brand_analysis": {
+      "XEV": {
+        "overall_sentiment": "positive",
+        "overall_score": 0.8,
+        "mention_count": 1,
+        "models": {
+          "Xev9e": {
+            "overall_sentiment": "positive",
+            "overall_score": 0.8,
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "available in black and forest green",
+                "sentiment": "positive",
+                "score": 0.85
+              },
+              {
+                "name": "dust attraction in black",
+                "sentiment": "negative",
+                "score": 0.4
+              },
+              {
+                "name": "panel gaps less visible in dark colors",
+                "sentiment": "positive",
+                "score": 0.85
+              }
+            ],
+            "top_positives": [
+              "XEV9e looks good in black and forest green",
+              "panel gaps are less visible in dark colors",
+              "manageable dust attraction"
+            ],
+            "top_negatives": [
+              "dust gets attracted fast in black"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

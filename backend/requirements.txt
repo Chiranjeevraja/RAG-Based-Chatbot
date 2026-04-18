@@ -6,7 +6,19 @@ google-api-python-client==2.147.0
 openai>=1.57.0
 qdrant-client==1.12.0
 pytubefix
+pydub
 tiktoken==0.7.0
 python-multipart==0.0.12
 pydantic==2.9.2
 langgraph
+rank-bm25>=0.2.2
+flashrank>=0.2.9
+langdetect>=1.0.9
+# TeamBHP scraping
+nodriver>=0.36
+beautifulsoup4>=4.12.0
+lxml>=5.2.0
+# kept as fallback if nodriver unavailable
+selenium>=4.20.0
+undetected-chromedriver>=3.5.5
+webdriver-manager>=4.0.1

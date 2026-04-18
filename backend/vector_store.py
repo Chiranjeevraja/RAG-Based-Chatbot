@@ -2,7 +2,7 @@ import os
 import uuid
 from typing import List
 
-from openai import OpenAI
+from openai import AzureOpenAI
 from qdrant_client import QdrantClient
 from qdrant_client.models import (
     Distance,
@@ -15,11 +15,15 @@ from qdrant_client.models import (
     PayloadSchemaType,
 )
 
-EMBEDDING_MODEL = "text-embedding-3-small"
+EMBEDDING_MODEL = os.getenv("AZURE_OPENAI_EMBEDDING_DEPLOYMENT", "text-embedding-3-small")
 EMBEDDING_DIM = 1536  # dimensions for text-embedding-3-small
 COLLECTION_NAME = "youtube_rag"
 
-_openai = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+_openai = AzureOpenAI(
+    api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
+    api_version=os.getenv("AZURE_OPENAI_EMBEDDING_API_VERSION", "2024-02-01"),
+)
 _qdrant: QdrantClient | None = None
 
 
@@ -30,7 +34,7 @@ def _get_client() -> QdrantClient:
         api_key = os.getenv("QDRANT_API_KEY")
         if not url or not api_key:
             raise RuntimeError("QDRANT_URL and QDRANT_API_KEY must be set in .env")
-        _qdrant = QdrantClient(url=url, api_key=api_key)
+        _qdrant = QdrantClient(url=url, api_key=api_key, timeout=60)
         _ensure_collection(_qdrant)
     return _qdrant
 
@@ -57,9 +61,12 @@ def _embed_texts(texts: List[str]) -> List[List[float]]:
 
 
 def add_chunks(chunks: List[dict]) -> int:
-    """Embed and upsert chunks into Qdrant. Returns number of chunks added."""
+    """Translate non-English chunks, embed, and upsert into Qdrant."""
     if not chunks:
         return 0
+
+    from translator import translate_chunks
+    chunks = translate_chunks(chunks)
 
     client = _get_client()
     texts = [c["text"] for c in chunks]
@@ -134,6 +141,47 @@ def delete_video_chunks(video_id: str) -> int:
     return count
 
 
+def fetch_chunks_for_bm25(video_id: str = None, max_chunks: int = 2000) -> List[dict]:
+    """
+    Scroll all stored chunks (optionally filtered by video_id) and return them
+    as plain dicts suitable for BM25 indexing.  Capped at max_chunks to keep
+    in-memory BM25 construction fast.
+    """
+    client = _get_client()
+
+    search_filter = (
+        Filter(must=[FieldCondition(key="video_id", match=MatchValue(value=video_id))])
+        if video_id
+        else None
+    )
+
+    chunks: List[dict] = []
+    offset = None
+
+    while len(chunks) < max_chunks:
+        batch_size = min(100, max_chunks - len(chunks))
+        records, next_offset = client.scroll(
+            collection_name=COLLECTION_NAME,
+            limit=batch_size,
+            offset=offset,
+            with_payload=True,
+            scroll_filter=search_filter,
+        )
+        for record in records:
+            text = record.payload.get("text", "")
+            if text:
+                chunks.append({
+                    "text": text,
+                    "metadata": {k: v for k, v in record.payload.items() if k != "text"},
+                    "score": 0.0,
+                })
+        if next_offset is None:
+            break
+        offset = next_offset
+
+    return chunks
+
+
 def list_stored_videos() -> List[dict]:
     """Return a deduplicated list of stored video IDs and titles."""
     client = _get_client()
@@ -160,7 +208,23 @@ def list_stored_videos() -> List[dict]:
     return [{"video_id": k, "title": v} for k, v in seen.items()]
 
 
+def get_video_title(video_id: str) -> str:
+    """Fetch the title for a single video by reading one matching chunk."""
+    client = _get_client()
+    records, _ = client.scroll(
+        collection_name=COLLECTION_NAME,
+        limit=1,
+        with_payload=["video_id", "video_title"],
+        scroll_filter=Filter(
+            must=[FieldCondition(key="video_id", match=MatchValue(value=video_id))]
+        ),
+    )
+    if records:
+        return records[0].payload.get("video_title", video_id)
+    return video_id
+
+
 def get_collection_stats() -> dict:
     client = _get_client()
     info = client.get_collection(COLLECTION_NAME)
-    return {"total_chunks": info.points_count}
+    return {"total_chunks": info.points_count or 0}

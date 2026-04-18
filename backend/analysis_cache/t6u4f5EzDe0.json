@@ -1,0 +1,1121 @@
+{
+  "video_id": "t6u4f5EzDe0",
+  "video_title": "Mahindra XEV 9S - 7-Seater SUV Is Feature Loaded | Faisal Khan",
+  "aggregated": {
+    "overall_sentiment": "positive",
+    "total_chunks_analyzed": 105,
+    "total_brands": 8,
+    "sentiment_distribution": {
+      "positive": 74.0,
+      "neutral": 24.7,
+      "negative": 1.3
+    },
+    "brand_analysis": {
+      "Mahindra": {
+        "overall_sentiment": "positive",
+        "mention_count": 112,
+        "models": {
+          "XUV 9S": {
+            "overall_sentiment": "positive",
+            "mention_count": 79,
+            "features": [
+              {
+                "name": "airbag count",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "7 airbags"
+                ]
+              },
+              {
+                "name": "antenna type",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "shark fin antenna also finished in gloss black"
+                ]
+              },
+              {
+                "name": "armrest",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "you get a center armrest with twin cup holders"
+                ]
+              },
+              {
+                "name": "battery options",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "it's available with a 79 kilowatt hour battery pack or 59 kilowatt hour battery pack"
+                ]
+              },
+              {
+                "name": "cabin air filter",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "This car also has a PM 2.5 air filter with AQI display because we live in India, we have AQI 500."
+                ]
+              },
+              {
+                "name": "camera features",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "So it's a selfie camera. So I can obviously take a selfie.",
+                  "It's loading the AI mask. And you know, which is the first filter, it's actually of the Mahindra logo on my freaking eyes.",
+                  "And then you can record videos too."
+                ]
+              },
+              {
+                "name": "cargo space",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "which has 150 liters of storage space right here, usable front, that's nice",
+                  "boot carrying capacity is I think around 500 litres, the 9e actually has a bigger boot which happens to be around 663 litres, so yeah boot space is slightly lower because obviously you've got two freaking seats right here"
+                ]
+              },
+              {
+                "name": "charging options",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "you can either opt for a 7.2 kilowatt or a 11.2 kilowatt"
+                ]
+              },
+              {
+                "name": "charging port",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "12V charging socket, there's a cup holder here, there's another cup holder right there",
+                  "65 watt charging port here, USB-C, tablet holder as well",
+                  "the 9s has it here in the conventional place"
+                ]
+              },
+              {
+                "name": "charging time",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "charging times 20 to 80% in just 20 minutes using 175 kilowatt DC fast charger.",
+                  "with a 7.2 kilowatt charger is going to take 8.7 hours to juice the battery from 0 to 100% or it's going to take six hours with the 11.2 kilowatt AC charger."
+                ]
+              },
+              {
+                "name": "child seat mounts",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "ISOFIX child seat mounts"
+                ]
+              },
+              {
+                "name": "climate control",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "there are no physical buttons for the air conditioning, which can get a bit frustrating, multiple commands needed for multiple things as such",
+                  "it's going to adjust the climate control audio it will adjust the seat and all that's going to change now air conditioning turn on the sunroof blind is opening and music is playing and the seat is reclining"
+                ]
+              },
+              {
+                "name": "design comparison",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "it resembles 700."
+                ]
+              },
+              {
+                "name": "door handle type",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "you get proper door handles at the rear unlike the 9e which actually has them hidden"
+                ]
+              },
+              {
+                "name": "driver monitoring",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "So this camera is also for in car monitoring."
+                ]
+              },
+              {
+                "name": "drivetrain",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "This is rear wheel drive, by the way, it's not available in all wheel drive, but all wheel drive capability is possible."
+                ]
+              },
+              {
+                "name": "driving data",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "there is a menu which obviously gives you a lot of data about your drive"
+                ]
+              },
+              {
+                "name": "driving modes",
+                "sentiment": "positive",
+                "mention_count": 6,
+                "verbatim": [
+                  "it has got an electric boss mode, using these buttons I can actually move the seat ahead",
+                  "And this is for one pedal driving.",
+                  "It also has a boost mode, which works in every mode gives you full power.",
+                  "There's an off road mode as well.",
+                  "it obviously has something known as live your mood, which is like sort of disco."
+                ]
+              },
+              {
+                "name": "driving range",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "In terms of range, they're claiming around 500 kilometers in the real world expect around 450 kilometers for the bigger battery and under 400 kilometers for the smaller battery"
+                ]
+              },
+              {
+                "name": "electric vehicle",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "you can call it the electric version of the 7OO"
+                ]
+              },
+              {
+                "name": "energy consumption",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "what's the energy consumption like"
+                ]
+              },
+              {
+                "name": "event features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "It actually does a show like what Tesla does by turning on the lights making sound you see the dynamic swipe indicators functioning."
+                ]
+              },
+              {
+                "name": "exterior design",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "Simply xuv 700 converted to electric, front design is not aggressive at all.",
+                  "and the bumper, that also happens to be new right there, yeah, a new bumper"
+                ]
+              },
+              {
+                "name": "horn quality",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Another issue is that when you try to press any of the buttons, you accidentally hit the horn. The horn is not that great."
+                ]
+              },
+              {
+                "name": "indicator type",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "the indicator is functioning at the moment, dynamic swipe",
+                  "In fact, when you unlock the car, it obviously swipes the indicators has a welcome and goodbye animation both for the headlight as well as the taillights"
+                ]
+              },
+              {
+                "name": "infotainment system",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "The infotainment system is huuuge😅😅"
+                ]
+              },
+              {
+                "name": "interior lighting",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "Now there's something known as ambient lighting, which is very cool.",
+                  "So you have different modes here or you can just customize it the way you want."
+                ]
+              },
+              {
+                "name": "interior material",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Oh brother, they have put a velvet material at the back."
+                ]
+              },
+              {
+                "name": "interior space",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "headroom seems to be adequate enough, something the 90 cannot boast of because of the sloping roofline"
+                ]
+              },
+              {
+                "name": "key features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "this is the key of the vehicle, lock the car, unlock the car, this is to open the trunk, but it's not powered, and this is to turn on the vehicle, move it ahead, move it behind, it's a nice key actually"
+                ]
+              },
+              {
+                "name": "legroom",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "so rear seat legroom, good, under thigh support is also actually good enough"
+                ]
+              },
+              {
+                "name": "light design",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "this is a little different design for the light, which means that the hood is also slightly different here"
+                ]
+              },
+              {
+                "name": "mirror controls",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the mirrors open, I think the car is turned on as well"
+                ]
+              },
+              {
+                "name": "navigation system",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "And it has got inbuilt navigation as well."
+                ]
+              },
+              {
+                "name": "parking assist",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "that's how it enables self-park function"
+                ]
+              },
+              {
+                "name": "performance display",
+                "sentiment": "positive",
+                "mention_count": 4,
+                "verbatim": [
+                  "what's the power flow. So nice. I like it.",
+                  "there's a performance menu, which actually shows you a lap timer.",
+                  "Yes, there's a racing lap timer.",
+                  "And there's a geforce meter, it also shows you how much power and torque you're consuming."
+                ]
+              },
+              {
+                "name": "physical controls",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Thankfully, physical control is there."
+                ]
+              },
+              {
+                "name": "power output",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "79 kilowatt hour battery pack in the higher variants, which have 282 horsepower and 380 Newton meters of torque, 0 to 100 kilometers per hour in 7 seconds, the lower battery pack 59 kilowatt hour battery pack, it has 228 horsepower and the same 380 Newton meters of torque."
+                ]
+              },
+              {
+                "name": "rear AC vents",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "rear AC vents have been placed here"
+                ]
+              },
+              {
+                "name": "regeneration control",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "This is actually to increase the region level. There's this one here, which is to decrease the region level."
+                ]
+              },
+              {
+                "name": "remote movement",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "I'm just going to move the car ahead and behind using the key of the vehicle"
+                ]
+              },
+              {
+                "name": "safety sensors",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "this car has got 5 radars, 5 cameras, 12 ultrasonic sensors, yeah, 6 at the front, 6 at the rear, that's how it enables self-park function"
+                ]
+              },
+              {
+                "name": "seat adjustment",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "does it recline, yes it does, okay, 7 seater kicked in here, this one is the most upright, this is the most reclined",
+                  "you can actually recline the seat using this lever, see I can recline the seat, so the seat reclines, which again is fantastic",
+                  "you can also slide it ahead and behind, which is not a one hand operation"
+                ]
+              },
+              {
+                "name": "seat ventilation",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "you get rear seat ventilation too, which is a nice touch"
+                ]
+              },
+              {
+                "name": "seatbelt adjustment",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "height adjustable seatbelts"
+                ]
+              },
+              {
+                "name": "seating capacity",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "this is technically the 7-seater version of the XCV",
+                  "It's actually a fantastic car. Seven seater.",
+                  "this one obviously has it, these don't seem functional"
+                ]
+              },
+              {
+                "name": "spare wheel",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "So, accessing this is not going to be easy because first you have to remove the cover. Why they put a cover? Simply because I think because it's an EV, so they want an aero-optimized floor because the floor seems to be quite packed because of the battery obviously",
+                  "I'm trying to measure the tyre. It's obviously smaller size, it's a spare wheel, it's not an alloy but they have made it very difficult."
+                ]
+              },
+              {
+                "name": "storage features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "you get magazine pockets here"
+                ]
+              },
+              {
+                "name": "sun blinds",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "now you get sun blinds here, which is a nice touch"
+                ]
+              },
+              {
+                "name": "third row features",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "here you get the control for air conditioning in the third row",
+                  "I tumble it like this and then I have to get into the third row, the problem is that like most 7 seaters, third row is best for children, it's the same case here."
+                ]
+              },
+              {
+                "name": "vehicle weight",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Since the Mahindra xev 9s is over 2.5 ton weight, how safe is it not to roll up side down and how safe it is to avoid squeezing living beings..?"
+                ]
+              },
+              {
+                "name": "washer fluid",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "washer fluid goes in right here, so that placement is a bit unique, because this is an EV, so obviously that's a bit different"
+                ]
+              },
+              {
+                "name": "wheel design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "I don't like the design of the alloy wheels, I don't like these aero wheels at all, on any car, whatsoever"
+                ]
+              },
+              {
+                "name": "wheel size",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "here, the wheel size is actually 18 inches, 235, 60, 80, the same size tires as the 7OO"
+                ]
+              },
+              {
+                "name": "wireless charging",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "I think that's a wireless charging pad or what"
+                ]
+              }
+            ]
+          },
+          "XUV 9E": {
+            "overall_sentiment": "neutral",
+            "mention_count": 14,
+            "features": [
+              {
+                "name": "cargo space",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the 9e actually has a bigger boot which happens to be around 663 litres"
+                ]
+              },
+              {
+                "name": "charging port",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the 9e had a charging port somewhere here, I mean still has it"
+                ]
+              },
+              {
+                "name": "design comparison",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "in terms of design, it is slightly different when compared to the XEV 9E"
+                ]
+              },
+              {
+                "name": "door handle type",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the 9e which actually has them hidden"
+                ]
+              },
+              {
+                "name": "exterior design",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "that is coupe SUV, this is a 7-seater SUV",
+                  "the 9e is obviously a coupe design so it slopes from there so it doesn't have space at the rear for two additional seats"
+                ]
+              },
+              {
+                "name": "interior electronics",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "all the electrical bits including the interior"
+                ]
+              },
+              {
+                "name": "model type",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Is this is the cross breed of xuv 700 and xev 9e 🤔🤔"
+                ]
+              },
+              {
+                "name": "powered tailgate",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "it's powered in the 9e, not powered here"
+                ]
+              },
+              {
+                "name": "powertrain",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "all the good bits of the 9e which is obviously the platform, the powertrain"
+                ]
+              },
+              {
+                "name": "third row features",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "it doesn't have space at the rear for two additional seats"
+                ]
+              },
+              {
+                "name": "tire size",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the 9E actually has 245, 55, 90 inch tires"
+                ]
+              },
+              {
+                "name": "vehicle platform",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Mahindra is trying to do is leverage all the good bits of the 9e which is obviously the platform"
+                ]
+              },
+              {
+                "name": "wheel size",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the 9E actually has 19-inch wheels"
+                ]
+              }
+            ]
+          },
+          "XUV 700": {
+            "overall_sentiment": "neutral",
+            "mention_count": 12,
+            "features": [
+              {
+                "name": "design comparison",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the design is sort of coming from the 700 facelift"
+                ]
+              },
+              {
+                "name": "exterior design",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "This is exact same body of xuv 700, even the hood.",
+                  "The whole body, even the Front door is of Xuv 700 except for few cosmetic changes in front.",
+                  "700 looks so good, might as well use the same front design"
+                ]
+              },
+              {
+                "name": "facelift design",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "It's an unofficial facelift of xuv 700",
+                  "man i hope they don&#39;t ruin the 700 facelift, it does not need an update."
+                ]
+              },
+              {
+                "name": "light design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Should have continued the same headlight design in electronic version too😂"
+                ]
+              },
+              {
+                "name": "model type",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "you can call it the electric version of the 7OO"
+                ]
+              },
+              {
+                "name": "popularity",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "700 is obviously very popular, well accepted, lot of consumers of the 700"
+                ]
+              },
+              {
+                "name": "price value",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "I bought a XUV 7OO at the price in which we could've got a Mustang GT or something if the taxes were right."
+                ]
+              },
+              {
+                "name": "suspension noise",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Is the suspension as noisy as the xuv 700's? Please be honest."
+                ]
+              },
+              {
+                "name": "tire size",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the same size tires as the 7OO"
+                ]
+              }
+            ]
+          },
+          "General": {
+            "overall_sentiment": "neutral",
+            "mention_count": 4,
+            "features": [
+              {
+                "name": "electric vehicle",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Is mahindra ev cars are good to buy"
+                ]
+              },
+              {
+                "name": "electronic issues",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "Mahindra has minor electronic issue and not ENgine failure which is more fatal.",
+                  "mahindra EVs are facing a lot of problems than TATA EVs"
+                ]
+              },
+              {
+                "name": "event features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "long trips organised by Mahindra."
+                ]
+              }
+            ]
+          },
+          "Bolero": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "Marazzo": {
+            "overall_sentiment": "positive",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "interior space",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Mahindra Marrazzo was the best 7 seat car India had so far as per the space management."
+                ]
+              }
+            ]
+          },
+          "Thar": {
+            "overall_sentiment": "positive",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "sunroof",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "thar roxx&#39;s sunroof operation is better"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "BYD": {
+        "overall_sentiment": "positive",
+        "mention_count": 33,
+        "models": {
+          "Atto 3": {
+            "overall_sentiment": "positive",
+            "mention_count": 33,
+            "features": [
+              {
+                "name": "battery management",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "you can monitor the energy of the vehicle how much battery and all those things like how much battery has been depleted"
+                ]
+              },
+              {
+                "name": "blind spot monitor",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "it has got the blind view alert monitor"
+                ]
+              },
+              {
+                "name": "cargo access",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "this is to open the boot not powered huh"
+                ]
+              },
+              {
+                "name": "cargo space",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "this storage space here it's actually cooled as well and there's this tray for your key as well twin cup holders"
+                ]
+              },
+              {
+                "name": "charging port",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "this is to open the charging port"
+                ]
+              },
+              {
+                "name": "climate control",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "air conditioning has turned on now there are multiple modes there's a classic mode there's a smart mode and then you can change the air conditioning as you want"
+                ]
+              },
+              {
+                "name": "connected features",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "it has connected car obviously",
+                  "it has a ton of app including instagram it has got shopping apps as well there's big basket blinket flip card mantra nika shop clues this whatsapp zomato everything you name this is so freaking damn cool"
+                ]
+              },
+              {
+                "name": "display screens",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "12.3 inch 12.3 inch another 12.3 inch screen"
+                ]
+              },
+              {
+                "name": "driver assistance",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "adas level 2 adas obviously you have got lane keep assist and lot of other parameters automatic emergency braking"
+                ]
+              },
+              {
+                "name": "footrest",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "you get a proper dead pedal"
+                ]
+              },
+              {
+                "name": "heads up display",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "heads up display",
+                  "this is vision x which is the ar heads-up display which is actually very nice because when you turn these arrows come into your line of sight and it's fantastic"
+                ]
+              },
+              {
+                "name": "hill descent control",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "downhill assist"
+                ]
+              },
+              {
+                "name": "interior space",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "in terms of space hmm not that great yeah of course i can move this seat ahead a bit by sliding it but then still under that support is like really poor space is not the best here but that's expected",
+                  "headroom is absent completely for someone of my height"
+                ]
+              },
+              {
+                "name": "parking sensors",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "parking sensors"
+                ]
+              },
+              {
+                "name": "passenger display",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "this is the passenger screen wherein you can browse youtube you can connect to a meeting zoom call yes google meet you can do all that"
+                ]
+              },
+              {
+                "name": "power seats",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the front seats are six adjustable electric adjustable"
+                ]
+              },
+              {
+                "name": "privacy glass",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "there's no filter here like the privacy filter so when i'm driving i can be like what are you seeing or scrolling all those dirty reels"
+                ]
+              },
+              {
+                "name": "seat memory",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "you've got memory function so you can save up to three settings as well"
+                ]
+              },
+              {
+                "name": "seating capacity",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "this is actually the first electric seven seater suv in india or under rupees a crore"
+                ]
+              },
+              {
+                "name": "self parking",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "auto park i already showed you",
+                  "it has got self park so it can park in and park out yeah it can do that on its own"
+                ]
+              },
+              {
+                "name": "sound system",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "this car has got a 16 speaker harman kardon audio system with 1400 watt output and the audio quality is actually very impressive"
+                ]
+              },
+              {
+                "name": "storage device",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "there's a hard drive here you can store all of your data inside this"
+                ]
+              },
+              {
+                "name": "sunroof",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the sunroof does not have ambient lighting in it but it now opens yes this one opens and it opens quite a lot bringing in a lot of airy feeling"
+                ]
+              },
+              {
+                "name": "surround view camera",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "there's a 360 degree parking camera here and then i can change the views as well first let it spin multiple camera views front view rear view side view 3d view which is fantastic"
+                ]
+              },
+              {
+                "name": "traction control",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "traction control"
+                ]
+              },
+              {
+                "name": "usb ports",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "two usb c charging sockets phone storage space"
+                ]
+              },
+              {
+                "name": "window switches",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "driver's side is one touchdown passenger side is not one touch"
+                ]
+              },
+              {
+                "name": "wireless carplay",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "apple carplay android auto both of them are wireless here fantastic"
+                ]
+              },
+              {
+                "name": "wireless charging",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "there's a wireless charging pad here"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Kia": {
+        "overall_sentiment": "neutral",
+        "mention_count": 3,
+        "models": {
+          "Carens": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "Clavis": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "Telluride": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          }
+        }
+      },
+      "BMW": {
+        "overall_sentiment": "negative",
+        "mention_count": 2,
+        "models": {
+          "General": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "driving experience",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "60..70 Lakh is Audi, BMW le le. Ya 1.2 Cr ki Diffender. Shayad Engaging hoga."
+                ]
+              }
+            ]
+          },
+          "iX1 LWB": {
+            "overall_sentiment": "negative",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "delivery speed",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "I am not getting delivery of IX1 Lwb since 7 months now"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Maruti Suzuki India Limited": {
+        "overall_sentiment": "negative",
+        "mention_count": 1,
+        "models": {
+          "General": {
+            "overall_sentiment": "negative",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "driving experience",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "maruti suzuki used to make exciting cars but look at them now?"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Audi": {
+        "overall_sentiment": "neutral",
+        "mention_count": 1,
+        "models": {
+          "General": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "driving experience",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "60..70 Lakh is Audi, BMW le le. Ya 1.2 Cr ki Diffender. Shayad Engaging hoga."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Land Rover": {
+        "overall_sentiment": "neutral",
+        "mention_count": 1,
+        "models": {
+          "Defender": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "driving experience",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "60..70 Lakh is Audi, BMW le le. Ya 1.2 Cr ki Diffender. Shayad Engaging hoga."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Bentley Motors": {
+        "overall_sentiment": "neutral",
+        "mention_count": 1,
+        "models": {
+          "Flying Spur": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          }
+        }
+      }
+    }
+  }
+}

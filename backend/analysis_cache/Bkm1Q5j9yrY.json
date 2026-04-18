@@ -1,0 +1,708 @@
+{
+  "video_id": "Bkm1Q5j9yrY",
+  "video_title": "The Mahindra XUV 7XO Gets (almost) Everything Right",
+  "aggregated": {
+    "overall_sentiment": "neutral",
+    "total_chunks_analyzed": 105,
+    "total_brands": 6,
+    "sentiment_distribution": {
+      "positive": 16.7,
+      "neutral": 50.0,
+      "negative": 33.3
+    },
+    "brand_analysis": {
+      "Mahindra": {
+        "overall_sentiment": "neutral",
+        "mention_count": 281,
+        "models": {
+          "Xuv 700": {
+            "overall_sentiment": "positive",
+            "mention_count": 88,
+            "features": [
+              {
+                "name": "design team",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "there are two design teams within Mahindra…..one team led by dada and the other one full of interns designing individual parts in isolation and a production guy ensuring how to put it all together"
+                ]
+              },
+              {
+                "name": "interior color",
+                "sentiment": "negative",
+                "mention_count": 3,
+                "verbatim": [
+                  "their interior colour scheme is also not convoluted",
+                  "endless beige/white interiors",
+                  "not a big fan of the cream interiors.. glad i dont have money to buy this, one less worry"
+                ]
+              },
+              {
+                "name": "physical controls",
+                "sentiment": "negative",
+                "mention_count": 5,
+                "verbatim": [
+                  "missing physical buttons for AC controls",
+                  "the lower varients have xuv 700 steering and hivac buttons unlike the top spec",
+                  "the absence of physical dials are such an emotional disconnect",
+                  "All physical touch controls with that 2L turbo petrol engine.",
+                  "they moved the buttons so that we will use the adrenox + alexa for these"
+                ]
+              },
+              {
+                "name": "steering wheel",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the ugly steering"
+                ]
+              },
+              {
+                "name": "touch buttons",
+                "sentiment": "negative",
+                "mention_count": 4,
+                "verbatim": [
+                  "the touch buttons are the biggest gripe with what seems to be a phenomenal product",
+                  "Lower models still have physical controls. It's only the top end models that have touch controls.",
+                  "Please fix the capacitive buttons, this can be really deal breaker if it isn’t working half of the times and if possible include HVAC controls.",
+                  "a row of touch sensitive buttons which aren't really touch sensitive, they have some haptic thing going on and sometimes they work and sometimes they don't"
+                ]
+              }
+            ]
+          },
+          "General": {
+            "overall_sentiment": "negative",
+            "mention_count": 39,
+            "features": [
+              {
+                "name": "exterior design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "I think Mahindra should fire pratap bose for shitty design"
+                ]
+              }
+            ]
+          },
+          "Marazzo": {
+            "overall_sentiment": "negative",
+            "mention_count": 37,
+            "features": [
+              {
+                "name": "facelift",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Is this a Marazzo facelift?"
+                ]
+              }
+            ]
+          },
+          "Thar Roxx": {
+            "overall_sentiment": "positive",
+            "mention_count": 29,
+            "features": [
+              {
+                "name": "interior color",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the tan option in the Thar Roxx would've been better than the jigsaw puzzle they've ended up with"
+                ]
+              }
+            ]
+          },
+          "Xuv 7xo": {
+            "overall_sentiment": "negative",
+            "mention_count": 23,
+            "features": [
+              {
+                "name": "buttonless interior",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the button less front cabin looks aweful !!!! Also very impractical"
+                ]
+              },
+              {
+                "name": "climate controls",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "A/C hivac controls integrated in the screen"
+                ]
+              },
+              {
+                "name": "depreciation",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "tech-heavy cars can depreciate faster"
+                ]
+              },
+              {
+                "name": "interior color",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "endless beige/white interiors"
+                ]
+              },
+              {
+                "name": "physical controls",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the lower varients have xuv 700 steering and hivac buttons unlike the top spec"
+                ]
+              },
+              {
+                "name": "power tailgate",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Mahindra could have given it power tailgate. Its a shame thay they r not offering it while its available on rivals"
+                ]
+              },
+              {
+                "name": "steering wheel",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the ugly steering"
+                ]
+              },
+              {
+                "name": "touch buttons",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the touch interface is a deal breaker"
+                ]
+              }
+            ]
+          },
+          "Xuv700": {
+            "overall_sentiment": "negative",
+            "mention_count": 16,
+            "features": [
+              {
+                "name": "exterior design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the XUV700 to me honestly was one of the best looking Mahindras. It looked confident, it looked restrained and honestly looked like a world-class European SUV."
+                ]
+              },
+              {
+                "name": "front design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Even front design they have spoiled"
+                ]
+              },
+              {
+                "name": "infotainment screens",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "they seriously need to ditch that many Screen. You basically need just one which is good for navigation and a little entrainment if needed."
+                ]
+              },
+              {
+                "name": "interior color",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "It looks like some car sickness guy went to Ladakh in that and forget to clean it after the multiple vomits!"
+                ]
+              },
+              {
+                "name": "interior design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Have the interiors been designed in consultation with Karol Bagh experts?"
+                ]
+              },
+              {
+                "name": "physical controls",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "It loses out on looks, physical buttons and frankly interiors overall."
+                ]
+              }
+            ]
+          },
+          "Xuv700 Classic": {
+            "overall_sentiment": "negative",
+            "mention_count": 14,
+            "features": []
+          },
+          "Xuv500": {
+            "overall_sentiment": "negative",
+            "mention_count": 14,
+            "features": [
+              {
+                "name": "model comparison",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Xuv500 better"
+                ]
+              }
+            ]
+          },
+          "Roxx": {
+            "overall_sentiment": "negative",
+            "mention_count": 14,
+            "features": [
+              {
+                "name": "interior color",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "mahindra will change it if everyone hates it , just like how they did it in the ROXX"
+                ]
+              }
+            ]
+          },
+          "7xo": {
+            "overall_sentiment": "positive",
+            "mention_count": 3,
+            "features": [
+              {
+                "name": "blind spot detection",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the blind spot monitor view in the instrument cluster was good, but it had a very slow frame rate and that is fixed"
+                ]
+              },
+              {
+                "name": "boss mode feature",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "you can also control the front seat from back here via the electric boss mode"
+                ]
+              },
+              {
+                "name": "climate controls",
+                "sentiment": "negative",
+                "mention_count": 3,
+                "verbatim": [
+                  "Mahindra has taken away the air conditioning controls and given you a touch sensitive panel here instead",
+                  "the express cool button on the key fob that allows you to kickstart the air conditioning on your car a minute or two before you get inside",
+                  "simple things like climate control is a, like, sure, there's a button here for the fan, but if that button wasn't there, it's a three-step process to go into the screen and control the climate control, and even then, the menu for the climate control is just, it's very confusing"
+                ]
+              },
+              {
+                "name": "device mount",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "you can also, if you buy the right mount, place your iPhone or iPad here magnetically and then charge it via a type C port with a 65 watt output"
+                ]
+              },
+              {
+                "name": "drive mode controls",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Now if I press this, it does change the drive modes now"
+                ]
+              },
+              {
+                "name": "front design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "now, the entire front end looks out of place, at least to me"
+                ]
+              },
+              {
+                "name": "front passenger seat",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the front passenger seat was manual, that's fixed. This one is electric"
+                ]
+              },
+              {
+                "name": "infotainment responsiveness",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "because of the faster processor, they are very responsive and to be honest, we faced zero issues with them on our drive"
+                ]
+              },
+              {
+                "name": "infotainment screens",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "the infotainment screen still has fairly large bezels",
+                  "it's a triple screen layout and these are very high resolution screens",
+                  "These screens also get Dolby Vision for better contrast and colours"
+                ]
+              },
+              {
+                "name": "logo placement",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "I'm happy to report that they have fixed that logo at the back here"
+                ]
+              },
+              {
+                "name": "rear seat ventilation",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "There's also rear seat ventilation"
+                ]
+              },
+              {
+                "name": "second row seat",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the second row didn't slide and it still doesn't slide"
+                ]
+              },
+              {
+                "name": "sunshades",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "there's sunshades"
+                ]
+              },
+              {
+                "name": "third row space",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the third row was cramped and because this is a facelift, it is still cramped"
+                ]
+              },
+              {
+                "name": "touch buttons",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "a row of touch sensitive buttons which aren't really touch sensitive, they have some haptic thing going on and sometimes they work and sometimes they don't",
+                  "I know I ranted a lot about the touch sensitive controls, I think I said it three times or four times in the video and it might sound very negative, but I'll tell you what the problem is"
+                ]
+              },
+              {
+                "name": "wireless charging",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "you get a wireless charging pad with a cooling function"
+                ]
+              }
+            ]
+          },
+          "Be": {
+            "overall_sentiment": "positive",
+            "mention_count": 2,
+            "features": []
+          },
+          "Xuv7xo": {
+            "overall_sentiment": "positive",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "ADAS features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "an even better ADAS system"
+                ]
+              },
+              {
+                "name": "airbags",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "They've also given it six airbags as standard with the curtain airbag extending till the third row."
+                ]
+              },
+              {
+                "name": "cabin noise",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Mahindra has made the cabin quieter"
+                ]
+              },
+              {
+                "name": "engine power",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "powerful engines"
+                ]
+              },
+              {
+                "name": "exterior design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "This is shouting for attention, it's too busy, there's just too much going on everywhere you look and I'm sorry, but I feel it's a step back in terms of design."
+                ]
+              },
+              {
+                "name": "feature list",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "more features than you would ever need"
+                ]
+              },
+              {
+                "name": "frameless IRVM",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "a beautiful frameless IRVM"
+                ]
+              },
+              {
+                "name": "interior space",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "ample space on the inside"
+                ]
+              },
+              {
+                "name": "pricing",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the price is right as well. It starts at 13.6 lakh rupees, which is exactly the same as what the 700 used to start at, but now with a lot more equipment."
+                ]
+              },
+              {
+                "name": "ride quality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "it's got great ride quality"
+                ]
+              },
+              {
+                "name": "seat cushioning",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "they've even improved the cushioning of the seats"
+                ]
+              },
+              {
+                "name": "sound system",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "There's a better sound system"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Tata Motors": {
+        "overall_sentiment": "neutral",
+        "mention_count": 109,
+        "models": {
+          "Safari": {
+            "overall_sentiment": "positive",
+            "mention_count": 48,
+            "features": [
+              {
+                "name": "feature comparison",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Pls make a detailed video comparison between Mahindra XUV 7XO and Tata Safari 2026"
+                ]
+              }
+            ]
+          },
+          "General": {
+            "overall_sentiment": "negative",
+            "mention_count": 25,
+            "features": [
+              {
+                "name": "touch controls",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "I really hope at some point in the future, Mahindra and yes, Tata as well, can ditch this trend"
+                ]
+              }
+            ]
+          },
+          "Curvv": {
+            "overall_sentiment": "negative",
+            "mention_count": 23,
+            "features": [
+              {
+                "name": "exterior design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Didn&#39;t like Tata Curvv as as well, it was Mr Bose&#39;s last design at Tata"
+                ]
+              }
+            ]
+          },
+          "Sierra": {
+            "overall_sentiment": "positive",
+            "mention_count": 11,
+            "features": [
+              {
+                "name": "value for money",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "share your opinion on which variants offer the best value for money for both the 7x0 and the Sierra"
+                ]
+              }
+            ]
+          },
+          "Harrier": {
+            "overall_sentiment": "positive",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "ride quality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "I really think it's come close to taking the crown away from the Harrier and Safari for the best ride and handling package in the segment"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Kia": {
+        "overall_sentiment": "positive",
+        "mention_count": 68,
+        "models": {
+          "General": {
+            "overall_sentiment": "positive",
+            "mention_count": 31,
+            "features": [
+              {
+                "name": "physical controls",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "the new Kia has brought back the tactile buttons",
+                  "Hyundai, Kia, Volkswagen, all the big guys have moved back to nice physical controls for functions that are important and critical and need to be used every single day"
+                ]
+              }
+            ]
+          },
+          "Sonet": {
+            "overall_sentiment": "positive",
+            "mention_count": 23,
+            "features": []
+          },
+          "Seltos": {
+            "overall_sentiment": "positive",
+            "mention_count": 14,
+            "features": [
+              {
+                "name": "interior quality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Kia Seltos is a way way more refined product and probably more desirable till one actually needs 7 seats."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Hyundai Motor Company": {
+        "overall_sentiment": "negative",
+        "mention_count": 26,
+        "models": {
+          "Creta": {
+            "overall_sentiment": "neutral",
+            "mention_count": 24,
+            "features": []
+          },
+          "General": {
+            "overall_sentiment": "negative",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "manual controls",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Hyundai, Kia, Volkswagen, all the big guys have moved back to nice physical controls for functions that are important and critical and need to be used every single day"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Toyota Motor Corporation": {
+        "overall_sentiment": "negative",
+        "mention_count": 14,
+        "models": {
+          "Innova Crysta": {
+            "overall_sentiment": "negative",
+            "mention_count": 14,
+            "features": []
+          }
+        }
+      },
+      "Volkswagen AG": {
+        "overall_sentiment": "neutral",
+        "mention_count": 3,
+        "models": {
+          "General": {
+            "overall_sentiment": "negative",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "physical controls",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Hyundai, Kia, Volkswagen, all the big guys have moved back to nice physical controls for functions that are important and critical and need to be used every single day"
+                ]
+              }
+            ]
+          },
+          "Id Polo": {
+            "overall_sentiment": "positive",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "physical controls",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "you should go to Volkswagen International's Instagram and see how they are celebrating the return of buttons on the new ID Polo, that's how buttons should be done"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

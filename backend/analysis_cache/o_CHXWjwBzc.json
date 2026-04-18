@@ -1,0 +1,1890 @@
+{
+  "video_id": "o_CHXWjwBzc",
+  "video_title": "Mahindra XUV3XO - Comfortable Ride, Polarising Design & Feature Loaded | Faisal Khan",
+  "aggregated": {
+    "overall_sentiment": "positive",
+    "total_chunks_analyzed": 103,
+    "total_brands": 10,
+    "sentiment_distribution": {
+      "positive": 68.2,
+      "neutral": 17.2,
+      "negative": 14.6
+    },
+    "brand_analysis": {
+      "Mahindra": {
+        "overall_sentiment": "positive",
+        "mention_count": 161,
+        "models": {
+          "XUV 3XO": {
+            "overall_sentiment": "positive",
+            "mention_count": 117,
+            "features": [
+              {
+                "name": "360 camera",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "it also gets a camera on the side because it gets a 360-degree parking camera"
+                ]
+              },
+              {
+                "name": "ac vents",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "it gets AC vents"
+                ]
+              },
+              {
+                "name": "adas",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "adas level 2",
+                  "it gets ADAS level 2",
+                  "in terms of ADAS functions, forward collision warning, automatic emergency braking, lane departure, all those things are there, traffic sign recognition, it gives you so much ADAS functions at this price which is very very very impressive"
+                ]
+              },
+              {
+                "name": "airbags",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "mx3 pro variant sunroof 6 air bags 10 inch touch screen tail lights 210 ground clearance and heavy 205mm wild tyrees rear Ac with usb portal music top level",
+                  "6 airbags as well, earlier the car used to have 7 airbags, a knee airbag, that is not there anymore"
+                ]
+              },
+              {
+                "name": "alloy wheels",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "diamond cut alloy wheels, they actually look quite nice, I like it"
+                ]
+              },
+              {
+                "name": "audio system",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "mx3 pro variant sunroof 6 air bags 10 inch touch screen tail lights 210 ground clearance and heavy 205mm wild tyrees rear Ac with usb portal music top level",
+                  "you get a subwoofer, 380 watt, so 7 speaker system which is good"
+                ]
+              },
+              {
+                "name": "automatic transmission",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "automatic with massive sunroof"
+                ]
+              },
+              {
+                "name": "body cladding",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "I don't know why the body side cladding is cut right here, should have like gone throughout because this seems like a missing thing to me"
+                ]
+              },
+              {
+                "name": "body roll",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "there's obviously body roll as well because the suspension is really on the soft side"
+                ]
+              },
+              {
+                "name": "boot space",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "this is 364 litres which is small, that is why Mahindra does not give it a passive shell"
+                ]
+              },
+              {
+                "name": "braking performance",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "brakes are actually good because all wheel discs are there on all the four wheels which is a good thing"
+                ]
+              },
+              {
+                "name": "camera quality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "I love the camera here, the camera is really very impressive here, a job well done by Mahindra for sure"
+                ]
+              },
+              {
+                "name": "center armrest",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "you get a center armrest with twin cupholders"
+                ]
+              },
+              {
+                "name": "charging ports",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "there's a USB-C charging socket, a 12V charging socket"
+                ]
+              },
+              {
+                "name": "dashboard design",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "it does  not get ventilated seats the dashboard design I don&#39;t like it so much",
+                  "the dashboard will definitely remind you of the XUV400 which is not a bad thing because they've obviously made a lot of changes to the dashboard lately"
+                ]
+              },
+              {
+                "name": "design",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "I really like the design it definitely looks futuristic.",
+                  "this car's design is quite polarising, it's a love it or a hate it.",
+                  "they have made the design quite quirky, it's in line with the upcoming BE electric cars from Mahindra"
+                ]
+              },
+              {
+                "name": "diesel efficiency",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "efficiency in the diesel is fantastic"
+                ]
+              },
+              {
+                "name": "diesel engine",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "Mahindra is known for it's diesel engines.",
+                  "We have recently purchased 3XO ax5 diesel AS"
+                ]
+              },
+              {
+                "name": "door pockets",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "door pockets are big enough"
+                ]
+              },
+              {
+                "name": "drivetrain",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "this car is obviously front wheel drive"
+                ]
+              },
+              {
+                "name": "driving dynamics",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "I have booked Kia Sonet but lil confused whether to go for 3xo for better ride quality and driving dynamics"
+                ]
+              },
+              {
+                "name": "engine options",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "AX5 doesn’t have the tgdi engine.",
+                  "This is the same 1.2 litre 3 cylinder engine, they have not made changes to the engine, so first let's talk about the diesel, the diesel is a 1.5 litre engine, it's a fantastic engine because it has got 300 Nm of torque and 117 PS of power, meanwhile they have two petrol engines",
+                  "Mahindra has 2 engine options in the 3xo , a 1.2 L mpi & GDI ."
+                ]
+              },
+              {
+                "name": "engine performance",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "XUV 3xo is better than nexon in all terms",
+                  "Mpi is an adequate engine while GDI is a good one."
+                ]
+              },
+              {
+                "name": "engine power",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "XUV 3X0 IS THE MOST POWERFUL CAR IN THE SEGMENT.",
+                  "The Engine Power Output, The Leg Room & Luxurious Cabin are 3 Major Highlights of Mahindra 3XO!",
+                  "the engine is quite powerful here and the automatic is actually the most powerful one"
+                ]
+              },
+              {
+                "name": "engine refinement",
+                "sentiment": "positive",
+                "mention_count": 4,
+                "verbatim": [
+                  "Xuv3xo with its offerings and 4 cylinder engine all the way.",
+                  "4 cylinder refined engine",
+                  "it is quite refined",
+                  "mahindra has way better quality control and refinement."
+                ]
+              },
+              {
+                "name": "ergonomics",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Better ergonomics"
+                ]
+              },
+              {
+                "name": "exterior design",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "exterior good only of alloys and lights but grill just made it bad"
+                ]
+              },
+              {
+                "name": "features",
+                "sentiment": "positive",
+                "mention_count": 6,
+                "verbatim": [
+                  "For features and engine -3xo",
+                  "Features are really good and unlike tata i think mahindra has way better quality control and refinement.",
+                  "In terms of features XUV 3xo is good option 👍🏻",
+                  "No one buys base variant because of no features if you want buy than buy top variant otherwise don’t buy ❌",
+                  "Bro it&#39;s still cheaper than Nexon gives more features, larger boot , softouch, adas lvl -2, EPB, and much more , it has more torque than even though seltos what more you want with a car"
+                ]
+              },
+              {
+                "name": "front design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "it was the front design which they haven't really managed to address here because it still looks quite weird, like bunny teeth"
+                ]
+              },
+              {
+                "name": "fuel efficiency",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "millage 17/18 in city and 21/22 in highway speed limit 100",
+                  "it will return comfortably around 12 to 13 kmpl in the city going all the way to 17 kmpl out on the highway, claimed number ARAI is around 18.2 kmpl for the automatic, for the manual it's 21 or somewhere around that"
+                ]
+              },
+              {
+                "name": "gearbox",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "3xo petrol engine and gearbox is 1000x better than tatas."
+                ]
+              },
+              {
+                "name": "gearbox performance",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "this gearbox is very sluggish, it's very slow, it's a 6-speed torque converter automatic gearbox which takes its own sweet time to make shifts, it's not enthusiastic, it's not fast, it just is a little lazy with shifts, doesn't give you fast shifts"
+                ]
+              },
+              {
+                "name": "grille design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "but grill just made it bad"
+                ]
+              },
+              {
+                "name": "ground clearance",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "mx3 pro variant sunroof 6 air bags 10 inch touch screen tail lights 210 ground clearance and heavy 205mm wild tyrees rear Ac with usb portal music top level"
+                ]
+              },
+              {
+                "name": "handling",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the problem is that the handling isn't that good because the steering is very inconsistent yeah, it lacks feel, it lacks feedback and you're not really being communicated to"
+                ]
+              },
+              {
+                "name": "headroom",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "headroom is adequate for someone as tall as me"
+                ]
+              },
+              {
+                "name": "height adjustable seatbelts",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "height adjustable seatbelts"
+                ]
+              },
+              {
+                "name": "hill start assist",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "It’s also a bummer that non of the 3XO comes with a hill start assist, don’t know why they skipped something so basic"
+                ]
+              },
+              {
+                "name": "horn quality",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the horn is nice by this standard but it's not that punchy or loud, that's something which I'm a little disappointed with"
+                ]
+              },
+              {
+                "name": "ingress egress",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "getting in and out is not difficult at all, yeah it's not such a big climb or something of that sort"
+                ]
+              },
+              {
+                "name": "interior finish",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "it gets this nice beige finishing which will obviously get dirty really fast"
+                ]
+              },
+              {
+                "name": "interior quality",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "The Engine Power Output, The Leg Room & Luxurious Cabin are 3 Major Highlights of Mahindra 3XO!",
+                  "They had upgraded in interior in all parts"
+                ]
+              },
+              {
+                "name": "interior space",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "15L mai alto size ka in cabin space"
+                ]
+              },
+              {
+                "name": "isofix mounts",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "it gets top seat here for the I6 child seats, 40-60 split obviously"
+                ]
+              },
+              {
+                "name": "key feel",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "The key feels nice to hold"
+                ]
+              },
+              {
+                "name": "lane keep assist",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "there is a camera here for lane keep assist",
+                  "the lane keep assist is quite active right now, so it is obviously kicking in again and again"
+                ]
+              },
+              {
+                "name": "leather upholstery",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "they have put leather here which is so premium and double white stitching"
+                ]
+              },
+              {
+                "name": "led drl",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the LED DRL also converts into the indicator, no dynamic function here and all, it doesn't really need it"
+                ]
+              },
+              {
+                "name": "legroom",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "The Engine Power Output, The Leg Room & Luxurious Cabin are 3 Major Highlights of Mahindra 3XO!",
+                  "legroom is class leading"
+                ]
+              },
+              {
+                "name": "light bar",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "you get this infinity light bar as they like to call it which looks quite cool, I really like it"
+                ]
+              },
+              {
+                "name": "lighting",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "they call it all LED lighting, it is not because this is halogen, yeah, these lights are actually halogen"
+                ]
+              },
+              {
+                "name": "low-end performance",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "low-end is not that impressive because there is lag, there is quite a bit of turbo lag there and that turbo lag na really blunt performance"
+                ]
+              },
+              {
+                "name": "magazine holders",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "magazine holders"
+                ]
+              },
+              {
+                "name": "manual transmission",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "i think the manual is the way to go.",
+                  "6-speed manual is there in both petrol and diesel obviously because manual obviously accounts for larger sales because the manual is cheaper by approximately a lakh"
+                ]
+              },
+              {
+                "name": "mid-range performance",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "mid-range is what really impresses"
+                ]
+              },
+              {
+                "name": "panoramic sunroof",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "this panoramic roof is actually quite nice"
+                ]
+              },
+              {
+                "name": "parking features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "adas level 2 with 360 parking"
+                ]
+              },
+              {
+                "name": "parking sensors",
+                "sentiment": "neutral",
+                "mention_count": 3,
+                "verbatim": [
+                  "it gets two parking sensors at the front, yeah, only two, not four",
+                  "two parking sensors at the rear, not four",
+                  "their parking sensors super hyperactive"
+                ]
+              },
+              {
+                "name": "performance",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Xuv 3xo performance🔥🔥🔥"
+                ]
+              },
+              {
+                "name": "petrol automatic price",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the petrol automatic is the most expensive Rs. 18.39 lakhs on .mumbai"
+                ]
+              },
+              {
+                "name": "petrol engine",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "3xo petrol engine and gearbox is 1000x better than tatas."
+                ]
+              },
+              {
+                "name": "petrol engine power",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the same 3 cylinder 1.2 litre engine in the lower variants is producing 111 horsepower and 200 Nm of torque, this one is producing more power because it produces 130 horsepower which is good and a torque output of 230 Nm which in the automatic gets an overboost function going to 250 Nm"
+                ]
+              },
+              {
+                "name": "power",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the power it provides at this price point is impeccable!"
+                ]
+              },
+              {
+                "name": "power delivery",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "performance doesn't feel like the figures because of the pronounced turbo lag and because the power delivery is linear, you don't feel the silence before the storm, so it doesn't really push you back into the seat but it gets the job done"
+                ]
+              },
+              {
+                "name": "price",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "Pricing is great compared to others",
+                  "the mx1 which is priced at rupees 8.82 lakhs is very good pricing honestly top end this one 18.39 lakhs is actually more expensive than the nexon but then it has a lot more features when compared to the next one",
+                  "Too much overpriced 18.40 lakhs for this 😳🤯🤬WTF"
+                ]
+              },
+              {
+                "name": "quality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Better quality etc 🙂"
+                ]
+              },
+              {
+                "name": "quality control",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "mahindra has way better quality control and refinement."
+                ]
+              },
+              {
+                "name": "rain sensor",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "there is also a rain sensor right there"
+                ]
+              },
+              {
+                "name": "rear ac vents",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "mx3 pro variant sunroof 6 air bags 10 inch touch screen tail lights 210 ground clearance and heavy 205mm wild tyrees rear Ac with usb portal music top level"
+                ]
+              },
+              {
+                "name": "rear wiper washer",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "get a rear wiper washer"
+                ]
+              },
+              {
+                "name": "request sensor",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "there is a request sensor here, there is no request sensor on the left side which is kind of weird"
+                ]
+              },
+              {
+                "name": "ride quality",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "I have booked Kia Sonet but lil confused whether to go for 3xo for better ride quality and driving dynamics",
+                  "the ride is actually good, so they have actually tweaked the suspension"
+                ]
+              },
+              {
+                "name": "safety",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "engine is pathetic on any Tata compared to Mahindra, now ADAS is another added safety which Tata fanboy are barking for Harrier/Safari. So engine, fit/finish, feel, safety are any day better on 3XO",
+                  "Safety"
+                ]
+              },
+              {
+                "name": "safety compliance",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "they have also made sure that this car complies with safety regulations, the upcoming ones"
+                ]
+              },
+              {
+                "name": "seatbelts",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "it gets proper seatbelts"
+                ]
+              },
+              {
+                "name": "spare wheel",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "they have actually given it a small spare wheel"
+                ]
+              },
+              {
+                "name": "steering effort",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the steering is super light, the effort needed is minimal here, you don't need much effort to twirl the steering"
+                ]
+              },
+              {
+                "name": "sunroof",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "mx3 pro variant sunroof 6 air bags 10 inch touch screen tail lights 210 ground clearance and heavy 205mm wild tyrees rear Ac with usb portal music top level",
+                  "Paranormal sunroof"
+                ]
+              },
+              {
+                "name": "suspension changes",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Mahindra states that they have made changes to the suspension"
+                ]
+              },
+              {
+                "name": "suspension comfort",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "they have tweaked the suspension, in fact the view around is also very good"
+                ]
+              },
+              {
+                "name": "suspension softness",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the soft suspension on big bumps yeah it does move around quite a bit because the softness obviously so that's a bit of a hiccup here but otherwise this guy is actually very comfortable"
+                ]
+              },
+              {
+                "name": "tail lights",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "mx3 pro variant sunroof 6 air bags 10 inch touch screen tail lights 210 ground clearance and heavy 205mm wild tyrees rear Ac with usb portal music top level"
+                ]
+              },
+              {
+                "name": "touchscreen",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "mx3 pro variant sunroof 6 air bags 10 inch touch screen tail lights 210 ground clearance and heavy 205mm wild tyrees rear Ac with usb portal music top level"
+                ]
+              },
+              {
+                "name": "traction control",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "It automatically turns off traction control, it does that in almost all Mahindra cars after 60 kmph"
+                ]
+              },
+              {
+                "name": "turbo lag",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "there is quite a bit of turbo lag there and that turbo lag na really blunt performance"
+                ]
+              },
+              {
+                "name": "tyres",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "mx3 pro variant sunroof 6 air bags 10 inch touch screen tail lights 210 ground clearance and heavy 205mm wild tyrees rear Ac with usb portal music top level"
+                ]
+              },
+              {
+                "name": "under-thigh support",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "under-thigh support is decent, it's not great"
+                ]
+              },
+              {
+                "name": "usb port",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "mx3 pro variant sunroof 6 air bags 10 inch touch screen tail lights 210 ground clearance and heavy 205mm wild tyrees rear Ac with usb portal music top level"
+                ]
+              },
+              {
+                "name": "value for money",
+                "sentiment": "positive",
+                "mention_count": 4,
+                "verbatim": [
+                  "Better value",
+                  "AX5 is the most vfm variant and has every feature in it.. because we dont need ADAS level 2 and skyroof and 360 shits as well..",
+                  "reduced the price, increased the features, so made it much more value for money now",
+                  "with the kind of features it has it's very much value for money"
+                ]
+              },
+              {
+                "name": "variant options",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "The lack of a AX7L variant for Diesel automatic is weird considering that's the variant most people are gonna want since Mahindra is known for it's diesel engines.",
+                  "it's available in 18 variants, starts at Rs. 8.82 lakhs and goes all the way to Rs. 18.39 lakhs"
+                ]
+              },
+              {
+                "name": "ventilated seats",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "it does  not get ventilated seats"
+                ]
+              },
+              {
+                "name": "water wading capacity",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "it has a water-wetting capacity of 350mm which ain't bad if you ask me"
+                ]
+              },
+              {
+                "name": "wheel size",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "it gets 17-inch wheels, most of the competition is obviously running on 16-inch wheels"
+                ]
+              }
+            ]
+          },
+          "XUV700": {
+            "overall_sentiment": "positive",
+            "mention_count": 17,
+            "features": [
+              {
+                "name": "design",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "I actually liked it. Loved it. It grown on. Back looks great (that's what I said)"
+                ]
+              },
+              {
+                "name": "diesel suitability",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "For City driving I'll recommend Diesel. For Turbo Petrol we get 10-12 avg. On highways 16-18"
+                ]
+              },
+              {
+                "name": "engine configuration",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "AX5 LUXURY 1.2L 3 cylinder Manual Transmission TGDi 130hp 230nm"
+                ]
+              },
+              {
+                "name": "engine options",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Yes, MPFi 110HP and TGDi 130HP. Just the tuning difference. I've driven the 110HP too. Didn't feel underpowered. It has that punch."
+                ]
+              },
+              {
+                "name": "engine performance",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "it's enthusiastic enough 130HP and it has good dynamics for a C-SUV."
+                ]
+              },
+              {
+                "name": "engine reliability",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "The engine is a beast ❤"
+                ]
+              },
+              {
+                "name": "features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Features are amazing!"
+                ]
+              },
+              {
+                "name": "features sharing",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "they have put certain features from the 700"
+                ]
+              },
+              {
+                "name": "fuel efficiency",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "For Turbo Petrol we get 10-12 avg. On highways 16-18"
+                ]
+              },
+              {
+                "name": "interior quality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Amazing Interiors and cabin space is too much."
+                ]
+              },
+              {
+                "name": "interior space",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "cabin space is too much."
+                ]
+              },
+              {
+                "name": "power delivery",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Craaazzy Power Delivery!"
+                ]
+              },
+              {
+                "name": "price",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Crazzy pricing , best vehicle in seg."
+                ]
+              },
+              {
+                "name": "quality control",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Such incidents happened in other mahindra cars like xuv 500, 700 in other countries too"
+                ]
+              },
+              {
+                "name": "rear wiper washer",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Rear wiper washer fluid pressure is so good unlike the one in my XUV 7OO🙂"
+                ]
+              },
+              {
+                "name": "styling",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "looks kinda stylish."
+                ]
+              },
+              {
+                "name": "turbo lag",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Close to zero turbolag"
+                ]
+              }
+            ]
+          },
+          "XUV300": {
+            "overall_sentiment": "positive",
+            "mention_count": 8,
+            "features": [
+              {
+                "name": "body panels",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the sheet metal and the silhouette and overall body panels are very similar to the XUV300"
+                ]
+              },
+              {
+                "name": "design",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "my parents told xuv 300 design good"
+                ]
+              },
+              {
+                "name": "engine refinement",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "This mahindra 3 cylinder is more refined than brezza 4 cyl.",
+                  "also xuv 300 MPFI engine is more refined than brezza 4 cyl."
+                ]
+              },
+              {
+                "name": "grille design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Grill of XUV300 ❌"
+                ]
+              },
+              {
+                "name": "rear seat comfort",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "rear seat comfort well in xuv 300"
+                ]
+              },
+              {
+                "name": "reliability",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "XUV 300 has been there since 2019, people have clocked 2 lakh kms on it without any major issues."
+                ]
+              },
+              {
+                "name": "safety",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Safety was better on Xuv300 as from day one it comes with 7 airbag where Nexon was only 2"
+                ]
+              }
+            ]
+          },
+          "General": {
+            "overall_sentiment": "neutral",
+            "mention_count": 7,
+            "features": [
+              {
+                "name": "audio system",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Faisal casually played Tata music in Mahindra and thought we wouldn't notice it"
+                ]
+              },
+              {
+                "name": "design",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "I actually like the design. Well priced too."
+                ]
+              },
+              {
+                "name": "engine quality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Mahindra's engine ... are among the best in India."
+                ]
+              },
+              {
+                "name": "facelift naming",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "when it comes to changing the name with facelift it's nothing new to Mahindra, they have done it previously with quanto=nuvosport, tuv300= bolero Neo and now xuv300=xuv3X0"
+                ]
+              },
+              {
+                "name": "logo",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "I think this mahindra new logo more look like a bow tie."
+                ]
+              },
+              {
+                "name": "quality control",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "dont even buy mahindra vehicles at all ther quality control is terrible."
+                ]
+              },
+              {
+                "name": "small car success",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Mahindra small cars are not that successful"
+                ]
+              }
+            ]
+          },
+          "Scorpio": {
+            "overall_sentiment": "negative",
+            "mention_count": 3,
+            "features": [
+              {
+                "name": "design",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Even very successful designs by mahindra like scorpio and xuv etc are not really beautiful by the law but mahindra designs are always like this some worked some other failed."
+                ]
+              },
+              {
+                "name": "market demand",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Scorpio that was out of <br>Stock every year 😢"
+                ]
+              },
+              {
+                "name": "quality control",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "there was one incident in india where a mahindra scorpio n wheel came off and car crashed due to that and the driver loat hia leg."
+                ]
+              }
+            ]
+          },
+          "KUV100": {
+            "overall_sentiment": "positive",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "chrome accents",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "those 6 chrome lines were of KUV100"
+                ]
+              },
+              {
+                "name": "grille design",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Grill of KUV100✅"
+                ]
+              }
+            ]
+          },
+          "Scorpio N": {
+            "overall_sentiment": "negative",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "quality control",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "there was one incident in india where a mahindra scorpio n wheel came off and car crashed due to that and the driver loat hia leg."
+                ]
+              },
+              {
+                "name": "request sensor",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the Scorpio N gets a request sensor on both the sides but there are certain features in this car which the Scorpio N does not get"
+                ]
+              }
+            ]
+          },
+          "XUV400 EV": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "city usability",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "If exclusively used for city, then I would say go for XUV400 EV. It's an unpopular opinion."
+                ]
+              }
+            ]
+          },
+          "Nuvosport": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "design similarity",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "This car's look reminds me Mahindra nuvo sports & kiger 😅"
+                ]
+              }
+            ]
+          },
+          "XUV500": {
+            "overall_sentiment": "negative",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "quality control",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Such incidents happened in other mahindra cars like xuv 500, 700 in other countries too"
+                ]
+              }
+            ]
+          },
+          "Roxor": {
+            "overall_sentiment": "positive",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "reliability",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "If it holds up like my 5yr. Old ROXOR, it'll be great!"
+                ]
+              }
+            ]
+          },
+          "XUV400": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "dashboard design",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the dashboard will definitely remind you of the XUV400"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Tata Motors": {
+        "overall_sentiment": "neutral",
+        "mention_count": 40,
+        "models": {
+          "Nexon": {
+            "overall_sentiment": "negative",
+            "mention_count": 26,
+            "features": [
+              {
+                "name": "acceleration",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "poor pickup"
+                ]
+              },
+              {
+                "name": "build quality",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "tatas qc is also bad but not as bad as mahindras."
+                ]
+              },
+              {
+                "name": "engine performance",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "engine is pathetic on any Tata compared to Mahindra"
+                ]
+              },
+              {
+                "name": "engine refinement",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Nexon 3 cylinder. No way. Vibration and noisy."
+                ]
+              },
+              {
+                "name": "engine technology",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "later it will also power the Nexon, Altroz, Harrier,Safari & upcoming sierra, an mpv( name is unknown)"
+                ]
+              },
+              {
+                "name": "equipment quality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "better quality equipments( even if the instrument cluster or touch screen,it feels much better than the compitition)"
+                ]
+              },
+              {
+                "name": "exterior design",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Nexon looks😮❤"
+                ]
+              },
+              {
+                "name": "fit and finish",
+                "sentiment": "negative",
+                "mention_count": 3,
+                "verbatim": [
+                  "poor fit and finish inside and outside...no proper fitting in door steps",
+                  "Talking about the fit &amp; finish, Nexon is based the Indica&#39;s platform, so they can&#39;t do much on that front...",
+                  "panel gaps are not there on this car, at least not as much as I have seen on the Tata Nexon"
+                ]
+              },
+              {
+                "name": "handling",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "nexonn body roll is crazy",
+                  "Nexon is only better for it&#39;s handling and seats."
+                ]
+              },
+              {
+                "name": "infotainment system",
+                "sentiment": "negative",
+                "mention_count": 4,
+                "verbatim": [
+                  "worst infotainment always hanging",
+                  "Nexon Wallpaper nobody expected 😂😂",
+                  "Absolute legend to play Tata tunes in a Mahindra car",
+                  "Bro is playing the new nexon’s audio track"
+                ]
+              },
+              {
+                "name": "interior quality",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "cheap plastics, poor fit and finish evenn poorer service"
+                ]
+              },
+              {
+                "name": "paint quality",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "poor paint quality bought just before 6 months and paint already got dot dot spots"
+                ]
+              },
+              {
+                "name": "pricing",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "nowadays wagonr costs almost 9 lacs on road",
+                  "the nexon is priced at 18.1 lakhs so that's like 29,000 cheaper but the diesel nexon is much more expensive at 19.08 lakhs on road mumbai so that's the thing that mohinder has undercut the lower variants because the nexon starts at rupees 9.6 lakhs"
+                ]
+              },
+              {
+                "name": "ride comfort",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Nexon has the best ride in it&#39;s segment like every tata cars"
+                ]
+              },
+              {
+                "name": "safety",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "there was one incident in india where a mahindra scorpio n wheel came off and car crashed due to that and the driver loat hia leg. Such incidents happened in other mahindra cars like xuv 500, 700 in other countries too. Scorpio wheel coming off is also there with tata Nexon and other cars."
+                ]
+              },
+              {
+                "name": "seat comfort",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "Nexon is only better for it&#39;s handling and seats.",
+                  "the next one has certain features like ventilate seats and all that stuff"
+                ]
+              },
+              {
+                "name": "service experience",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "i still am waiting on it.",
+                  "Nexon is a really good car but the inconsistent fit and finish, the crazy af body roll is a real turn off"
+                ]
+              },
+              {
+                "name": "value for money",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Overall, Nexon is the better product in it&#39;s segment..coz it&#39;s a deal breaker for sure!!!"
+                ]
+              }
+            ]
+          },
+          "General": {
+            "overall_sentiment": "positive",
+            "mention_count": 6,
+            "features": [
+              {
+                "name": "build quality",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "unlike tata i think mahindra has way better quality control and refinement.",
+                  "Tata's build quality are among the best in India."
+                ]
+              },
+              {
+                "name": "engine technology",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "tata & Mahindra,both are going completely to GDI technology,which will provide efficiency, refinement & much better performance.",
+                  "they introduced the revotron petrol in 2014 and is still going.. Now they are going to bring GDI motors which will be their last engines."
+                ]
+              },
+              {
+                "name": "engine type",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "3xo petrol engine and gearbox is 1000x better than tatas."
+                ]
+              },
+              {
+                "name": "infotainment system",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "TATA MUSIC 🗿💖"
+                ]
+              }
+            ]
+          },
+          "Safari": {
+            "overall_sentiment": "neutral",
+            "mention_count": 3,
+            "features": [
+              {
+                "name": "engine technology",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "later it will also power the Nexon, Altroz, Harrier,Safari & upcoming sierra, an mpv( name is unknown)"
+                ]
+              },
+              {
+                "name": "theme music",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "tata safari ka ad music chala dia",
+                  "Had to play Tata Safari theme music"
+                ]
+              }
+            ]
+          },
+          "Punch": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "Curvv": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "engine technology",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Tata will introduce their GDI engines in their CURVV"
+                ]
+              }
+            ]
+          },
+          "Altroz": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "engine technology",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "later it will also power the Nexon, Altroz, Harrier,Safari & upcoming sierra, an mpv( name is unknown)"
+                ]
+              }
+            ]
+          },
+          "Harrier": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "engine technology",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "later it will also power the Nexon, Altroz, Harrier,Safari & upcoming sierra, an mpv( name is unknown)"
+                ]
+              }
+            ]
+          },
+          "Sierra": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "engine technology",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "later it will also power the Nexon, Altroz, Harrier,Safari & upcoming sierra, an mpv( name is unknown)"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Hyundai Motor Company": {
+        "overall_sentiment": "neutral",
+        "mention_count": 8,
+        "models": {
+          "General": {
+            "overall_sentiment": "positive",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "engine development",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "OEMs like tata & Hyundai aren't going to invest more into engines coz they are completely investing in electric space."
+                ]
+              },
+              {
+                "name": "manufacturing quality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "The korean’s easily have better refinement and better quality control."
+                ]
+              },
+              {
+                "name": "ride refinement",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "The korean’s easily have better refinement and better quality control."
+                ]
+              }
+            ]
+          },
+          "Exter": {
+            "overall_sentiment": "positive",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "accessory features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "We went with the accessary to make it look better and unique."
+                ]
+              },
+              {
+                "name": "exterior styling",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Body side cladding above the wheels is there maybe bcs it can fit an accessary. I got it on my Exter as well."
+                ]
+              }
+            ]
+          },
+          "Venue N Line": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "i20 N Line": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "Venue": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "driver assistance",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the Venue and the Sonet get level 1 ADAS"
+                ]
+              }
+            ]
+          },
+          "Creta": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "vehicle price",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Creta S variant can be bought at 17.40 L"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Renault": {
+        "overall_sentiment": "neutral",
+        "mention_count": 7,
+        "models": {
+          "Kiger": {
+            "overall_sentiment": "neutral",
+            "mention_count": 7,
+            "features": [
+              {
+                "name": "engine reliability",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Kiger Engine is really Unreliable."
+                ]
+              },
+              {
+                "name": "exterior design",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "This car's look reminds me Mahindra nuvo sports & kiger 😅",
+                  "even that makes it look like Kiger."
+                ]
+              },
+              {
+                "name": "rear design",
+                "sentiment": "neutral",
+                "mention_count": 4,
+                "verbatim": [
+                  "The rear just looks like a kiger with connect drl's with a mahindra logo",
+                  "The back looks like Renault Kiger",
+                  "The tailamps and the boot door are shaped exactly like the Kiger's, compare them side to side.",
+                  "I know it looks a lot like the Renault Kiger from the rear"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Kia": {
+        "overall_sentiment": "positive",
+        "mention_count": 6,
+        "models": {
+          "Sonet": {
+            "overall_sentiment": "neutral",
+            "mention_count": 4,
+            "features": [
+              {
+                "name": "after-sales service",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "what’s your take on refinement, reliability, service and resale value of these two cars"
+                ]
+              },
+              {
+                "name": "build quality",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "The korean’s easily have better refinement and better quality control.",
+                  "what’s your take on refinement, reliability, service and resale value of these two cars"
+                ]
+              },
+              {
+                "name": "driver assistance",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the Venue and the Sonet get level 1 ADAS"
+                ]
+              },
+              {
+                "name": "driving performance",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "I have booked Kia Sonet but lil confused whether to go for 3xo for better ride quality and driving dynamics"
+                ]
+              },
+              {
+                "name": "resale value",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "what’s your take on refinement, reliability, service and resale value of these two cars"
+                ]
+              },
+              {
+                "name": "ride comfort",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "I have booked Kia Sonet but lil confused whether to go for 3xo for better ride quality and driving dynamics"
+                ]
+              },
+              {
+                "name": "vehicle reliability",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "what’s your take on refinement, reliability, service and resale value of these two cars"
+                ]
+              }
+            ]
+          },
+          "Seltos": {
+            "overall_sentiment": "positive",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "engine performance",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "it has more torque than even though seltos",
+                  "It's much powerful than seltos"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Maruti Suzuki India Limited": {
+        "overall_sentiment": "neutral",
+        "mention_count": 4,
+        "models": {
+          "Vitara Brezza": {
+            "overall_sentiment": "positive",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "engine smoothness",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "1.5L 4 cylinder petrol engine of breeza is much more refined and smooth",
+                  "No engine can replace the refinement of K- series petrol engines."
+                ]
+              }
+            ]
+          },
+          "Wagon R": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "price",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "nowadays wagonr costs almost 9 lacs on road"
+                ]
+              }
+            ]
+          },
+          "Alto": {
+            "overall_sentiment": "negative",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "interior space",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "15L mai alto size ka in cabin space"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Škoda Auto": {
+        "overall_sentiment": "neutral",
+        "mention_count": 3,
+        "models": {
+          "Kushaq": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "Kodiaq": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "user preference",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "id go for scoda Kodiak instead"
+                ]
+              }
+            ]
+          },
+          "General": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "car price",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Take a quotation from Skoda then you will realise"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "MG Motor": {
+        "overall_sentiment": "negative",
+        "mention_count": 2,
+        "models": {
+          "Astor": {
+            "overall_sentiment": "negative",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "fuel efficiency",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Vfm with less fuel efficiency😢"
+                ]
+              }
+            ]
+          },
+          "Hector": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "engine type",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "I would buy hector petrol manual with this money 😂"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Citroën": {
+        "overall_sentiment": "neutral",
+        "mention_count": 1,
+        "models": {
+          "General": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "styling comparison",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "this 3xo has been replicating Citroen"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Jeep": {
+        "overall_sentiment": "neutral",
+        "mention_count": 1,
+        "models": {
+          "General": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "front grille",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the grille gets this gloss black finishing with these five slats, why not seven since we have been copying Jeep a lot"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

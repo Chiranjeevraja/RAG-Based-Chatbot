@@ -4,10 +4,10 @@ import math
 from typing import List
 
 import tiktoken
-from openai import OpenAI
+from openai import AzureOpenAI
 
 _enc = tiktoken.get_encoding("cl100k_base")
-EMBED_MODEL = "text-embedding-3-small"
+EMBED_MODEL = os.getenv("AZURE_OPENAI_EMBEDDING_DEPLOYMENT", "text-embedding-3-small")
 
 
 # ── Helpers ────────────────────────────────────────────────────────────────────
@@ -17,7 +17,11 @@ def _count_tokens(text: str) -> int:
 
 
 def _batch_embed(texts: List[str]) -> List[List[float]]:
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    client = AzureOpenAI(
+        api_key=os.getenv("AZURE_OPENAI_API_KEY"),
+        azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
+        api_version=os.getenv("AZURE_OPENAI_EMBEDDING_API_VERSION", "2024-02-01"),
+    )
     resp = client.embeddings.create(model=EMBED_MODEL, input=texts)
     return [item.embedding for item in resp.data]
 
@@ -115,6 +119,51 @@ def semantic_chunk_transcript(
             chunks.append(_make_chunk(current_sents, chunk_idx, "transcript", video_id, video_title))
 
     print(f"[chunker] → {len(chunks)} semantic chunks")
+    return chunks
+
+
+# ── TeamBHP post chunking ──────────────────────────────────────────────────────
+
+def chunk_teambhp_posts(
+    posts: List[dict],
+    thread_id: str = "",
+    thread_title: str = "",
+) -> List[dict]:
+    """
+    Each post scraped from a TeamBHP thread becomes ONE chunk.
+    Metadata mirrors the YouTube chunk schema so the rest of the pipeline
+    (vector store, RAG engine, analysis) works without modification.
+    """
+    chunks: List[dict] = []
+
+    for idx, post in enumerate(posts):
+        text = post.get("text", "").strip()
+        if not text:
+            continue
+
+        author = post.get("author", "Unknown")
+        date = post.get("date", "")
+        post_id = post.get("post_id", "")
+
+        header = f"[Post by {author}"
+        if date:
+            header += f" | {date}"
+        header += f"]:\n{text}"
+
+        chunks.append(
+            {
+                "text": header,
+                "metadata": {
+                    "source": "teambhp",
+                    "video_id": thread_id,        # reuses video_id key for pipeline compat
+                    "video_title": thread_title,
+                    "chunk_index": idx,
+                    "post_id": post_id,
+                    "author": author,
+                },
+            }
+        )
+
     return chunks
 
 

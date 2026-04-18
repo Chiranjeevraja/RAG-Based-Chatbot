@@ -1,0 +1,588 @@
+{
+  "video_id": "audio_e73230305cce",
+  "video_title": "Audio_car_review",
+  "aggregated": {
+    "overall_sentiment": "positive",
+    "total_chunks_analyzed": 3,
+    "total_brands": 4,
+    "sentiment_distribution": {
+      "positive": 20.3,
+      "neutral": 79.7,
+      "negative": 0.0
+    },
+    "brand_analysis": {
+      "Hyundai Motor Company": {
+        "overall_sentiment": "neutral",
+        "mention_count": 54,
+        "models": {
+          "Creta": {
+            "overall_sentiment": "neutral",
+            "mention_count": 52,
+            "features": [
+              {
+                "name": "ADAS features",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "The ADAS works fantastically well.",
+                  "my favourite ADAS feature is this one which is LVDS. Sorry, I can't pronounce that. It means leading vehicle departure alert. Basically, it alerts you if the car ahead has started to move already."
+                ]
+              },
+              {
+                "name": "USB connectivity",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the wired phone projection only works with USB-A, not with USB-C which is really frustrating."
+                ]
+              },
+              {
+                "name": "air purifier",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "The air purifier display was removed in the facelift and the air purifier is now buried deep in the menu."
+                ]
+              },
+              {
+                "name": "ambient lighting",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "There is just a single colour for the ambient lighting when it should have had at least 64."
+                ]
+              },
+              {
+                "name": "audio quality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "The Bose sound system has good audio quality."
+                ]
+              },
+              {
+                "name": "blind spot monitoring",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "Best of all is the blind view monitor, super convenient and you also have a driver rear view monitor which works at all speeds",
+                  "the blind view alert and safe exit warning are really useful."
+                ]
+              },
+              {
+                "name": "boot features",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Under the boot, you will find exposed wires."
+                ]
+              },
+              {
+                "name": "braking performance",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the brakes because the pedal feel isn't the best and the car doesn't feel sure-footed when you apply heavy brakes because the tyres, they screech in protest."
+                ]
+              },
+              {
+                "name": "climate control",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "dual zone climate control AC."
+                ]
+              },
+              {
+                "name": "connected car features",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Blue Link is complimentary for the first 3 years post which you have to pay either Rs. 2299 for 1 year extension or Rs. 4349 for 2 year extension."
+                ]
+              },
+              {
+                "name": "cost cutting",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "The second con is the cost cutting."
+                ]
+              },
+              {
+                "name": "display screens",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "these dual 10.25 inch screens are the best in the business."
+                ]
+              },
+              {
+                "name": "drive modes",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "The diesel manual gets no drive mode"
+                ]
+              },
+              {
+                "name": "driving feel",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "it's about the driving feel here because this is a diesel manual which means you really enjoy shifting gears"
+                ]
+              },
+              {
+                "name": "driving range",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "On a full tank of fuel, this car goes almost 900 km provided you drive with a light foot."
+                ]
+              },
+              {
+                "name": "dynamic indicators",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Dynamic swipe indicators don't work with hazard, whereas it does in cars like the Scorpio N."
+                ]
+              },
+              {
+                "name": "electric parking brake",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the electric parking brake, a very good feature as it saves space in the centre console but at times, it doesn't get disengaged as you have to apply the brakes firmly."
+                ]
+              },
+              {
+                "name": "engine performance",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "115bhp doesn't sound much because it simply isn't but 250Nm of torque means, this car wheel spins like crazy when you turn off the traction control and the stability control system.",
+                  "goes from 0 to 100 kmph in 11.63 seconds which like I told you isn't very fast and especially if you try to drive this car very fast, you'll realise 115bhp is just not enough.",
+                  "the engine revs all the way till 5000rpm in neutral and it also reaches 5000rpm in gear as well. That's above 5000rpm, that's almost 5300rpm which is crazy."
+                ]
+              },
+              {
+                "name": "front armrest",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "The front centre armrest doesn't slide"
+                ]
+              },
+              {
+                "name": "fuel efficiency",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "this is a Creta diesel manual which returns 20 kmpl which is the first pro of this car that is fuel efficiency.",
+                  "amazing fuel efficiency for the diesel"
+                ]
+              },
+              {
+                "name": "handling",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "decent handling"
+                ]
+              },
+              {
+                "name": "infotainment system",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "the infotainment system, Hyundai is one of the few car brands that has managed to crack the UI of car infotainment because this one is super slick, high resolution and never ever hangs unlike the ones in Indian cars at a similar price point.",
+                  "there are 10 sounds of nature, you can record voice memos and it also displays sports data on the infotainment but I haven't used even one of these features in the past one year."
+                ]
+              },
+              {
+                "name": "instrument cluster",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "instrument cluster which too is amazing in quality and super easy to browse, having 3 different cluster modes, a super useful tyre pressure monitoring system and front and rear parking sensor display."
+                ]
+              },
+              {
+                "name": "interior colour",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Hyundai should have given options like Kia does but the Creta N-Line has all black interiors which I really like."
+                ]
+              },
+              {
+                "name": "interior materials",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "The fourth con are the hard plastics and the interior colour scheme. It's not to everyone's taste."
+                ]
+              },
+              {
+                "name": "music streaming",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "It has inbuilt Jio Saavan but the Blue Link subscription has expired but how is that possible?"
+                ]
+              },
+              {
+                "name": "navigation system",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "The inbuilt navigation is simply lovely, it shows detailed guidance both on the infotainment screen as well as on the instrument cluster which too is amazing in quality and super easy to browse"
+                ]
+              },
+              {
+                "name": "parking camera",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "The 360 degree parking camera is of very high quality and has a bird's eye view too."
+                ]
+              },
+              {
+                "name": "parking sensors",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "front and rear parking sensor display"
+                ]
+              },
+              {
+                "name": "physical controls",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "there are physical buttons for most functions including the dual zone climate control AC."
+                ]
+              },
+              {
+                "name": "practicality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the practicality of the Caretta. This car has all types of charging options right from wireless to USB-A, USB-C and also 12V."
+                ]
+              },
+              {
+                "name": "rear cross traffic alert",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "The rear cross traffic alert is a boon while driving, not so much when reversing from standstill as it keeps applying brakes as people keep walking past."
+                ]
+              },
+              {
+                "name": "rear headrest",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "rear centre passenger gets no head"
+                ]
+              },
+              {
+                "name": "rear sun blinds",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "The rear sun blinds ensure privacy and prevent the cabin from heating."
+                ]
+              },
+              {
+                "name": "request sensor",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "There is no request sensor on the co-passenger door, something I missed as I tend to carry a handful of stuff only to realise, I either go to the driver's side and press the request sensor or remove the key from my pocket to unlock the car, quite inconvenient."
+                ]
+              },
+              {
+                "name": "ride quality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the Creta is a no-nonsense car which offers a good ride"
+                ]
+              },
+              {
+                "name": "safe exit warning",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the blind view alert and safe exit warning are really useful."
+                ]
+              },
+              {
+                "name": "safety features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Hyundai seems to have worked on the safety of this car. Can't wait for it to be crash tested."
+                ]
+              },
+              {
+                "name": "seat comfort",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "The seats are comfortable and the front seats get ventilation which is a big boon in our hot climate."
+                ]
+              },
+              {
+                "name": "seat ventilation",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the front seats get ventilation which is a big boon in our hot climate."
+                ]
+              },
+              {
+                "name": "spare wheel",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the spare wheel is smaller size and doesn't get an alloy"
+                ]
+              },
+              {
+                "name": "sun visor mirror",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "The driver's side sun visor gets no mirror"
+                ]
+              },
+              {
+                "name": "sunroof features",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "why isn't there a dedicated button to open the sunroof blind because you have to be precise in using this button else you end up opening the sunroof when you just want to open the blind."
+                ]
+              },
+              {
+                "name": "touchscreen features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "The touchscreen is really loaded too, it has a valet mode but I don't know the password. It has a quiet mode but since this is a diesel, the real quiet mode is this, turning off the car."
+                ]
+              },
+              {
+                "name": "tyre pressure monitoring",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "a super useful tyre pressure monitoring system"
+                ]
+              },
+              {
+                "name": "wireless charging",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Wireless charging pad can be turned off so that you can keep your phone here without enabling charging."
+                ]
+              },
+              {
+                "name": "wireless smartphone connectivity",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "no wireless Apple CarPlay or Android Auto"
+                ]
+              }
+            ]
+          },
+          "Creta N Line": {
+            "overall_sentiment": "neutral",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "feature availability",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "I was expecting Hyundai to offer all the features available in the Seltos with the Creta N-line but that never happened, sad."
+                ]
+              },
+              {
+                "name": "interior colour",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the Creta N-Line has all black interiors which I really like."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Kia": {
+        "overall_sentiment": "positive",
+        "mention_count": 13,
+        "models": {
+          "Seltos": {
+            "overall_sentiment": "positive",
+            "mention_count": 13,
+            "features": [
+              {
+                "name": "air purifier",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "screen for the air purifier"
+                ]
+              },
+              {
+                "name": "automatic wipers",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "rain sensing wipers"
+                ]
+              },
+              {
+                "name": "exhaust system",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "visible exhaust"
+                ]
+              },
+              {
+                "name": "fog lights",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "fog lamps"
+                ]
+              },
+              {
+                "name": "head-up display",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "8-inch heads-up display"
+                ]
+              },
+              {
+                "name": "interior colors",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "multiple interior colour options"
+                ]
+              },
+              {
+                "name": "interior lighting",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "multiple ambient light colours which work on the dashboard and doors"
+                ]
+              },
+              {
+                "name": "mechanical components",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the Seltos offers the exact same chassis and powertrain but with a few additional features"
+                ]
+              },
+              {
+                "name": "rear headrest",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "rear centre passenger headrest"
+                ]
+              },
+              {
+                "name": "reverse lights",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "two reverse lights instead of the single one in the Creta"
+                ]
+              },
+              {
+                "name": "wheel size",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "18-inch wheels"
+                ]
+              },
+              {
+                "name": "window controls",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "one-touch up-down for all the windows"
+                ]
+              },
+              {
+                "name": "window glass",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "UV-cut glass"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Mahindra": {
+        "overall_sentiment": "positive",
+        "mention_count": 1,
+        "models": {
+          "Scorpio N": {
+            "overall_sentiment": "positive",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "dynamic turn signals",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Dynamic swipe indicators don't work with hazard, whereas it does in cars like the Scorpio N."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Jeep": {
+        "overall_sentiment": "neutral",
+        "mention_count": 1,
+        "models": {
+          "General": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "infotainment system",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "this Creta has more compass menus than what Jeep sells."
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

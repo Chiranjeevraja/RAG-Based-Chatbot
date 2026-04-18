@@ -24,15 +24,30 @@ function TypingIndicator() {
   );
 }
 
+const SOURCE_LABELS = {
+  transcript: "Transcript",
+  comments: "Comments",
+  teambhp: "TeamBHP",
+};
+
 function Sources({ sources }) {
   if (!sources?.length) return null;
+
+  // Deduplicate: keep highest score per source type
+  const deduped = Object.values(
+    sources.reduce((acc, s) => {
+      if (!acc[s.source] || s.score > acc[s.source].score) acc[s.source] = s;
+      return acc;
+    }, {})
+  );
+
   return (
     <div className="sources">
       <p className="sources-label">Sources</p>
-      {sources.map((s, i) => (
+      {deduped.map((s, i) => (
         <span key={i} className="source-chip">
-          <span className={`dot ${s.source === "transcript" ? "transcript" : "comments"}`} />
-          {s.source === "transcript" ? "Transcript" : "Comments"} · {Math.round(s.score * 100)}%
+          <span className={`dot ${s.source}`} />
+          {SOURCE_LABELS[s.source] ?? s.source}
         </span>
       ))}
     </div>
@@ -77,8 +92,10 @@ export default function ChatInterface({ videoId }) {
     setInput("");
     setLoading(true);
 
-    // Build history (exclude sources metadata for API)
-    const history = messages.map((m) => ({ role: m.role, content: m.content }));
+    // Build history (exclude sources metadata and empty placeholders for API)
+    const history = messages
+      .filter((m) => m.content.trim().length > 0)
+      .map((m) => ({ role: m.role, content: m.content }));
 
     try {
       const res = await fetch("/api/chat/stream", {
@@ -154,9 +171,10 @@ export default function ChatInterface({ videoId }) {
         return updated;
       });
     } catch (err) {
+      console.error("[chat] fetch/stream error:", err);
       setMessages((prev) => [
         ...prev,
-        { role: "assistant", content: "Network error. Please check the backend is running." },
+        { role: "assistant", content: `Network error: ${err?.message || "Could not reach the backend."}` },
       ]);
     } finally {
       setLoading(false);

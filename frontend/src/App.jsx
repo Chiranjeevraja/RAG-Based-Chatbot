@@ -27,10 +27,10 @@ export default function App() {
   return (
     <div className="app">
       <header className="header">
-        <div className="header-icon">🎬</div>
-        <div>
-          <h1>YouTube RAG Chatbot</h1>
-          <p>Extract · Index · Chat with any YouTube video</p>
+        <img src="/bits-logo.png" alt="BITS Pilani" style={{ height: 48, width: "auto", objectFit: "contain", flexShrink: 0 }} />
+        <div style={{ borderLeft: "1px solid var(--border)", paddingLeft: 16, marginLeft: 4 }}>
+          <h1>AI-Driven Automobile Insights Chatbot</h1>
+          <p>Audio Intelligence · Document Analysis · RAG-Based Q&amp;A</p>
         </div>
       </header>
 
@@ -94,13 +94,14 @@ export default function App() {
             </button>
           </div>
 
-          {/* Tab content */}
-          <div style={{ flex: 1, minHeight: 0, overflow: "hidden" }}>
-            {activeTab === "chat" ? (
+          {/* Tab content — both always mounted to preserve state */}
+          <div style={{ flex: 1, minHeight: 0, display: "flex", flexDirection: "column", overflow: "hidden" }}>
+            <div style={{ flex: 1, minHeight: 0, display: activeTab === "chat" ? "flex" : "none", flexDirection: "column" }}>
               <ChatInterface videoId={activeVideoId} />
-            ) : (
+            </div>
+            <div style={{ flex: 1, minHeight: 0, display: activeTab === "analysis" ? "flex" : "none", flexDirection: "column" }}>
               <AnalysisPanel videoId={activeVideoId} videoTitle={activeVideoTitle} />
-            )}
+            </div>
           </div>
         </div>
       </main>

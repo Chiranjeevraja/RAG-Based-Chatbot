@@ -1,14 +1,20 @@
 import re
 import os
 import tempfile
+import math
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from youtube_transcript_api import YouTubeTranscriptApi, NoTranscriptFound, TranscriptsDisabled
 from googleapiclient.discovery import build
 from openai import OpenAI
 
 _openai = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
+WHISPER_DEPLOYMENT = "whisper-1"
+
 # Whisper API limit is 25 MB
 WHISPER_MAX_BYTES = 25 * 1024 * 1024
+# Split audio into 5-minute segments when file exceeds limit
+CHUNK_DURATION_MS = 5 * 60 * 1000
 
 
 def extract_video_id(url: str) -> str:
@@ -43,11 +49,136 @@ def get_transcript(video_id: str) -> dict:
         return {"success": False, "text": "", "error": str(e)}
 
 
+def _transcribe_single(audio_path: str) -> dict:
+    """Send a single audio file to Whisper and return the transcript dict."""
+    try:
+        with open(audio_path, "rb") as f:
+            response = _openai.audio.transcriptions.create(
+                model=WHISPER_DEPLOYMENT,
+                file=(os.path.basename(audio_path), f),
+                response_format="text",
+            )
+        text = response if isinstance(response, str) else response.text
+        print(f"[whisper] transcription complete — {len(text)} chars")
+        return {"success": True, "text": text, "method": "whisper"}
+    except Exception as e:
+        return {"success": False, "text": "", "method": "whisper", "error": f"Whisper API error: {e}"}
+
+
+def _transcribe_chunked(audio_path: str) -> dict:
+    """
+    Split audio into 5-minute chunks, transcribe all in parallel, then join.
+    Uses pydub for splitting; falls back to mp3 export so Whisper always gets
+    a recognised format regardless of the original container.
+    """
+    try:
+        from pydub import AudioSegment
+    except ImportError:
+        return {
+            "success": False, "text": "", "method": "whisper",
+            "error": "pydub is required for large audio files. Install it: pip install pydub",
+        }
+
+    try:
+        audio = AudioSegment.from_file(audio_path)
+    except Exception as e:
+        return {"success": False, "text": "", "method": "whisper", "error": f"Audio load error: {e}"}
+
+    duration_ms = len(audio)
+    n_chunks = math.ceil(duration_ms / CHUNK_DURATION_MS)
+    print(f"[whisper] splitting {duration_ms / 60000:.1f} min audio into {n_chunks} chunks of 5 min")
+
+    with tempfile.TemporaryDirectory() as chunk_dir:
+        # Export each 5-min slice as mp3 (universally accepted by Whisper)
+        chunk_paths: list[tuple[int, str]] = []
+        for i in range(n_chunks):
+            start = i * CHUNK_DURATION_MS
+            end = min(start + CHUNK_DURATION_MS, duration_ms)
+            chunk = audio[start:end]
+            chunk_path = os.path.join(chunk_dir, f"chunk_{i:03d}.mp3")
+            chunk.export(chunk_path, format="mp3")
+            chunk_paths.append((i, chunk_path))
+            print(f"[whisper] chunk {i+1}/{n_chunks}: {(end - start) / 1000:.0f}s → {os.path.getsize(chunk_path) / 1024 / 1024:.1f} MB")
+
+        # Transcribe all chunks in parallel
+        results: dict[int, str] = {}
+        errors: list[str] = []
+
+        def _transcribe_chunk(idx: int, path: str) -> tuple[int, str]:
+            with open(path, "rb") as f:
+                response = _openai.audio.transcriptions.create(
+                    model=WHISPER_DEPLOYMENT,
+                    file=(os.path.basename(path), f),
+                    response_format="text",
+                )
+            text = response if isinstance(response, str) else response.text
+            print(f"[whisper] chunk {idx+1}/{n_chunks} done — {len(text)} chars")
+            return idx, text
+
+        with ThreadPoolExecutor(max_workers=min(n_chunks, 8)) as pool:
+            futures = {pool.submit(_transcribe_chunk, idx, path): idx for idx, path in chunk_paths}
+            for future in as_completed(futures):
+                try:
+                    idx, text = future.result()
+                    results[idx] = text
+                except Exception as e:
+                    errors.append(str(e))
+                    print(f"[whisper] chunk error: {e}")
+
+        if not results:
+            return {"success": False, "text": "", "method": "whisper",
+                    "error": f"All chunks failed: {'; '.join(errors)}"}
+
+        # Join in original order
+        full_text = " ".join(results[i] for i in sorted(results))
+        if errors:
+            print(f"[whisper] {len(errors)} chunk(s) failed but continuing with partial transcript")
+
+        print(f"[whisper] combined transcript — {len(full_text)} chars from {len(results)}/{n_chunks} chunks")
+        return {"success": True, "text": full_text, "method": "whisper"}
+
+
+def _preprocess_audio(input_path: str, output_dir: str) -> str:
+    """
+    Use ffmpeg to reduce noise and amplify audio before sending to Whisper.
+    Pipeline:
+      - afftdn=nf=-25   : adaptive FFT denoiser (noise floor -25 dB)
+      - dynaudnorm       : dynamic loudness normalisation / amplification
+    Output is mono 16 kHz WAV — Whisper's native format, so it needs no
+    further conversion.
+    Falls back to the original file if ffmpeg is unavailable or fails.
+    """
+    import subprocess
+
+    output_path = os.path.join(output_dir, "cleaned.wav")
+    cmd = [
+        "ffmpeg", "-y", "-i", input_path,
+        "-af", "afftdn=nf=-25,dynaudnorm=p=0.95",
+        "-ac", "1",      # mono
+        "-ar", "16000",  # 16 kHz — Whisper's native sample rate
+        output_path,
+    ]
+    try:
+        result = subprocess.run(cmd, capture_output=True, timeout=300)
+        if result.returncode == 0 and os.path.exists(output_path):
+            cleaned_mb = os.path.getsize(output_path) / 1024 / 1024
+            print(f"[whisper] audio cleaned & amplified → {cleaned_mb:.1f} MB (mono 16 kHz WAV)")
+            return output_path
+        print(f"[whisper] ffmpeg preprocessing failed — using original audio\n"
+              f"          stderr: {result.stderr.decode(errors='replace')[:300]}")
+    except FileNotFoundError:
+        print("[whisper] ffmpeg not found — using original audio without preprocessing")
+    except Exception as e:
+        print(f"[whisper] ffmpeg error: {e} — using original audio")
+    return input_path
+
+
 def get_transcript_whisper(video_id: str) -> dict:
     """
     Download YouTube audio with pytubefix and transcribe using OpenAI Whisper.
     Used as a fallback when youtube-transcript-api finds no captions.
-    Whisper API limit: 25 MB.
+    Audio is preprocessed with ffmpeg (noise reduction + amplification) before
+    being sent to Whisper. Whisper API limit: 25 MB.
     """
     from pytubefix import YouTube
 
@@ -68,30 +199,20 @@ def get_transcript_whisper(video_id: str) -> dict:
             print(f"[whisper] download ERROR:\n{traceback.format_exc()}")
             return {"success": False, "text": "", "method": "whisper", "error": f"Download failed: {e}"}
 
+        raw_mb = os.path.getsize(audio_path) / 1024 / 1024
+        print(f"[whisper] downloaded: {os.path.basename(audio_path)} — {raw_mb:.1f} MB")
+
+        # Clean and amplify audio with ffmpeg before transcription
+        audio_path = _preprocess_audio(audio_path, tmpdir)
+
         file_size = os.path.getsize(audio_path)
-        print(f"[whisper] file: {os.path.basename(audio_path)} — {file_size / 1024 / 1024:.1f} MB")
+        print(f"[whisper] sending to Whisper: {os.path.basename(audio_path)} — {file_size / 1024 / 1024:.1f} MB")
 
         if file_size > WHISPER_MAX_BYTES:
-            return {
-                "success": False,
-                "text": "",
-                "method": "whisper",
-                "error": f"Audio too large for Whisper API ({file_size / 1024 / 1024:.1f} MB > 25 MB). Try a shorter video.",
-            }
+            print(f"[whisper] file too large — splitting into 5-min chunks and transcribing in parallel")
+            return _transcribe_chunked(audio_path)
 
-        try:
-            # Pass as tuple (filename, bytes) so Whisper can detect format from the extension
-            with open(audio_path, "rb") as f:
-                response = _openai.audio.transcriptions.create(
-                    model="whisper-1",
-                    file=(os.path.basename(audio_path), f),
-                    response_format="text",
-                )
-            text = response if isinstance(response, str) else response.text
-            print(f"[whisper] transcription complete — {len(text)} chars")
-            return {"success": True, "text": text, "method": "whisper"}
-        except Exception as e:
-            return {"success": False, "text": "", "method": "whisper", "error": f"Whisper API error: {e}"}
+        return _transcribe_single(audio_path)
 
 
 def get_comments_with_replies(video_id: str, max_threads: int = 100) -> dict:
@@ -174,43 +295,21 @@ def get_comments_with_replies(video_id: str, max_threads: int = 100) -> dict:
         return {"success": False, "comment_threads": [], "error": str(e)}
 
 
-def get_comments(video_id: str, max_results: int = 200) -> dict:
-    """Fetch top-level comments using YouTube Data API v3."""
-    api_key = os.getenv("YOUTUBE_API_KEY")
-    if not api_key:
-        return {"success": False, "comments": [], "error": "YOUTUBE_API_KEY not set."}
-
-    try:
-        youtube = build("youtube", "v3", developerKey=api_key)
-        comments = []
-        page_token = None
-
-        while len(comments) < max_results:
-            request = youtube.commentThreads().list(
-                part="snippet",
-                videoId=video_id,
-                maxResults=min(100, max_results - len(comments)),
-                order="relevance",
-                pageToken=page_token,
-            )
-            response = request.execute()
-
-            for item in response.get("items", []):
-                snippet = item["snippet"]["topLevelComment"]["snippet"]
-                comments.append({
-                    "text": snippet["textDisplay"],
-                    "author": snippet.get("authorDisplayName", "Unknown"),
-                    "likes": snippet.get("likeCount", 0),
-                })
-
-            page_token = response.get("nextPageToken")
-            if not page_token:
-                break
-
-        return {"success": True, "comments": comments}
-
-    except Exception as e:
-        return {"success": False, "comments": [], "error": str(e)}
+def transcribe_local_audio(audio_path: str) -> dict:
+    """
+    Preprocess and transcribe a local audio file using Whisper.
+    The original file is not modified; preprocessing runs in a temp directory.
+    Handles files larger than 25 MB by splitting into 5-minute chunks.
+    Supports any format accepted by ffmpeg: mp3, wav, m4a, ogg, flac, webm, etc.
+    """
+    with tempfile.TemporaryDirectory() as tmpdir:
+        processed_path = _preprocess_audio(audio_path, tmpdir)
+        file_size = os.path.getsize(processed_path)
+        print(f"[whisper] local audio ready: {os.path.basename(processed_path)} — {file_size / 1024 / 1024:.1f} MB")
+        if file_size > WHISPER_MAX_BYTES:
+            print("[whisper] file too large — splitting into 5-min chunks and transcribing in parallel")
+            return _transcribe_chunked(processed_path)
+        return _transcribe_single(processed_path)
 
 
 def get_video_metadata(video_id: str) -> dict:
