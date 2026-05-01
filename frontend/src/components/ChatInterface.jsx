@@ -257,7 +257,6 @@ export default function ChatInterface({ videoId }) {
             <Send size={16} />
           </button>
         </div>
-        <p className="input-hint">Press Enter to send · Shift+Enter for new line</p>
       </div>
     </div>
   );

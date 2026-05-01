@@ -1,0 +1,2058 @@
+{
+  "video_id": "304077",
+  "video_title": "2026 Mahindra XUV 7XO Review",
+  "aggregated": {
+    "overall_sentiment": "neutral",
+    "total_chunks_analyzed": 225,
+    "total_brands": 15,
+    "sentiment_distribution": {
+      "positive": 57.9,
+      "neutral": 39.4,
+      "negative": 2.7
+    },
+    "brand_analysis": {
+      "Mahindra": {
+        "overall_sentiment": "neutral",
+        "mention_count": 621,
+        "models": {
+          "XUV 7XO": {
+            "overall_sentiment": "positive",
+            "mention_count": 329,
+            "features": [
+              {
+                "name": "After Sales Service",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "What has been your experience with reliability, common issues, and service quality with Mahindra?"
+                ]
+              },
+              {
+                "name": "Boot Space",
+                "sentiment": "negative",
+                "mention_count": 6,
+                "verbatim": [
+                  "to see whether Mahindra has finally managed to sort the football-in-the-boot issue with the 7XO.",
+                  "Finally, a boot light!",
+                  "A small boot light has been added in the boot area, on the bottom right when the boot lid is opened. It's effectiveness is questionable.",
+                  "Pathetic boot space with all 3 rows up",
+                  "cramped...boot space"
+                ]
+              },
+              {
+                "name": "Build Quality",
+                "sentiment": "positive",
+                "mention_count": 23,
+                "verbatim": [
+                  "The 235/55 section Ceat SportDrive tyres provide good all-round grip.",
+                  "The 2.2-litre diesel engine’s refinement is good. The diesel clatter is audible when the engine is cold, but once you’ve reached the optimum temperature, the engine noise settles into a nice hum. Even when revved hard, the engine noise isn’t intrusive.",
+                  "the glass area of the car is engineered to reduce the cabin temperature, brightness, and also make it quieter. The car does manage to cut off a lot of the ambient sounds effectively.",
+                  "Fingerprint prone glossy black plastics everywhere",
+                  "Interior also looks better than images, though a minor step down from 700."
+                ]
+              },
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "positive",
+                "mention_count": 39,
+                "verbatim": [
+                  "Big leatherette-upholstered front seats have been carried over from the XEV 9S and are very comfortable.",
+                  "The new rear headrests block out the rear quarter glass, and if there’s a middle passenger, there’s very little you can see while reversing.",
+                  "There’s plenty of legroom on offer. The seats provide good overall support, and the backrest can be reclined too for added comfort.",
+                  "Rear passengers also get retractable sunblinds:",
+                  "You also now get electronic boss mode to move the front passenger seat:"
+                ]
+              },
+              {
+                "name": "Climate Control",
+                "sentiment": "positive",
+                "mention_count": 11,
+                "verbatim": [
+                  "rear demister",
+                  "Front seats get ventilation, and the driver seat also gets memory function with ORVM auto tilt on reverse:",
+                  "the AC controls have now been integrated into the touchscreen, and you no longer get physical buttons.",
+                  "No physical buttons for AC",
+                  "Why those Touch screen controlled AC system? Seriously, why? Button control for AC/Climate unit should be mandatory. That Touch button for hazard and 540 degree camera never works properly. These two have to go."
+                ]
+              },
+              {
+                "name": "Convenience Features",
+                "sentiment": "positive",
+                "mention_count": 19,
+                "verbatim": [
+                  "electrically foldable ORVMs with auto fold",
+                  "rear wiper & wash (should’ve been standard)",
+                  "You still don't get an electric tailgate.",
+                  "I'd appreciate an electric tailgate",
+                  "You now have approach unlock and walk-away lock features, and you can disable them through the vehicle settings:"
+                ]
+              },
+              {
+                "name": "Engine Performance",
+                "sentiment": "positive",
+                "mention_count": 9,
+                "verbatim": [
+                  "You get a 2.0-litre turbo-petrol engine and a 2.2-litre diesel engine mated to either a 6-speed manual transmission or a 6-speed automatic transmission.",
+                  "The 2.2-litre, 4-cylinder mHawk diesel engine makes 183 BHP @ 3,500 rpm and 450 Nm @ 1,750 - 2,800 rpm",
+                  "the power delivery is linear, which helps in driving this car smoothly.",
+                  "How different are they in terms of power delivery, overtaking ability, and speed performance",
+                  "the turbo kicks in pretty early, and the lag is masked well by the automatic transmission."
+                ]
+              },
+              {
+                "name": "Exterior Design",
+                "sentiment": "positive",
+                "mention_count": 37,
+                "verbatim": [
+                  "It gets a new look along with some mechanical changes.",
+                  "7XO facelift looks subtle at first look and they planned this facelift just because its more than four years old (?).",
+                  "this redesign helps a little bit in making the car look more aggressive.",
+                  "the changes to the exterior design aren’t drastic. However, they’re enough to differentiate the XUV 7XO from the outgoing XUV700.",
+                  "The front seems overdone and the grill is too busy."
+                ]
+              },
+              {
+                "name": "Fuel Efficiency",
+                "sentiment": "neutral",
+                "mention_count": 4,
+                "verbatim": [
+                  "BHPians who own the XUV700 diesel automatic have reported around 12 to 13 km/l while driving around in the city and around 16-18 km/l when on the highways.",
+                  "the horrible FE of the mighty 2.0L turbo mStallion unit were the deciding factors for me.",
+                  "I was expecting something in the range of 6-8 with 7xo Petrol",
+                  "The fuel tank capacity is 60 litres, which should give you a range of ~ 1,000 km on the highways:"
+                ]
+              },
+              {
+                "name": "Infotainment",
+                "sentiment": "positive",
+                "mention_count": 38,
+                "verbatim": [
+                  "you get the 31.24 cm Coast to Coast triple screen layout and wireless Android Auto and Apple CarPlay as standard across all variants.",
+                  "everything is embedded within the infotainment, everything just looks……ordinary.",
+                  "Alexa built-in with ChatGPT compatibility",
+                  "smart watch connectivity",
+                  "Another highlight on the XUV 7XO is the 31.24-cm coast-to-coast triple screen layout, which is available from the base variant onwards:"
+                ]
+              },
+              {
+                "name": "Interior Design",
+                "sentiment": "negative",
+                "mention_count": 23,
+                "verbatim": [
+                  "You get a tan and white coloured interior theme, which looks nice, but is easy to soil:",
+                  "the biggest question in my mind was the colour's long term appeal. As you mentioned galaxy grey does look smart and imo it doesn't age but it feels out of place with the tan-white interior.",
+                  "The color combination is just ugly.",
+                  "For me black is extremely claustrophobic. I always buy vehicles which have beige or light colored upholstery",
+                  "I find the interior beige and tan theme of AX7T quite off putting for my taste. The tan is just too much for me and, the beige is going to be impossible to maintain. Also, the steering and seats look a lot better wrapped in black and, the bronze dash does look quite appealing and subtle to me."
+                ]
+              },
+              {
+                "name": "Interior Features",
+                "sentiment": "negative",
+                "mention_count": 16,
+                "verbatim": [
+                  "Sadly, the physical controls on the outgoing XUV700 have been integrated into the touchscreen. Instead, you have this panel with some vehicle functions. These aren’t touch-sensitive controls, but buttons that need to be pressed. I found this to be extremely annoying, as there are times when you press the button, but it doesn’t get registered. Traditional buttons would’ve been much better:",
+                  "Absolutely unwelcome addition of a step to operate basic functions when the focus should rather remain on driving!",
+                  "Frameless auto-dimming IRVM looks classy:",
+                  "Less said the better about no buttons and the usability headaches here.",
+                  "Wish they were physical buttons."
+                ]
+              },
+              {
+                "name": "Lighting",
+                "sentiment": "negative",
+                "mention_count": 21,
+                "verbatim": [
+                  "Bi-LED projector headlamps",
+                  "Bi-LED projector headlamps with the C-shaped DRLs. The headlamp cluster has too many elements IMO, which makes the design look busy:",
+                  "the headlamps themselves don’t extend to the corners and downward like they did with the earlier XUV700.",
+                  "Headlamp section has the low/high inspiration from Scorpio-N.",
+                  "Good throw of the head lamps"
+                ]
+              },
+              {
+                "name": "Market Performance",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "So this automatically has potential in Exports as well",
+                  "I’m still a little worried about the Diesel ban, and what if I’m unable to sell the car after 7-8 years, given the car’s life is reduced to 10 years even here in Telengana.",
+                  "94k bookings (22L avg ex-showroom) for 7XO and 9s"
+                ]
+              },
+              {
+                "name": "Off Road Capability",
+                "sentiment": "positive",
+                "mention_count": 4,
+                "verbatim": [
+                  "it also offers an all-wheel-drive version on the diesel version, which the Safari doesn’t.",
+                  "AWD. It is only available in Diesel AT",
+                  "The manual transmission doesn't come with AWD I believe and neither does the petrol same as before.",
+                  "AWD premium is only 1 lakh this time, as compared to 1.4 lakh when the XUV 700 was originally launched in 2022."
+                ]
+              },
+              {
+                "name": "Overall Features",
+                "sentiment": "positive",
+                "mention_count": 6,
+                "verbatim": [
+                  "XUV7XO has almost all that can keep it ahead.",
+                  "Missing features in lower variants addressed - power-folding ORVMs, reverse camera, cruise control now offered.",
+                  "If I want the AWD variant I have to put up with 55 profile tyres, glass panaromic sunroof and unnecessary electronic features.",
+                  "AX7T value for money which is having all the features",
+                  "it feels a generational update when it comes to suspension and tech offered"
+                ]
+              },
+              {
+                "name": "Purchase Experience",
+                "sentiment": "negative",
+                "mention_count": 4,
+                "verbatim": [
+                  "Waiting period quoted officially by Mahindra (as of yesterday afternoon):- AX7 variants = 10 to 11 weeks Non AX7 variants = 23 to 24 weeks",
+                  "Assuming 10k a month capacity for 7XO, 6-7 months waiting?",
+                  "for AX7 variants it is 10-12 weeks as of now, and for the remaining variants, deliveries will start in April.",
+                  "the twitter account of XUV7xO provided me with the OTF number as well"
+                ]
+              },
+              {
+                "name": "Ride And Handling",
+                "sentiment": "positive",
+                "mention_count": 43,
+                "verbatim": [
+                  "the suspension has been tweaked.",
+                  "the 7XO has bettter suspension",
+                  "That fantastic DaVinci dampers equipped suspension!",
+                  "all-new DaVinci suspension in the 7XO",
+                  "it feels a generational update when it comes to suspension and tech offered"
+                ]
+              },
+              {
+                "name": "Safety Features",
+                "sentiment": "positive",
+                "mention_count": 14,
+                "verbatim": [
+                  "6 airbags, ESC with 17 features",
+                  "a rear view camera",
+                  "All-wheel disc brakes are standard across all variants:",
+                  "Mahindra has updated the ADAS system, and the front field view of the camera is 20% wider, and the RADAR detection zone has been extended from 180 meters to 250 meters:",
+                  "The 540-degree camera includes the 360-degree surround view and additional 180 degrees of kerb views (90-degree left & 90-degree right)."
+                ]
+              },
+              {
+                "name": "Sunroof",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "And the glass roof can be easily cracked by overhanging branches.",
+                  "the width of the sunroof seemed smaller compared to Tata Safari as well as my current Jeep Meridian"
+                ]
+              },
+              {
+                "name": "Transmission",
+                "sentiment": "positive",
+                "mention_count": 4,
+                "verbatim": [
+                  "the gearbox is smooth in lower gears as well.",
+                  "the gearbox was holding on to the gears just a bit longer. The difference was very slight and barely noticeable",
+                  "The premium for AT is also reasonable at 1.45 lakhs via-a-vis 1.6 lakhs when XUV700 was originally introduced.",
+                  "the Aisin AT with an added 30Nm of torque."
+                ]
+              },
+              {
+                "name": "Value For Money",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "The Mahindra XUV 7XO has been launched at a starting price of Rs. 13.66 lakh (ex-showroom) for the base AX variant.",
+                  "Base petrol at 13.66L is a hugely VFM option"
+                ]
+              },
+              {
+                "name": "Variant Features",
+                "sentiment": "positive",
+                "mention_count": 5,
+                "verbatim": [
+                  "Mahindra has tried to equip the base variant with a good amount of features so that it doesn’t feel bare-bones.",
+                  "The variant spread is logical from AX3, AX5 and AX7 and the car feels feature packed and comparable to our N10 Creta",
+                  "it's good that Mahindra is bringing some of these features to the base model as well.",
+                  "Pre-booked customers have been contacted by their dealerships for their variant, transmission & colour choices.",
+                  "Two more variants are in the pipeline. Not coming anytime soon though - Mahindra will wait to see the market reaction to this existing lineup before bringing them out."
+                ]
+              }
+            ]
+          },
+          "XUV 700": {
+            "overall_sentiment": "neutral",
+            "mention_count": 176,
+            "features": [
+              {
+                "name": "After Sales Service",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "I just continue with Mahindra since they consistently give utmost importance to the customer so that the customer gets a fair treatment and benefits from it!"
+                ]
+              },
+              {
+                "name": "Boot Space",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "I have grudgingly learnt to live with this in my 700.",
+                  "The boot space is nearly non-existent. Even after folding down one of the rear seats, the storage space looks very constrained."
+                ]
+              },
+              {
+                "name": "Brand Identity",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Retains the XUV700's core identity, yet the XUV 7XO looks sufficiently modern now."
+                ]
+              },
+              {
+                "name": "Build Quality",
+                "sentiment": "negative",
+                "mention_count": 8,
+                "verbatim": [
+                  "the football-in-the-boot noise, another major irritant needs to be seen if this has been resolved too.",
+                  "There was an irritating football noise coming from fuel tank in diesel variant, is that solved?",
+                  "there is no doubt it was showing its age.",
+                  "No hydraulic gas struts for the bonnet",
+                  "The interiors feel nice and premium"
+                ]
+              },
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "negative",
+                "mention_count": 16,
+                "verbatim": [
+                  "the interiors will be very good like the other Mahindra EVs and will be very premium and comfortable.",
+                  "the second row has a slight hump in the centre.",
+                  "Similarly with the centre adjustable headrest.",
+                  "The back seat space and legroom are just like the 700.",
+                  "no reclining second row"
+                ]
+              },
+              {
+                "name": "Climate Control",
+                "sentiment": "negative",
+                "mention_count": 4,
+                "verbatim": [
+                  "Mid row ventilation and sunshades — passengers will appreciate this",
+                  "No physical AC buttons — a serious safety concern. Touchscreens shouldn’t replace essential tactile controls.",
+                  "I didn't get a chance to check the seat ventilation as the seats were still covered in plastic.",
+                  "Few things that I sorely miss in my XUV700 AX7L are auto dimming IRVM, sun blinds and ventilated seats for 2nd row and hands free tail gate."
+                ]
+              },
+              {
+                "name": "Convenience Features",
+                "sentiment": "negative",
+                "mention_count": 7,
+                "verbatim": [
+                  "auto up-down for power windows is restricted to the driver's window still",
+                  "lack of some basic needs WHICH THE XUV500 GOT like: Full-sized spare wheel",
+                  "both XUV700 and XUV7XO misses out on them",
+                  "very very disappointed to see Mahindra not giving us an electric tailgate in 2026.",
+                  "no power tailgate (why?)"
+                ]
+              },
+              {
+                "name": "Engine Performance",
+                "sentiment": "positive",
+                "mention_count": 7,
+                "verbatim": [
+                  "it should be 2.2-litre diesel.",
+                  "This car has always had good, strong powertrains and I'm glad they carried it forward.",
+                  "would love to know the behavior in 2nd gear of diesel AT, does it still hold on to it before shifting to 3rd or that's also resolved now?",
+                  "high power, high torque engine — far superior to any of the seven cars I’ve driven over the years.",
+                  "Powertrains were not a significant concern on the outgoing XUV700, and Mahindra has carried forward the petrol and diesel engines in the XUV 7XO."
+                ]
+              },
+              {
+                "name": "Exterior Design",
+                "sentiment": "positive",
+                "mention_count": 19,
+                "verbatim": [
+                  "earlier one was great but Pratap Bose has given this facelift his personal touch.",
+                  "Like original 700, these design bits might also grow on us over a period.",
+                  "this redesign helps a little bit in making the car look more aggressive.",
+                  "the grille looks gaudy",
+                  "All the XUV7OO lovers, owners love the grille style we have on XUV7OO."
+                ]
+              },
+              {
+                "name": "Fuel Efficiency",
+                "sentiment": "negative",
+                "mention_count": 4,
+                "verbatim": [
+                  "We have managed to get around maximum 8 kmpl in city driving conditions and maximum up to 13 kmpl on highways, calculated on a tank-full-to-tank-full basis.",
+                  "without any complaints except for FE.",
+                  "listening about milage of 5-7 is worrying me a lot",
+                  "I was expecting something in the range of 6-8 with 7xo Petrol"
+                ]
+              },
+              {
+                "name": "Infotainment",
+                "sentiment": "negative",
+                "mention_count": 12,
+                "verbatim": [
+                  "The annoying touch capacitive panel and the lack of physical A/C buttons in our XEV9e is genuinely frustrating to use, and has once again been carried forward to XEV9S and now the XUV7XO too, not happy with this trend.",
+                  "I just hope with the processor update, most of the screen blank issues or software issues will be a thing of the past now.",
+                  "you’ll need to tap the hazard button 5–6 times before it responds",
+                  "The tri-screen setup, the lesser I say the better. They just spoil the asthetics of the dashboard.",
+                  "the 12.3\" triple screen cluster setup are common to all models"
+                ]
+              },
+              {
+                "name": "Interior Design",
+                "sentiment": "negative",
+                "mention_count": 13,
+                "verbatim": [
+                  "This redesign is definitely more interior focused than exterior, with its interior being identical to XEV9e",
+                  "Bronze treatment instead of Tan, and for seats brown and black instead of tan and beige.",
+                  "personally I am not a fan of the tan colour's placement.",
+                  "I absolutely hate the dual-tone, light-coloured interiors — they just don’t match the aggressive, SUV vibe.",
+                  "Mahindra is over-using piano black in every single place be it exterior or interior (Already permanently scratched on our 2-month old XEV9e)."
+                ]
+              },
+              {
+                "name": "Interior Features",
+                "sentiment": "negative",
+                "mention_count": 9,
+                "verbatim": [
+                  "I seriously don't like the trend of no physical buttons for basic vehicle function.",
+                  "the lack of physical buttons combined with piano black finish is definitely recipe for disaster.",
+                  "physical buttons",
+                  "if it doesn't vibrate like the current one on 700",
+                  "I was disappointed to see a manual rear view mirror at this price point."
+                ]
+              },
+              {
+                "name": "Lighting",
+                "sentiment": "negative",
+                "mention_count": 12,
+                "verbatim": [
+                  "those square aftermarket type fog lights.",
+                  "The fog lights and cornering lights are genuinely after-thought.",
+                  "One feature still missing though are lights for the third row/boot.",
+                  "the headlamps themselves don’t extend to the corners and downward like they did with the earlier XUV700.",
+                  "Puddle lamps for all 4 doors"
+                ]
+              },
+              {
+                "name": "Market Performance",
+                "sentiment": "positive",
+                "mention_count": 5,
+                "verbatim": [
+                  "Mahindra’s bets on the XUV700 have paid off handsomely ever since the launch in 2021.",
+                  "And no, the 7OO has been discontinued. Production ceased in mid-December 2025.",
+                  "Mahindra has stopped manufacturing earlier version.",
+                  "94k bookings (22L avg ex-showroom) for 7XO and 9s",
+                  "No. The 7OO is still with us, currently being driven by my cousin brother."
+                ]
+              },
+              {
+                "name": "Off Road Capability",
+                "sentiment": "positive",
+                "mention_count": 4,
+                "verbatim": [
+                  "apart from the addition of a manual transmission with the AWD drivetrain, the AWD drivetrain is accessible with the petrol version also?",
+                  "being the only AWD in its category still gives it the upper hand",
+                  "AWD premium is only 1 lakh this time, as compared to 1.4 lakh when the XUV 700 was originally launched in 2022.",
+                  "AWD is indeed the perfect version to buy"
+                ]
+              },
+              {
+                "name": "Overall Features",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "I was planning to hold on to my XUV700 until Mahindra introduces a generational change and actually implements useful features like a sliding middle row, proper rear ADAS, blind spot monitoring assist, etc. and some nice to have features like a powered tailgate which competitors get."
+                ]
+              },
+              {
+                "name": "Public Perception",
+                "sentiment": "positive",
+                "mention_count": 4,
+                "verbatim": [
+                  "The first time we drove it, we came out quite impressed, and so were the BHPians.",
+                  "No wonder it was the Team-BHP Car of the Year, 2021.",
+                  "The facelift seems very mid compared to the OG XUV700 that I have.",
+                  "There are plenty of happy XUV7OO petrol owners specially in the Delhi-NCR region."
+                ]
+              },
+              {
+                "name": "Purchase Experience",
+                "sentiment": "negative",
+                "mention_count": 14,
+                "verbatim": [
+                  "I hope they work on improving dealership experience and services experience (based on what I hear from friend circle)",
+                  "The sales staff still haven't had training, it seems. Even the representative was fumbling with all the menus.",
+                  "My dealer has updated the booking today though I confirmed my booking on 8th of Jan with variant and color.",
+                  "now I'm looking at two bookings in my Mahindra web account, One was done by the dealer, today, 12th of Jan and the other one was my pre-booking done on 15th of December.",
+                  "SA says bookings will be \"merged\" and Mahindra will look at both, cross reference before allocation and the wait period for prebooked customers is 4 weeks and they are not taking new bookings yet."
+                ]
+              },
+              {
+                "name": "Ride And Handling",
+                "sentiment": "positive",
+                "mention_count": 24,
+                "verbatim": [
+                  "the suspension noise which plagued the XUV700. I am guessing with the change in the supplier and more sophistication, its gone now.",
+                  "\"gud gud\" sound from the front struts on my XUV700 D(AT)",
+                  "detailed analysis on suspension",
+                  "I love the suspension but as some one said, its only human who wants more.",
+                  "I was wondering if it would be technically feasible to change the front shocks (dampers, coil, bump stops, front strut mounts, etc.) of my XUV700 and replace it with the facelifted ones"
+                ]
+              },
+              {
+                "name": "Safety Features",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "they commoditized the ADAS feature and then everybody followed suit.",
+                  "The 540-degree camera was very confusing for me. I wanted the normal reverse camera with tracking lines, but even the sales representative wasn't very well-versed with all the features yet."
+                ]
+              },
+              {
+                "name": "Sunroof",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Can anyone confirm if it actually has a larger glass area than the XUV?"
+                ]
+              },
+              {
+                "name": "Transmission",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "that gearbox was very upshift-friendly.",
+                  "Aisin auto gearbox in XUV700 was not as smooth as the Hyundai sourced one in Safari back in 2022",
+                  "The premium for AT is also reasonable at 1.45 lakhs via-a-vis 1.6 lakhs when XUV700 was originally introduced."
+                ]
+              },
+              {
+                "name": "Value For Money",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "Competent pricing, some of the variants are priced perfectly",
+                  "There's an RTO discount of 50% beginning from 20 Jan lasting till 5th Feb here in our state.",
+                  "VFM - AX"
+                ]
+              },
+              {
+                "name": "Variant Features",
+                "sentiment": "positive",
+                "mention_count": 4,
+                "verbatim": [
+                  "We too have confirmed AX7L AWD with the agency and were hopeful of a delivery by Feb 1st week.",
+                  "the system showed FWD instead of the AWD I ordered.",
+                  "AX(base) variant has everything which I want except a rear camera which I can get from outside.",
+                  "AX is pretty loaded."
+                ]
+              }
+            ]
+          },
+          "XUV 500": {
+            "overall_sentiment": "positive",
+            "mention_count": 30,
+            "features": [
+              {
+                "name": "Build Quality",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "Gas struts for bonnet",
+                  "No hydraulic gas struts for the bonnet",
+                  "this would make the front end a bit stiff for the 500"
+                ]
+              },
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "positive",
+                "mention_count": 4,
+                "verbatim": [
+                  "Leather seats not leatherette",
+                  "Flat floor",
+                  "the second row has a slight hump in the centre",
+                  "centre adjustable headrest"
+                ]
+              },
+              {
+                "name": "Convenience Features",
+                "sentiment": "positive",
+                "mention_count": 4,
+                "verbatim": [
+                  "Full sized spare wheel",
+                  "Full-sized spare wheel",
+                  "Request Sensors with Start/Stop button",
+                  "Armrest with cooled storage"
+                ]
+              },
+              {
+                "name": "Exterior Design",
+                "sentiment": "positive",
+                "mention_count": 4,
+                "verbatim": [
+                  "Glass Embedded Antenna",
+                  "Logo projection from mirrors",
+                  "I don't see the logo projection from the mirror as well.",
+                  "I always liked and still do, my XUV 500 grill more."
+                ]
+              },
+              {
+                "name": "Infotainment",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "MID with Android Auto, Voice Assistant, Hazard Warnings",
+                  "6 speaker setup 500 got for 20 lakhs it sounded trash"
+                ]
+              },
+              {
+                "name": "Interior Features",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "Ambient Lighting",
+                  "Illuminated Scuff Plates"
+                ]
+              },
+              {
+                "name": "Lighting",
+                "sentiment": "positive",
+                "mention_count": 5,
+                "verbatim": [
+                  "Dedicated bulb for cornering function",
+                  "Automatic Headlamps/Automatic Wipers/Follow me Home function",
+                  "Puddle lamps",
+                  "Puddle lamps for all 4 doors",
+                  "XUV500 got dedicated bulbs for the cornering function"
+                ]
+              },
+              {
+                "name": "Ride And Handling",
+                "sentiment": "negative",
+                "mention_count": 4,
+                "verbatim": [
+                  "having driven 7OO and even the old gen 500 extensively - It felt overly soft at lower speeds",
+                  "the ride quality in the XUV500 was horrendous and uncomfortable in city",
+                  "overall improve the ride quality",
+                  "had the same issue in my XUV 500 but changing the balance rod bushes would give some relief"
+                ]
+              },
+              {
+                "name": "Safety Features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Hill descend/ascend control"
+                ]
+              },
+              {
+                "name": "Sunroof",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Sunroof"
+                ]
+              }
+            ]
+          },
+          "XUV 7XO AX7L Diesel AT": {
+            "overall_sentiment": "neutral",
+            "mention_count": 14,
+            "features": [
+              {
+                "name": "Build Quality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "NVH levels are impressively controlled, making the drive feel calm and premium."
+                ]
+              },
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Both front seats are extremely comfortable, offering good support for both city driving and longer journeys."
+                ]
+              },
+              {
+                "name": "Engine Performance",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "The engine is very refined and butter smooth, with more than adequate power on tap."
+                ]
+              },
+              {
+                "name": "Exterior Design",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "The car looks significantly better in person than in photos. It’s a proper head-turner.",
+                  "Road presence, Handling and ride quality, The superb music system"
+                ]
+              },
+              {
+                "name": "Infotainment",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "The 16-speaker Harman Kardon audio setup is outstanding. The sound quality, clarity, and depth really need to be experienced in person to be fully appreciated."
+                ]
+              },
+              {
+                "name": "Interior Design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the overall ergonomics could have been more user-friendly."
+                ]
+              },
+              {
+                "name": "Interior Features",
+                "sentiment": "negative",
+                "mention_count": 3,
+                "verbatim": [
+                  "The touch/push panel, including the hazard light switch, is cumbersome to use. It requires a firm press, which can be distracting while driving.",
+                  "The lack of physical, dedicated buttons for key functions is annoying.",
+                  "the rotating knob is a reasonably capable alternative once you get used to it"
+                ]
+              },
+              {
+                "name": "Lighting",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "The front turn indicators are a real pain point. Visibility is quite poor during the day, and at night they tend to get overshadowed by the projector headlamps"
+                ]
+              },
+              {
+                "name": "Ride And Handling",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "the ride quality feels substantially improved. Rough patches and bad roads are tackled with ease; the suspension absorbs most imperfections without unsettling the cabin.",
+                  "The steering is very light at low speeds, which makes it effortless and quite fun to drive in traffic.",
+                  "the car doesn't feel intimidating or cumbersome in city conditions."
+                ]
+              }
+            ]
+          },
+          "XUV.e9": {
+            "overall_sentiment": "neutral",
+            "mention_count": 11,
+            "features": [
+              {
+                "name": "Build Quality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the XEV has better noise insulation (double insulated windows or whatever they call it)"
+                ]
+              },
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "The 9s has sliding second row.",
+                  "they have given retractable sunshades in XEV 9S and not 7XO."
+                ]
+              },
+              {
+                "name": "Exterior Design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the 9s is stuck with those typical, outdated 18-inch aerodynamic EV alloys."
+                ]
+              },
+              {
+                "name": "Infotainment",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "The annoying touch capacitive panel and the lack of physical A/C buttons in our XEV9e is genuinely frustrating to use",
+                  "The annoying touch capacitive panel and the lack of physical A/C buttons in our XEV9e is genuinely frustrating to use, and has once again been carried forward to XEV9S and now the XUV7XO too, not happy with this trend."
+                ]
+              },
+              {
+                "name": "Interior Design",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "its interior being identical to XEV9e",
+                  "Mahindra is over-using piano black in every single place be it exterior or interior (Already permanently scratched on our 2-month old XEV9e)."
+                ]
+              },
+              {
+                "name": "Interior Features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "The 9s has an illuminated steering logo, which is a small but noticeable difference from the 7XO."
+                ]
+              },
+              {
+                "name": "Ride And Handling",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "the XEV dampers are too soft and uncomfortable with body roll.",
+                  "did the XUV 7X0 feel substantially different from the XEV 9S to drive? (apart from powertrain and weight considerations)"
+                ]
+              }
+            ]
+          },
+          "XUV 700 AX7L": {
+            "overall_sentiment": "neutral",
+            "mention_count": 10,
+            "features": [
+              {
+                "name": "Build Quality",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "Interiors would be a pain to maintain due to the lighter theme. There were already a lot of smudges in lower portion of door, portion of roof etc.",
+                  "The quality of materials is rather good."
+                ]
+              },
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Seat height offers a good range of adjustments."
+                ]
+              },
+              {
+                "name": "Exterior Design",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the vehicle does not look that bad in person as it may show in photos. It does not feel very butch but a bit softened."
+                ]
+              },
+              {
+                "name": "Infotainment",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "only the AX7T and AX7L get it",
+                  "Screens are good, AC control are quite east to operate from screen due to the layout."
+                ]
+              },
+              {
+                "name": "Overall Features",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "features of AX7L"
+                ]
+              },
+              {
+                "name": "Purchase Experience",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "made a booking for ax7l (p) today. How to know where I stand in queue??"
+                ]
+              },
+              {
+                "name": "Value For Money",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "AX7L is not worthy upgrade for approx. 1.6Lac rupees"
+                ]
+              },
+              {
+                "name": "Variant Features",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "All vehicles were AX7L variant."
+                ]
+              }
+            ]
+          },
+          "XUV 700 AX7": {
+            "overall_sentiment": "neutral",
+            "mention_count": 8,
+            "features": [
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Seat covers (colour) of AX7"
+                ]
+              },
+              {
+                "name": "Infotainment",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the audio system is average at best can’t complain for a 6 speaker setup however it doesn’t come close to the 16 speaker setup that’s in a league of its own."
+                ]
+              },
+              {
+                "name": "Purchase Experience",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "deliveries of AX7, AX7T and AX7L top trims would start on 14th",
+                  "for AX7 variants it is 10-12 weeks as of now"
+                ]
+              },
+              {
+                "name": "Ride And Handling",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "you get a proper hand brake",
+                  "The new steering is a let down."
+                ]
+              },
+              {
+                "name": "Safety Features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Includes 540 degree camera."
+                ]
+              },
+              {
+                "name": "Variant Features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "AX7 is the most VFM and feel good variant"
+                ]
+              }
+            ]
+          },
+          "XUV 700 AX9": {
+            "overall_sentiment": "positive",
+            "mention_count": 8,
+            "features": [
+              {
+                "name": "Boot Space",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "somehow integrate a retractable parcel tray"
+                ]
+              },
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "rear seat recline and footrests like business class",
+                  "seat massagers"
+                ]
+              },
+              {
+                "name": "Convenience Features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "electric side steps"
+                ]
+              },
+              {
+                "name": "Infotainment",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "I'd install rear seat tablets"
+                ]
+              },
+              {
+                "name": "Interior Design",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "definitely offer 2 or 3 interior trim colours and materials to choose from"
+                ]
+              },
+              {
+                "name": "Interior Features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "sunroof ambient lights"
+                ]
+              },
+              {
+                "name": "Variant Features",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "There was a lot of chatter about an AX9 variant before the reveal."
+                ]
+              }
+            ]
+          },
+          "General": {
+            "overall_sentiment": "negative",
+            "mention_count": 6,
+            "features": [
+              {
+                "name": "Brand Identity",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "He also changed the logo of Mahindra Passenger vehicle department at same time."
+                ]
+              },
+              {
+                "name": "Exterior Design",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "Technically a well balanced design would be an anomaly for Mahindra as it has been for decades.",
+                  "quirky design language which has plagued Mahindra since they started moving away from the Bolero into consumer segments."
+                ]
+              },
+              {
+                "name": "Infotainment",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "if the screens conk out will the vehicle still drive?"
+                ]
+              },
+              {
+                "name": "Interior Features",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "They stayed true to their mojo with the interiors but that is more about the buyer preferences than the purists."
+                ]
+              },
+              {
+                "name": "Market Performance",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Mahindra has launched too many facelifts with confusing naming standards."
+                ]
+              }
+            ]
+          },
+          "Scorpio-N": {
+            "overall_sentiment": "positive",
+            "mention_count": 3,
+            "features": [
+              {
+                "name": "Convenience Features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the Scorpio-N has it for both front windows."
+                ]
+              },
+              {
+                "name": "Lighting",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "While the Scorpio-N has it, the facelifted XUV700(aka 7XO) still doesn't get it.",
+                  "Headlamp section has the low/high inspiration from Scorpio-N."
+                ]
+              }
+            ]
+          },
+          "XUV 9S": {
+            "overall_sentiment": "positive",
+            "mention_count": 3,
+            "features": [
+              {
+                "name": "Market Performance",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "94k bookings (22L avg ex-showroom) for 7XO and 9s"
+                ]
+              },
+              {
+                "name": "Public Perception",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "7XO launch event was better when compared to 9S."
+                ]
+              },
+              {
+                "name": "Ride And Handling",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Most advanced is 9s."
+                ]
+              }
+            ]
+          },
+          "XUV 700 AX7T": {
+            "overall_sentiment": "positive",
+            "mention_count": 3,
+            "features": [
+              {
+                "name": "Climate Control",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "only Electronic Parking brake and Ventilated front seats are important while rest of features are just good to have."
+                ]
+              },
+              {
+                "name": "Infotainment",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "16 speaker Harman music system is also offered in AX7T",
+                  "only the AX7T and AX7L get it"
+                ]
+              },
+              {
+                "name": "Safety Features",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "only Electronic Parking brake and Ventilated front seats are important while rest of features are just good to have."
+                ]
+              }
+            ]
+          },
+          "Thar Roxx MX3": {
+            "overall_sentiment": "negative",
+            "mention_count": 3,
+            "features": [
+              {
+                "name": "Overall Features",
+                "sentiment": "negative",
+                "mention_count": 2,
+                "verbatim": [
+                  "The only things I had to add were the front parking sensor, fog lamps, dashcams, and upgrade the audio system.",
+                  "only thing I would miss would be wireless charger and reverse camera."
+                ]
+              },
+              {
+                "name": "Variant Features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Thar Roxx MX3 P(AT) which I believe has pretty much everything I need day to day for the car to to be safe, comfortable and functional."
+                ]
+              }
+            ]
+          },
+          "Thar Roxx": {
+            "overall_sentiment": "positive",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "Convenience Features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "like they added keyless entry in Roxx"
+                ]
+              },
+              {
+                "name": "Interior Design",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "They heard us with the Roxx by providing a mocha brown for the 4x4 at least."
+                ]
+              }
+            ]
+          },
+          "XUV 3XO AX5": {
+            "overall_sentiment": "neutral",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "Ride And Handling",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "steering wheel of AX5"
+                ]
+              },
+              {
+                "name": "Sunroof",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Sunroof (Skyroof), Old steering - AX5"
+                ]
+              }
+            ]
+          },
+          "Marazzo": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Exterior Design",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Despite it's not-so-obvious nod to the Marazzo, it has grown on me."
+                ]
+              }
+            ]
+          },
+          "XUV 3XO": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "BE.06": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "Thar": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "Bolero": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "Scorpio": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "XUV 3XO AX3": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Transmission",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "AT - AX3"
+                ]
+              }
+            ]
+          },
+          "XUV 700 AX7 Diesel Automatic": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "XUV 700 AX7T Diesel Manual": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "XUV 700 AX7T Diesel AT": {
+            "overall_sentiment": "positive",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Value For Money",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "AX7T value for money which is having all the features"
+                ]
+              }
+            ]
+          },
+          "XUV 700 AX": {
+            "overall_sentiment": "positive",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Variant Features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "AX(base) variant has everything which I want except a rear camera which I can get from outside."
+                ]
+              }
+            ]
+          },
+          "XUV 7XO AX7T": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "XUV 7XO AX7": {
+            "overall_sentiment": "negative",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Ride And Handling",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "It is only the Brake which looks like a real miss in AX7."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Tata Motors": {
+        "overall_sentiment": "neutral",
+        "mention_count": 33,
+        "models": {
+          "Safari": {
+            "overall_sentiment": "neutral",
+            "mention_count": 15,
+            "features": [
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "negative",
+                "mention_count": 6,
+                "verbatim": [
+                  "How comfortable is the third row in each vehicle on long and short journeys?",
+                  "I didn't see a significant gain in third-row comfort.",
+                  "Is it too much of inconviniance of not have ablility to slide forward middle row seats?",
+                  "Safari, on the other hand, has a short seat squab and I'm not sure if the co driver seat adjusts for height as well.",
+                  "I'm not sure if the co driver seat adjusts for height as well."
+                ]
+              },
+              {
+                "name": "Convenience Features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "competitors such as the Harrier and Safari have this feature."
+                ]
+              },
+              {
+                "name": "Engine Performance",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "The XUV 7XO and the Safari offer petrol and diesel powertrains with manual and automatic transmission options.",
+                  "How different are they in terms of power delivery, overtaking ability, and speed performance — both in city and highway conditions — for a moderate driver?"
+                ]
+              },
+              {
+                "name": "Exterior Design",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "I do not desist the 2026 XUV7XO looks & in fact rate it better than current Safari."
+                ]
+              },
+              {
+                "name": "Off Road Capability",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "A point in favour of the XUV 7XO is that it also offers an all-wheel-drive version on the diesel version, which the Safari doesn’t."
+                ]
+              },
+              {
+                "name": "Sunroof",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "The Safari’s panoramic sunroof felt noticeably wider and longer",
+                  "the width of the sunroof seemed smaller compared to Tata Safari as well as my current Jeep Meridian"
+                ]
+              },
+              {
+                "name": "Transmission",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Aisin auto gearbox in XUV700 was not as smooth as the Hyundai sourced one in Safari back in 2022"
+                ]
+              },
+              {
+                "name": "Value For Money",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the Tata undercutting the XUV 7XO by a slight margin."
+                ]
+              }
+            ]
+          },
+          "Sierra": {
+            "overall_sentiment": "negative",
+            "mention_count": 6,
+            "features": [
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "As soon as i sat on the driver seat, due to instrument screen's size and sitting position, it was looking that i am driving a toy car."
+                ]
+              },
+              {
+                "name": "Convenience Features",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "Even the Sierra (a model one segment down) offers this.",
+                  "The rear boot door opening switch is also finished in piano black, and it already had several scratches on the display vehicle itself."
+                ]
+              },
+              {
+                "name": "Interior Design",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "manufacturers are moving towards piano black finishes on cladding and bumpers. Even on the demo vehicles, I could already see a lot of swirl marks.",
+                  "It's a good car from outside and inside(Rear seats)."
+                ]
+              },
+              {
+                "name": "Purchase Experience",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "waiting period is of approx. 4 months."
+                ]
+              }
+            ]
+          },
+          "Harrier": {
+            "overall_sentiment": "neutral",
+            "mention_count": 5,
+            "features": [
+              {
+                "name": "After Sales Service",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "They have better cars in terms of performance, features and service."
+                ]
+              },
+              {
+                "name": "Convenience Features",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "competitors such as the Harrier and Safari have this feature.",
+                  "Somehow i was not impressed with the car considering the provided packages, features."
+                ]
+              },
+              {
+                "name": "Market Positioning",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the Tata Harrier to an extent."
+                ]
+              },
+              {
+                "name": "Ride And Handling",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "I have driven Harrier many times and its a good car to drive."
+                ]
+              }
+            ]
+          },
+          "General": {
+            "overall_sentiment": "neutral",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "Build Quality",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "QC issues are well known"
+                ]
+              },
+              {
+                "name": "Ride And Handling",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "a Mahindra with a suspension to match the Tatas and the erstwhile Renault Duster in ride quality."
+                ]
+              }
+            ]
+          },
+          "Tiago": {
+            "overall_sentiment": "positive",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "Fuel Efficiency",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "I am driving a tiago now which gives me 20km/l",
+                  "it gives me 18+kmpl here in Hyderabad and I drive quite hard."
+                ]
+              }
+            ]
+          },
+          "1.5 Hyperion": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Engine Performance",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "For the petrol, I would rather prefer Tata's 1.5 Hyperion (just a personal preference)."
+                ]
+              }
+            ]
+          },
+          "Zest": {
+            "overall_sentiment": "positive",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "After Sales Service",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "my service experience with Tata has been decent — though it often requires a slight push to get things done satisfactorily."
+                ]
+              }
+            ]
+          },
+          "Harrier EV": {
+            "overall_sentiment": "positive",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Ride And Handling",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Harrier EV which is another champion of ride quality."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Toyota": {
+        "overall_sentiment": "positive",
+        "mention_count": 12,
+        "models": {
+          "Innova Hycross GX(O)": {
+            "overall_sentiment": "neutral",
+            "mention_count": 6,
+            "features": [
+              {
+                "name": "Boot Space",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "boot space and functionality written all over"
+                ]
+              },
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "Hycross has dated cabin",
+                  "practical cabin"
+                ]
+              },
+              {
+                "name": "Exterior Design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "whale like face and shape"
+                ]
+              },
+              {
+                "name": "Fuel Efficiency",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "closer to single digit fuel economy"
+                ]
+              },
+              {
+                "name": "Reliability",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the bullet proof reliability that toyota offers"
+                ]
+              }
+            ]
+          },
+          "Innova Hycross": {
+            "overall_sentiment": "positive",
+            "mention_count": 4,
+            "features": [
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "positive",
+                "mention_count": 4,
+                "verbatim": [
+                  "I doubt anyone can beat the Hycross if last row comfort is important.",
+                  "I test drove Hycross a couple of times and the driver seat was very comfortable but as soon as I switched to the passenger side, the superiority of the driver side was clear.",
+                  "as soon as I switched to the passenger side, the superiority of the driver side was clear.",
+                  "Third row comfort - Hycross wins hands down."
+                ]
+              }
+            ]
+          },
+          "Fortuner": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "Urban Cruiser Hyryder Strong Hybrid": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Please share your views here regarding space, performance of engine, ease of overtaking etc."
+                ]
+              },
+              {
+                "name": "Engine Performance",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Please share your views here regarding space, performance of engine, ease of overtaking etc."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Kia": {
+        "overall_sentiment": "positive",
+        "mention_count": 9,
+        "models": {
+          "Seltos": {
+            "overall_sentiment": "positive",
+            "mention_count": 5,
+            "features": [
+              {
+                "name": "Build Quality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Beautiful car with good fit and finish."
+                ]
+              },
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "it looks like a new car from KIA nothing sort of old version of Seltos."
+                ]
+              },
+              {
+                "name": "Exterior Design",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "what’s with the new trend of dual colour theme in seats and steering. First Seltos and now this.",
+                  "Kia has changed the character of the car."
+                ]
+              },
+              {
+                "name": "Safety Features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Would have loved if they had given ADAS as an optional, like Kia is doing for seltos."
+                ]
+              }
+            ]
+          },
+          "Carens": {
+            "overall_sentiment": "positive",
+            "mention_count": 3,
+            "features": [
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "Maybe Ertiga/XL6/Carens come close but definitely not XUV.",
+                  "were decently impressed by the space"
+                ]
+              },
+              {
+                "name": "Infotainment",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "the sound quality is much better than the Bose system of my Carens."
+                ]
+              }
+            ]
+          },
+          "General": {
+            "overall_sentiment": "negative",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Exterior Design",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Hiring designers who know how to make good looking cars look as ugly as possible( BMW,Kia,Hyundai and Mahindra, I'm looking at you)."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Hyundai": {
+        "overall_sentiment": "neutral",
+        "mention_count": 4,
+        "models": {
+          "Creta N Line": {
+            "overall_sentiment": "positive",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Transmission",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "perfect rounded companion for our Creta N Line DCT"
+                ]
+              }
+            ]
+          },
+          "Creta": {
+            "overall_sentiment": "positive",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Key Features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "the car feels feature packed and comparable to our N10 Creta"
+                ]
+              }
+            ]
+          },
+          "General": {
+            "overall_sentiment": "negative",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Exterior Styling",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Hiring designers who know how to make good looking cars look as ugly as possible( BMW,Kia,Hyundai and Mahindra, I'm looking at you)."
+                ]
+              }
+            ]
+          },
+          "i20": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          }
+        }
+      },
+      "Maruti Suzuki": {
+        "overall_sentiment": "neutral",
+        "mention_count": 4,
+        "models": {
+          "XL6": {
+            "overall_sentiment": "positive",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "Build Quality",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "XL6 is excellent in terms of its packaging as a 6 seater"
+                ]
+              },
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Maybe Ertiga/XL6/Carens come close but definitely not XUV."
+                ]
+              }
+            ]
+          },
+          "Vitara Brezza": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "Ertiga": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Maybe Ertiga/XL6/Carens come close but definitely not XUV."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Honda": {
+        "overall_sentiment": "positive",
+        "mention_count": 3,
+        "models": {
+          "Jazz": {
+            "overall_sentiment": "positive",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "Lighting",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "it's instantaneous on our Jazz with traditional old halogen set up"
+                ]
+              },
+              {
+                "name": "Value For Money",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Have been largely happy with the car"
+                ]
+              }
+            ]
+          },
+          "City": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Infotainment",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "There are too many screens, and it is overwhelming for someone coming from a Honda City."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Citroën": {
+        "overall_sentiment": "neutral",
+        "mention_count": 2,
+        "models": {
+          "General": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Ride And Handling",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "does this have the best suspension under 50 Lakhs? or is that crown still with Citroen?"
+                ]
+              }
+            ]
+          },
+          "C5 Aircross": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Ride And Handling",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "probably outbeats C5 Aircross and Skoda Kodiaq in the process"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Renault": {
+        "overall_sentiment": "positive",
+        "mention_count": 2,
+        "models": {
+          "Duster": {
+            "overall_sentiment": "positive",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Ride And Handling",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "a Mahindra with a suspension to match the Tatas and the erstwhile Renault Duster in ride quality."
+                ]
+              }
+            ]
+          },
+          "Triber": {
+            "overall_sentiment": "positive",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "It was astonishing how they managed such a comfortable 3rd row in it."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "BMW": {
+        "overall_sentiment": "negative",
+        "mention_count": 2,
+        "models": {
+          "BMW 5 Series": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "General": {
+            "overall_sentiment": "negative",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Exterior Styling",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "Hiring designers who know how to make good looking cars look as ugly as possible( BMW,Kia,Hyundai and Mahindra, I'm looking at you)."
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Audi": {
+        "overall_sentiment": "neutral",
+        "mention_count": 2,
+        "models": {
+          "A6": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          },
+          "Q7": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          }
+        }
+      },
+      "Škoda": {
+        "overall_sentiment": "neutral",
+        "mention_count": 1,
+        "models": {
+          "Kodiaq": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Ride And Handling",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "probably outbeats C5 Aircross and Skoda Kodiaq in the process"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Mercedes-Benz": {
+        "overall_sentiment": "neutral",
+        "mention_count": 1,
+        "models": {
+          "E-class": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
+          }
+        }
+      },
+      "Hindustan Motors": {
+        "overall_sentiment": "neutral",
+        "mention_count": 1,
+        "models": {
+          "Ambassador": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Ride And Handling",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the steering wheel reminds me of 'ye olde' style ones you had on the Ambassador"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Jeep": {
+        "overall_sentiment": "neutral",
+        "mention_count": 1,
+        "models": {
+          "Meridian": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Sunroof",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the width of the sunroof seemed smaller compared to Tata Safari as well as my current Jeep Meridian"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

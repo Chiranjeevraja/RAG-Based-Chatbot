@@ -24,7 +24,7 @@ from typing import List, Optional, Literal
 from youtube_extractor import extract_video_id, get_transcript, get_transcript_whisper, get_comments_with_replies, get_video_metadata, transcribe_local_audio
 from chunker import semantic_chunk_transcript, chunk_comment_threads, chunk_teambhp_posts
 from vector_store import add_chunks, delete_video_chunks, list_stored_videos, get_collection_stats, get_video_title
-from rag_engine import answer_question, answer_question_stream
+from rag_engine import answer_question, answer_question_stream, client as _llm_client, CHAT_MODEL as _CHAT_MODEL
 from analysis_pipeline import run_analysis, get_cached_analysis
 from brand_dedup_pipeline import run_brand_dedup
 from guardrail import check_input
@@ -73,6 +73,30 @@ class ProcessResponse(BaseModel):
     transcript_method: Literal["captions", "whisper", ""] = ""
     comments_available: bool = False
     warnings: List[str] = []
+
+
+class RecommendRequest(BaseModel):
+    name_a: str
+    name_b: str
+    mode: Literal["company", "model"]
+    sentiment_a: str
+    sentiment_b: str
+    positives_a: List[str] = []
+    negatives_a: List[str] = []
+    positives_b: List[str] = []
+    negatives_b: List[str] = []
+    company_a: Optional[str] = None
+    company_b: Optional[str] = None
+
+
+class BrandInsightRequest(BaseModel):
+    name: str
+    mode: Literal["company", "model"]
+    sentiment: str
+    positives: List[str] = []
+    negatives: List[str] = []
+    company: Optional[str] = None
+    all_brands: List[dict] = []  # [{name, sentiment, mention_count, positives, negatives}]
 
 
 class ChatMessage(BaseModel):
@@ -402,6 +426,173 @@ def brand_dedup(video_id: str):
     except FileNotFoundError:
         raise HTTPException(status_code=404, detail="No cached analysis found. Run /api/analyze first.")
     return {"video_id": video_id, "aggregated": aggregated}
+
+
+@app.post("/api/recommend")
+def recommend(req: RecommendRequest):
+    """Stream LLM recommendations for a brand/company comparison."""
+    mode_label = "Brand / Model" if req.mode == "model" else "Company"
+
+    def fmt(items):
+        return "\n".join(f"  • {i}" for i in items[:8]) if items else "  • None recorded"
+
+    ctx_a = f"(under {req.company_a})" if req.company_a else ""
+    ctx_b = f"(under {req.company_b})" if req.company_b else ""
+
+    prompt = f"""You are an expert automotive market analyst. The data below comes from user sentiment analysis of YouTube videos and automotive forum discussions.
+
+Comparison type: {mode_label}
+
+--- {req.name_a.upper()} {ctx_a} ---
+Overall sentiment: {req.sentiment_a}
+Praised for:
+{fmt(req.positives_a)}
+Criticized for:
+{fmt(req.negatives_a)}
+
+--- {req.name_b.upper()} {ctx_b} ---
+Overall sentiment: {req.sentiment_b}
+Praised for:
+{fmt(req.positives_b)}
+Criticized for:
+{fmt(req.negatives_b)}
+
+Based solely on the user feedback data above, give concise, actionable recommendations. Structure your response as:
+
+**{req.name_a} — What to improve:**
+(focus on the criticized areas; be specific)
+
+**{req.name_b} — What to improve:**
+(focus on the criticized areas; be specific)
+
+**Competitive edge:**
+(which has the stronger position and why, based on the data)
+
+**Key battleground:**
+(one or two areas where both brands compete directly and what each must do to win)
+
+Keep the entire response under 350 words. Be direct and evidence-based."""
+
+    def generate():
+        stream = _llm_client.chat.completions.create(
+            model=_CHAT_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            stream=True,
+            max_tokens=600,
+        )
+        for chunk in stream:
+            if chunk.choices and chunk.choices[0].delta.content:
+                yield chunk.choices[0].delta.content
+
+    return StreamingResponse(generate(), media_type="text/plain")
+
+
+@app.post("/api/brand-insight")
+def brand_insight(req: BrandInsightRequest):
+    """Stream LLM single-brand analysis with LLM-identified competitors from the dataset."""
+    import json as _json
+
+    ctx = f"(under {req.company})" if req.company else ""
+    mode_label = "Brand / Model" if req.mode == "model" else "Company"
+
+    def fmt(items):
+        return "\n".join(f"  • {i}" for i in items[:8]) if items else "  • None recorded"
+
+    # ── Step 1: Ask LLM to identify real market competitors from the dataset ──
+    competitor_data = []
+    if req.all_brands:
+        names_list = ", ".join(b.get("name", "") for b in req.all_brands if b.get("name"))
+        identify_prompt = (
+            f"You are an automotive market expert. The brand under analysis is: {req.name}.\n"
+            f"From the following list, identify up to 4 brands that are GENUINE market competitors "
+            f"(same vehicle segment, similar price range, overlapping target customers):\n\n"
+            f"{names_list}\n\n"
+            f"Return ONLY a JSON array of matching brand names exactly as they appear in the list. "
+            f"Example: [\"Brand A\", \"Brand B\"]. If none are genuine competitors, return []."
+        )
+        try:
+            id_resp = _llm_client.chat.completions.create(
+                model=_CHAT_MODEL,
+                messages=[{"role": "user", "content": identify_prompt}],
+                stream=False,
+                max_tokens=120,
+            )
+            raw = id_resp.choices[0].message.content.strip()
+            # extract JSON array from response
+            start, end = raw.find("["), raw.rfind("]")
+            if start != -1 and end != -1:
+                competitor_names = set(_json.loads(raw[start:end + 1]))
+                competitor_data = [
+                    b for b in req.all_brands
+                    if b.get("name") in competitor_names
+                ]
+        except Exception:
+            pass  # fall through with no competitor data
+
+    # ── Step 2: Build competitor block from identified brands ─────────────────
+    def fmt_competitor_block(comps):
+        if not comps:
+            return "  • No competitor data identified from the dataset."
+        lines = []
+        for c in comps:
+            name = c.get("name", "Unknown")
+            sent = c.get("sentiment", "neutral")
+            pos  = c.get("positives", [])
+            neg  = c.get("negatives", [])
+            pos_str = ", ".join(pos[:5]) if pos else "none recorded"
+            neg_str = ", ".join(neg[:4]) if neg else "none recorded"
+            lines.append(
+                f"  • {name} (overall: {sent})\n"
+                f"    Praised for: {pos_str}\n"
+                f"    Criticized for: {neg_str}"
+            )
+        return "\n".join(lines)
+
+    competitor_section = f"""
+Competitors identified from the dataset:
+{fmt_competitor_block(competitor_data)}
+""" if competitor_data else ""
+
+    # ── Step 3: Stream full analysis ──────────────────────────────────────────
+    prompt = f"""You are an expert automotive market analyst. The data below comes from user sentiment analysis of YouTube videos and automotive forum discussions.
+
+{mode_label}: {req.name.upper()} {ctx}
+Overall sentiment: {req.sentiment}
+
+Praised for:
+{fmt(req.positives)}
+
+Criticized for:
+{fmt(req.negatives)}
+{competitor_section}
+Based solely on the user feedback data above, provide a concise analysis. Structure your response exactly as:
+
+**Overall Strengths:**
+(key areas where users are satisfied — be specific)
+
+**Key Weaknesses:**
+(main pain points from user criticism — be specific)
+
+**Improvement Areas:**
+(concrete, actionable recommendations based on the weaknesses)
+
+**What Competitors Do Better:**
+(for each identified competitor, name them and state the specific areas where their users praise them more than {req.name}'s users do — be direct and evidence-based)
+
+Keep the entire response under 450 words. Be direct."""
+
+    def generate():
+        stream = _llm_client.chat.completions.create(
+            model=_CHAT_MODEL,
+            messages=[{"role": "user", "content": prompt}],
+            stream=True,
+            max_tokens=750,
+        )
+        for chunk in stream:
+            if chunk.choices and chunk.choices[0].delta.content:
+                yield chunk.choices[0].delta.content
+
+    return StreamingResponse(generate(), media_type="text/plain")
 
 
 if __name__ == "__main__":

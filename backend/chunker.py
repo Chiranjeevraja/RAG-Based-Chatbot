@@ -16,14 +16,36 @@ def _count_tokens(text: str) -> int:
     return len(_enc.encode(text))
 
 
+_EMBED_TOKEN_LIMIT = 8000  # conservative margin below the 8192 hard limit
+
+
 def _batch_embed(texts: List[str]) -> List[List[float]]:
     client = AzureOpenAI(
         api_key=os.getenv("AZURE_OPENAI_API_KEY"),
         azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
         api_version=os.getenv("AZURE_OPENAI_EMBEDDING_API_VERSION", "2024-02-01"),
     )
-    resp = client.embeddings.create(model=EMBED_MODEL, input=texts)
-    return [item.embedding for item in resp.data]
+
+    # Split into sub-batches that each stay within the token limit.
+    batches: List[List[str]] = []
+    current_batch: List[str] = []
+    current_tokens = 0
+    for text in texts:
+        tok = _count_tokens(text)
+        if current_batch and current_tokens + tok > _EMBED_TOKEN_LIMIT:
+            batches.append(current_batch)
+            current_batch = []
+            current_tokens = 0
+        current_batch.append(text)
+        current_tokens += tok
+    if current_batch:
+        batches.append(current_batch)
+
+    embeddings: List[List[float]] = []
+    for batch in batches:
+        resp = client.embeddings.create(model=EMBED_MODEL, input=batch)
+        embeddings.extend(item.embedding for item in resp.data)
+    return embeddings
 
 
 def _cosine_sim(a: List[float], b: List[float]) -> float:

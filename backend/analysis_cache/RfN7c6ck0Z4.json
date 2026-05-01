@@ -2,573 +2,703 @@
   "video_id": "RfN7c6ck0Z4",
   "video_title": "Mahindra XUV 7XO - More Comfortable & Very Powerful But Less Intuitive | Faisal Khan",
   "aggregated": {
-    "overall_sentiment": "neutral",
-    "total_chunks_analyzed": 100,
-    "total_brands": 10,
+    "overall_sentiment": "positive",
+    "total_chunks_analyzed": 112,
+    "total_brands": 8,
     "sentiment_distribution": {
-      "positive": 46.2,
-      "neutral": 26.1,
-      "negative": 27.7
+      "positive": 96.7,
+      "neutral": 3.3,
+      "negative": 0.0
     },
     "brand_analysis": {
       "Mahindra": {
-        "overall_sentiment": "neutral",
-        "mention_count": 92,
+        "overall_sentiment": "positive",
+        "mention_count": 316,
         "models": {
-          "Xuv 700": {
-            "overall_sentiment": "negative",
-            "mention_count": 26,
+          "XUV700": {
+            "overall_sentiment": "positive",
+            "mention_count": 217,
             "features": [
               {
-                "name": "exterior design",
+                "name": "After Sales Service",
                 "sentiment": "negative",
                 "mention_count": 3,
                 "verbatim": [
-                  "Only in “front looks and steering wheel” rest is ok ok",
-                  "this looks more muscular and suffocated and better i think",
-                  "the car's design is better"
+                  "if we get that old steering wheel aftermarket by any chance, the warranty would be gone probably.",
+                  "I booked the 7OO in October 2025 and was repeatedly lied about the delivery dates until at the end of december, Mahindra finally declined that they couldn’t manufacture the vehicle.",
+                  "Also no support from Mahindra Customer care as well."
                 ]
               },
               {
-                "name": "grille design",
-                "sentiment": "negative",
+                "name": "Boot Space",
+                "sentiment": "neutral",
                 "mention_count": 1,
                 "verbatim": [
-                  "That Grill is still ugly tho"
+                  "Now that is a big boot for this five seater vehicle with seven seats, there's no boot only."
                 ]
               },
               {
-                "name": "missing features",
+                "name": "Brand And Market Position",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "they want to sell their cars in global markets like it's sold in South Africa, it's sold in Australia, people love the car there"
+                ]
+              },
+              {
+                "name": "Build Quality",
                 "sentiment": "negative",
-                "mention_count": 2,
+                "mention_count": 13,
+                "verbatim": [
+                  "my friend has Xuv700 but its interior was good.",
+                  "I don’t like the interiors either, compared to the old one",
+                  "The interior is a big disappointment.",
+                  "Also the cars are reliable apart from software glitches at the beginning... but maybe these software glitches get pretty sort out this time.",
+                  "this super light because it is made of composite plastic."
+                ]
+              },
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "positive",
+                "mention_count": 25,
+                "verbatim": [
+                  "everything is acceptable but not the steering wheel and triple screen😥",
+                  "the AX3 and the AX5 actually get the old steering wheel which is so much better",
+                  "But will miss out on ventilated seats, which is a boon in our climate",
+                  "the Mahindra 7X0 does give you good leg room",
+                  "I would really love to see Mahindra building a proper luxury car in the near future."
+                ]
+              },
+              {
+                "name": "Climate Control",
+                "sentiment": "negative",
+                "mention_count": 4,
+                "verbatim": [
+                  "Now you're completely reliant on the touchscreen for all the temperature control, which is just baffling to me.",
+                  "air conditioning has turned on on its own",
+                  "AC vents have been changed slightly as well.",
+                  "climate I can have eco normal that's it"
+                ]
+              },
+              {
+                "name": "Convenience Features",
+                "sentiment": "positive",
+                "mention_count": 17,
+                "verbatim": [
+                  "Door pockets are big enough. You have an umbrella holder here",
+                  "Auto dimming mirror has been added. Wow, beta, wow.",
+                  "And here you get a sunglass holder.",
+                  "automatic wipers",
+                  "even pressing the horn is not that intuitive"
+                ]
+              },
+              {
+                "name": "Engine Performance",
+                "sentiment": "positive",
+                "mention_count": 36,
+                "verbatim": [
+                  "fun to drive engines",
+                  "this petrol revs all the way to 4000 rpm in neutral which is nice.",
+                  "their focus is always on performance yeah they don't care about anything else they always care about giving you performance",
+                  "he faced DPF issue He Changed DPF filter 1 time that costed more than a lakh that’s some negative",
+                  "New exterior and Mechanicals with the pre facelift interior. Perfect match."
+                ]
+              },
+              {
+                "name": "Exterior And Interior Design",
+                "sentiment": "positive",
+                "mention_count": 12,
+                "verbatim": [
+                  "People are saying that the design is bad but don&#39;t let it distract you from how ugly they made the steering wheel and those annoying 3 screens no buttons (that too with thick bezels).",
+                  "Love the design, have driven it, flawless on any kind of roads.",
+                  "Disappointed with new design 😔",
+                  "many people don't like it at all, some people are saying that it's like a Marazzo, like well, the grill is a bit similar",
+                  "Booked the ax7L in black"
+                ]
+              },
+              {
+                "name": "Fuel Efficiency",
+                "sentiment": "positive",
+                "mention_count": 6,
+                "verbatim": [
+                  "my neighbour has drived his 700 3.8 Lakh KMs and it’s in mint condition but he faced DPF issue",
+                  "fuel efficiency is not impressive here with the petrol because it's like returning quite less in all honesty five to seven kilometres per litre is what it's going to return nothing more than that",
+                  "all this is obviously at the cost of fuel efficiency and if fuel efficiency is something you really care about, it's the time to opt for a diesel engine",
+                  "it's obviously decently efficient as well",
+                  "getting a fuel efficiency of almost 8-9 kilometers per liter with the way I drive with a very heavy right foot and still getting great mileage that is absolutely fantastic"
+                ]
+              },
+              {
+                "name": "Infotainment",
+                "sentiment": "positive",
+                "mention_count": 29,
+                "verbatim": [
+                  "everything is acceptable but not the steering wheel and triple screen😥",
+                  "those annoying 3 screens no buttons (that too with thick bezels).",
+                  "software glitches at the beginning... but maybe these software glitches get pretty sort out this time.",
+                  "Yes but it has more tech",
+                  "This was the most futuristic and realistic and advanced car, when it first came out ❤"
+                ]
+              },
+              {
+                "name": "Interior And Cabin Design",
+                "sentiment": "neutral",
+                "mention_count": 4,
                 "verbatim": [
                   "they removed the best features like physical buttons and gave the worst features like 3 screens and a shit steering wheel.",
-                  "Even now  Ax7 doesn’t have important features like wireless charging, good speakers, smart doorhandles, wireless charging, sunblinds, sequential indicaters, fog and cornering lamps, Auto IRVM even after increasing the price and removing ADAS?"
+                  "this whole piano black finish is not great because it's a fingerprint magnet.",
+                  "I like these bronze colored door handles they are so nice like the color treatment inside the cabin is actually quite impressive",
+                  "what an iconic design amazing interiors everything in this car I started loving more after driving this one"
                 ]
               },
               {
-                "name": "steering wheel",
-                "sentiment": "negative",
-                "mention_count": 5,
-                "verbatim": [
-                  "Only in “front looks and steering wheel” rest is ok ok",
-                  "the steering wheel and capacitive touch buttons are a disappointment though",
-                  "Who tf at Mahindra thought this steering wheel design is an upgrade to the older one?",
-                  "They should really change their steering wheel design it looks very bad imo",
-                  "The steering wheel is a tribute to hindustan ambassador"
-                ]
-              },
-              {
-                "name": "technology features",
+                "name": "Lighting",
                 "sentiment": "positive",
-                "mention_count": 1,
+                "mention_count": 3,
                 "verbatim": [
-                  "it has more tech"
+                  "nice automatic headlights",
+                  "it has something known as ambient lights which by the way has multiple modes here and you can customize it too",
+                  "your passengers can also select their own color"
+                ]
+              },
+              {
+                "name": "Ride And Handling",
+                "sentiment": "positive",
+                "mention_count": 15,
+                "verbatim": [
+                  "flawless on any kind of roads.",
+                  "there is improvement in the ride quality without but obviously it's a top heavy car and around the corners you can feel that weight",
+                  "it's not very vocal inside because installation levels are dramatically improved when compared to what they did with the 500 because in 700 they have really taken things a notch above, so you can't hear much inside",
+                  "I'm going to turn on the roll in pitch meters",
+                  "car feels amazing to drive because the engine is really very powerful"
+                ]
+              },
+              {
+                "name": "Safety Features",
+                "sentiment": "positive",
+                "mention_count": 25,
+                "verbatim": [
+                  "Blind view monitor position has changed. Earlier it was in the centre. Now it comes on the corner.",
+                  "you have got button for SOS and light control here on the top.",
+                  "it tells me which door is exactly opening",
+                  "it has a driver recorder also yeah DVR driver video recorder something of that sort which is good",
+                  "driver assistance is completely inside here so you can change all the driver assistance systems from here which is kind of good"
+                ]
+              },
+              {
+                "name": "Sunroof",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "I'm disappointed there's only one switch to operate the sun blind as well as the sunroof.",
+                  "sunroof brings in a lot of airy feeling, beautiful sunroof, just that the switches are not rightly done"
+                ]
+              },
+              {
+                "name": "Transmission",
+                "sentiment": "positive",
+                "mention_count": 12,
+                "verbatim": [
+                  "where are the paddle shifters there are no freaking paddle shifters yeah that should have been offered",
+                  "I just wish there were paddle shifters",
+                  "this particular gearbox is a six-speed torque converting unit which is not fast with shifts it's very easy going it's smooth but not fast and that's a bit of a problem",
+                  "this is actually the petrol automatic, the petrol manual would be the best because you can launch it more aggressively and you can hold on to a gear as well, so that would be more fun to drive",
+                  "Gear lever is the same"
+                ]
+              },
+              {
+                "name": "Value For Money",
+                "sentiment": "neutral",
+                "mention_count": 3,
+                "verbatim": [
+                  "the price 13.66 is only for petrol AX variant which no one is gonna buy, diesel starts from almost 15 lakhs.",
+                  "the price of this particular variant is Rs. 27.44 lakhs on road Mumbai",
+                  "that's a good introductory pricing for a lot of people actually"
+                ]
+              },
+              {
+                "name": "Variant And Trim Information",
+                "sentiment": "negative",
+                "mention_count": 4,
+                "verbatim": [
+                  "no matter how much less feature it has",
+                  "in terms of features obviously they could have done a lot more",
+                  "Even now  Ax7 doesn&#39;t have important features like wireless charging, good speakers, smart doorhandles, wireless charging, sunblinds, sequential indicaters, fog and cornering lamps, Auto IRVM even after increasing the price and removing ADAS?",
+                  "the variant name is for luxury, which has slightly more features when compared to say the AX 7T."
+                ]
+              },
+              {
+                "name": "Wheel And Tire Features",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "tells you the tyre pressure recommendation right there.",
+                  "it tells you the tire direction",
+                  "it also tells you the tyre pressure as well as the tyre temperature"
                 ]
               }
             ]
           },
-          "Xuv700": {
+          "XUV 7XO": {
             "overall_sentiment": "positive",
-            "mention_count": 21,
+            "mention_count": 53,
             "features": [
               {
-                "name": "alloy wheels",
-                "sentiment": "positive",
-                "mention_count": 2,
-                "verbatim": [
-                  "Old alloys too brother",
-                  "AX5 doesn&#39;t have ... 19 inch alloys"
-                ]
-              },
-              {
-                "name": "ambient lighting",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "AX5 doesn&#39;t have ... ambient lights"
-                ]
-              },
-              {
-                "name": "button controls",
-                "sentiment": "positive",
-                "mention_count": 2,
-                "verbatim": [
-                  "Mahindra should give :<br>1. Physical buttons",
-                  "a tons of buttons for AC controls, or sunroof or everything that an avg car should&#39;ve"
-                ]
-              },
-              {
-                "name": "grille design",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "and the old grill"
-                ]
-              },
-              {
-                "name": "infotainment screen",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "updated the information system to 10.2 to 12.5 inch"
-                ]
-              },
-              {
-                "name": "interior color",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "3. Black and white interior"
-                ]
-              },
-              {
-                "name": "interior design",
-                "sentiment": "negative",
-                "mention_count": 2,
-                "verbatim": [
-                  "I can’t decide whether I like the interior or not my friend has Xuv700 but its interior was good.",
-                  "I don’t like the interiors either, compared to the old one"
-                ]
-              },
-              {
-                "name": "physical gauges",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "would like a MID with a lot of info with PHYSICAL gauges"
-                ]
-              },
-              {
-                "name": "piano black finish",
-                "sentiment": "negative",
-                "mention_count": 1,
-                "verbatim": [
-                  "Should get rid of the touch panel and piano blacks in interiors..😖"
-                ]
-              },
-              {
-                "name": "powered tailgate",
-                "sentiment": "positive",
-                "mention_count": 2,
-                "verbatim": [
-                  "Don&#39;t forget the powered tail gate",
-                  "added the ... power tail gate"
-                ]
-              },
-              {
-                "name": "quick shifter",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "And Quick shifter"
-                ]
-              },
-              {
-                "name": "rear door material",
-                "sentiment": "neutral",
-                "mention_count": 1,
-                "verbatim": [
-                  "the rear door is made of fibre ig? And the hydraulics do 95% of the work"
-                ]
-              },
-              {
-                "name": "screen setup",
-                "sentiment": "negative",
-                "mention_count": 1,
-                "verbatim": [
-                  "Remove that three screen layout and give it has optional"
-                ]
-              },
-              {
-                "name": "steering wheel",
-                "sentiment": "positive",
-                "mention_count": 2,
-                "verbatim": [
-                  "2. Old steering",
-                  "the steering is better without that glossy finish"
-                ]
-              },
-              {
-                "name": "touch controls",
-                "sentiment": "negative",
-                "mention_count": 1,
-                "verbatim": [
-                  "Should get rid of the touch panel and piano blacks in interiors..😖"
-                ]
-              },
-              {
-                "name": "ventilated seats",
-                "sentiment": "positive",
-                "mention_count": 2,
-                "verbatim": [
-                  "added the ventilated back seat",
-                  "AX5 doesn&#39;t have ventilated seats"
-                ]
-              }
-            ]
-          },
-          "Xuv 7xo": {
-            "overall_sentiment": "positive",
-            "mention_count": 19,
-            "features": [
-              {
-                "name": "ax5 variant",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "Waiting for ax5 varient review ❤️‍🔥"
-                ]
-              },
-              {
-                "name": "diesel engine",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "Diesel"
-                ]
-              },
-              {
-                "name": "diesel manual",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "Diesel Manuel always"
-                ]
-              },
-              {
-                "name": "ethanol variant",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "Ethanol variant"
-                ]
-              },
-              {
-                "name": "hydrogen option",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "Hydro😊"
-                ]
-              },
-              {
-                "name": "interior features",
-                "sentiment": "negative",
-                "mention_count": 1,
-                "verbatim": [
-                  "you are crying about some superficial interior features that xuv is missing?"
-                ]
-              },
-              {
-                "name": "petrol automatic",
-                "sentiment": "positive",
-                "mention_count": 2,
-                "verbatim": [
-                  "Petrol automatic, i have driven one, just ✌️",
-                  "Petrol auto<br>200 horses under the crank & 450 nm of torqueeeee"
-                ]
-              },
-              {
-                "name": "petrol electric",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "Petrol+electric 😅"
-                ]
-              },
-              {
-                "name": "petrol manual",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "Petrol manual want to see the red line..."
-                ]
-              },
-              {
-                "name": "reliability",
-                "sentiment": "neutral",
-                "mention_count": 1,
-                "verbatim": [
-                  "Is a mahindra reliable if I want to own it for atleast 8 to 10 years"
-                ]
-              },
-              {
-                "name": "suspension",
-                "sentiment": "positive",
-                "mention_count": 2,
-                "verbatim": [
-                  "better suspension 5 link multi link like audi",
-                  "Is the suspension still noisy?"
-                ]
-              }
-            ]
-          },
-          "7x0": {
-            "overall_sentiment": "neutral",
-            "mention_count": 15,
-            "features": [
-              {
-                "name": "dpf issues",
-                "sentiment": "negative",
-                "mention_count": 1,
-                "verbatim": [
-                  "he faced DPF issue He Changed DPF filter 1 time that costed more than a lakh"
-                ]
-              },
-              {
-                "name": "engine performance",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "fun to drive engines"
-                ]
-              },
-              {
-                "name": "leg room",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "the Mahindra 7X0 does give you good leg room"
-                ]
-              },
-              {
-                "name": "marketing strategy",
-                "sentiment": "neutral",
-                "mention_count": 1,
-                "verbatim": [
-                  "Mahindra’s marketing strategy is like “To earn something, you have to loose something”"
-                ]
-              },
-              {
-                "name": "reliability",
-                "sentiment": "neutral",
-                "mention_count": 1,
-                "verbatim": [
-                  "the cars are reliable apart from software glitches at the beginning"
-                ]
-              },
-              {
-                "name": "screen setup",
-                "sentiment": "negative",
-                "mention_count": 2,
-                "verbatim": [
-                  "along with more screens",
-                  "everything is acceptable but not the steering wheel and triple screen"
-                ]
-              },
-              {
-                "name": "software issues",
-                "sentiment": "negative",
-                "mention_count": 1,
-                "verbatim": [
-                  "software glitches at the beginning... but maybe these software glitches get pretty sort out this time"
-                ]
-              },
-              {
-                "name": "steering wheel",
-                "sentiment": "negative",
-                "mention_count": 1,
-                "verbatim": [
-                  "everything is acceptable but not the steering wheel"
-                ]
-              },
-              {
-                "name": "ventilated seats",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "will miss out on ventilated seats, which is a boon in our climate"
-                ]
-              },
-              {
-                "name": "warranty",
-                "sentiment": "negative",
-                "mention_count": 1,
-                "verbatim": [
-                  "if we get that old steering wheel aftermarket by any chance, the warranty would be gone probably"
-                ]
-              }
-            ]
-          },
-          "General": {
-            "overall_sentiment": "neutral",
-            "mention_count": 3,
-            "features": []
-          },
-          "Ax5": {
-            "overall_sentiment": "neutral",
-            "mention_count": 2,
-            "features": [
-              {
-                "name": "steering wheel",
-                "sentiment": "negative",
-                "mention_count": 1,
-                "verbatim": [
-                  "You can get ax5 to get og steering wheel"
-                ]
-              },
-              {
-                "name": "ventilated seats",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "will miss out on ventilated seats, which is a boon in our climate"
-                ]
-              }
-            ]
-          },
-          "700": {
-            "overall_sentiment": "neutral",
-            "mention_count": 2,
-            "features": [
-              {
-                "name": "dpf issues",
-                "sentiment": "negative",
-                "mention_count": 1,
-                "verbatim": [
-                  "he faced DPF issue He Changed DPF filter 1 time that costed more than a lakh"
-                ]
-              },
-              {
-                "name": "durability",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "my neighbour has drived his 700 3.8 Lakh KMs and it’s in mint condition"
-                ]
-              }
-            ]
-          },
-          "Marazzo": {
-            "overall_sentiment": "negative",
-            "mention_count": 2,
-            "features": [
-              {
-                "name": "design language",
-                "sentiment": "negative",
-                "mention_count": 1,
-                "verbatim": [
-                  "they feel old-fashioned, as if they want to apply the Marazzo design to every model"
-                ]
-              },
-              {
-                "name": "design updates",
-                "sentiment": "negative",
-                "mention_count": 1,
-                "verbatim": [
-                  "the new marazzo facelift design will grow on you because it's not that bad"
-                ]
-              }
-            ]
-          },
-          "Scorpio N Facelift": {
-            "overall_sentiment": "positive",
-            "mention_count": 1,
-            "features": [
-              {
-                "name": "exterior design",
-                "sentiment": "positive",
-                "mention_count": 1,
-                "verbatim": [
-                  "looks like scorpio n facelift"
-                ]
-              }
-            ]
-          },
-          "7xo": {
-            "overall_sentiment": "negative",
-            "mention_count": 1,
-            "features": [
-              {
-                "name": "delivery issues",
+                "name": "After Sales Service",
                 "sentiment": "negative",
                 "mention_count": 1,
                 "verbatim": [
                   "I booked the 7XO on my own as there was so much lies piled before. The area sales manager promised me that I will get the vehicle at most by 20th of January but this was a deception as well."
                 ]
-              }
-            ]
-          }
-        }
-      },
-      "Tata Motors": {
-        "overall_sentiment": "neutral",
-        "mention_count": 10,
-        "models": {
-          "Safari": {
-            "overall_sentiment": "neutral",
-            "mention_count": 4,
-            "features": [
+              },
               {
-                "name": "interior comfort",
+                "name": "Build Quality",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "Is a mahindra reliable if I want to own it for atleast 8 to 10 years",
+                  "the rear door is made of fibre ig? And the hydraulics do 95% of the work"
+                ]
+              },
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "positive",
+                "mention_count": 4,
+                "verbatim": [
+                  "Old steering",
+                  "added the ventilated back seat",
+                  "AX5 doesn’t have ventilated seats",
+                  "you have a light at the back, which is very nice for blocking the sun and jealous Safari owners."
+                ]
+              },
+              {
+                "name": "Convenience Features",
+                "sentiment": "negative",
+                "mention_count": 3,
+                "verbatim": [
+                  "Don't forget the powered tail gate",
+                  "the key, which is completely new here, but doesn't get buttons to move the car forward and backward, so there's no self-park, repair-park, none of those are available in this car.",
+                  "The previous key, of course, I felt was better with the flip function"
+                ]
+              },
+              {
+                "name": "Engine Performance",
+                "sentiment": "positive",
+                "mention_count": 9,
+                "verbatim": [
+                  "Diesel",
+                  "Ethanol variant",
+                  "pocket says Electric",
+                  "Petrol+electric 😅",
+                  "Hydro😊"
+                ]
+              },
+              {
+                "name": "Exterior And Interior Design",
+                "sentiment": "neutral",
+                "mention_count": 6,
+                "verbatim": [
+                  "Worst design only screens , not useful worst design.",
+                  "the old grill",
+                  "they've changed a lot of things at the front, which may or may not be to your liking, because it feels like the car is getting smaller at the front, but I'm sure it will grow on you over time.",
+                  "the roof is new",
+                  "the bumper is also new"
+                ]
+              },
+              {
+                "name": "Fuel Efficiency",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "With good mileage , drive , power etc 😊😊"
+                ]
+              },
+              {
+                "name": "Infotainment",
+                "sentiment": "positive",
+                "mention_count": 6,
+                "verbatim": [
+                  "Physical buttons are available in the Ax5 trim",
+                  "updated the information system to 10.2 to 12.5 inch",
+                  "Should get rid of the touch panel and piano blacks in interiors..😖",
+                  "Remove that three screen layout and give it has optional",
+                  "the car I'm driving today has three screens"
+                ]
+              },
+              {
+                "name": "Interior And Cabin Design",
+                "sentiment": "negative",
+                "mention_count": 3,
+                "verbatim": [
+                  "superficial interior features that xuv is missing?",
+                  "Black and white interior",
+                  "Should get rid of the touch panel and piano blacks in interiors..😖"
+                ]
+              },
+              {
+                "name": "Lighting",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "AX5 doesn’t have ventilated seats, ambient lights",
+                  "the lights are completely new, but again, similar DRL here, this is a projector, two projector setups, this is actually for the high beam, this is for the low beam, but when you switch to high beam, it also gets brighter.",
+                  "the fog lamps are here, this is a fog lamp, this is a cornering light, so depending on where you turn the steering, the light will turn on"
+                ]
+              },
+              {
+                "name": "Ride And Handling",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "better suspension 5 link multi link like audi",
+                  "With good mileage , drive , power etc 😊😊",
+                  "Is the suspension still noisy?"
+                ]
+              },
+              {
+                "name": "Safety Features",
+                "sentiment": "positive",
+                "mention_count": 2,
+                "verbatim": [
+                  "the radar is more powerful now, so it can obviously read much further",
+                  "the lazy passenger camera also has more megapixels"
+                ]
+              },
+              {
+                "name": "Transmission",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "Petrol automatic, i have driven one, just ✌️",
+                  "Petrol manual want to see the red line...",
+                  "And Quick shifter"
+                ]
+              },
+              {
+                "name": "Value For Money",
                 "sentiment": "neutral",
                 "mention_count": 1,
                 "verbatim": [
-                  "Meanwhile Safari since 5 years ago"
+                  "The price of this car starts at 16.4 lakh in Mumbai for the base variant, going up to 23 lakh for the top-end diesel automatic with all-wheel drive"
+                ]
+              },
+              {
+                "name": "Variant And Trim Information",
+                "sentiment": "positive",
+                "mention_count": 6,
+                "verbatim": [
+                  "Waiting for ax5 varient review ❤️‍🔥",
+                  "should have kept the AX7 and AX7L for the 700",
+                  "Physical buttons are available in the Ax5 trim",
+                  "Ax5 has been discontinued",
+                  "no ax7 and ax7L is still there it is not discontinued yet"
+                ]
+              },
+              {
+                "name": "Wheel And Tire Features",
+                "sentiment": "negative",
+                "mention_count": 4,
+                "verbatim": [
+                  "Old alloys too brother",
+                  "AX5 doesn’t have ventilated seats, ambient lights , 19 inch alloys",
+                  "this is the top-end, comes with 19-inch wheels",
+                  "I just don't like the alloy wheel design, they're not to my taste, why are they such aero-type wheels, come on, the old alloy wheels were just fantastic"
                 ]
               }
             ]
           },
           "General": {
             "overall_sentiment": "positive",
-            "mention_count": 3,
+            "mention_count": 37,
             "features": [
               {
-                "name": "engine performance",
-                "sentiment": "positive",
+                "name": "Boot Space",
+                "sentiment": "neutral",
                 "mention_count": 1,
                 "verbatim": [
-                  "tata has meh engine"
+                  "the boot actually is very similar to the older models so not much has changed on that front"
+                ]
+              },
+              {
+                "name": "Build Quality",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "but lot of hard plastics again",
+                  "new switchgear yes that's right new switchgear"
+                ]
+              },
+              {
+                "name": "Cabin Comfort",
+                "sentiment": "positive",
+                "mention_count": 9,
+                "verbatim": [
+                  "Ventilated seats have been added but the button has been placed out of sight not the best place to be in",
+                  "it gets the electric boss mode so you can move the seat all the way ahead from here electrically",
+                  "good amount of knee room good amount of foot room leg room is also good",
+                  "headroom actually is quite impressive for something which has such a kind of a roof",
+                  "no sliding second row seats why this was such a great opportunity to offer a sliding second row seats but they failed to give us that"
+                ]
+              },
+              {
+                "name": "Climate Control",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "the other change is new ac vents"
+                ]
+              },
+              {
+                "name": "Convenience Features",
+                "sentiment": "positive",
+                "mention_count": 6,
+                "verbatim": [
+                  "the door pockets are really big and nice",
+                  "they should have offered one touch up and down power windows for all the doors with anti-pinch but they have not done it probably for cost cutting.",
+                  "they have removed the usb c charging socket from here instead put it right here and here",
+                  "you get a wireless phone charger right here that's added as well",
+                  "cup holders earlier they were like this now they are like this so they have made change to the cup holders as well"
+                ]
+              },
+              {
+                "name": "Engine Performance",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "mahindra ek sedan dedo xuv petrol ke engine wali",
+                  "obviously this is the petrol so there is no add blue spot or a place to put add blue"
+                ]
+              },
+              {
+                "name": "Exterior And Interior Design",
+                "sentiment": "positive",
+                "mention_count": 8,
+                "verbatim": [
+                  "mahindra वालोने facelift design किया",
+                  "this new color scheme which is quite premium i definitely like it",
+                  "rear design very similar to the 9s you get dynamic swipe indicators full led lights by the way yeah these are full led lights honeycomb treatment here",
+                  "you get a shark fin antenna",
+                  "you get a high mounted stop lamp along with the rear spoiler as well"
+                ]
+              },
+              {
+                "name": "Infotainment",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "bring your own device so you can mount your device which can work in sync with all the other screens",
+                  "16 speaker system which is definitely better than the 12 speaker 3d sound system which was there earlier with sony this one being from the bells obviously sounds a lot better",
+                  "this touch panel, I don't know why they spoiled it"
+                ]
+              },
+              {
+                "name": "Safety Features",
+                "sentiment": "positive",
+                "mention_count": 3,
+                "verbatim": [
+                  "height adjustable seatbelts",
+                  "seven airbags there's an airbag there as well which was there before too however now the center passenger gets a headrest yes adjustable headrest earlier it was fixed",
+                  "there is a camera here"
+                ]
+              },
+              {
+                "name": "Transmission",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "why Mahindra does not offer paddle shifters. It's just not understandable only"
+                ]
+              },
+              {
+                "name": "Wheel And Tire Features",
+                "sentiment": "negative",
+                "mention_count": 1,
+                "verbatim": [
+                  "that is the spare wheel which is not an alloy which is actually smaller size as well so cost cutting has been done there."
                 ]
               }
             ]
           },
-          "Harrier": {
+          "Marazzo": {
             "overall_sentiment": "neutral",
             "mention_count": 2,
-            "features": []
+            "features": [
+              {
+                "name": "Exterior And Interior Design",
+                "sentiment": "neutral",
+                "mention_count": 2,
+                "verbatim": [
+                  "they feel old-fashioned, as if they want to apply the Marazzo design to every model.",
+                  "the new marazzo facelift design will grow on you because it&#39;s not that bad 😂"
+                ]
+              }
+            ]
           },
-          "Sierra": {
+          "Scorpio N": {
+            "overall_sentiment": "positive",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "Engine Performance",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "this engine obviously powers a lot of other Mahindra cars like the Thar, the Thar Rocks, the Scorpio Classic, the Scorpio N, you name it, it does a phenomenal job"
+                ]
+              },
+              {
+                "name": "Exterior And Interior Design",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "looks like  scorpio n facelift"
+                ]
+              }
+            ]
+          },
+          "Thar": {
+            "overall_sentiment": "positive",
+            "mention_count": 2,
+            "features": [
+              {
+                "name": "Engine Performance",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "this engine obviously powers a lot of other Mahindra cars like the Thar, the Thar Rocks, the Scorpio Classic, the Scorpio N, you name it, it does a phenomenal job"
+                ]
+              },
+              {
+                "name": "Sunroof",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "in the Thar Rocks, you have three switches. One is obviously to open the sun blind, one is to close it and one is to open the sunroof."
+                ]
+              }
+            ]
+          },
+          "KUV100": {
             "overall_sentiment": "neutral",
             "mention_count": 1,
             "features": [
               {
-                "name": "market competition",
+                "name": "Boot Space",
                 "sentiment": "neutral",
                 "mention_count": 1,
                 "verbatim": [
-                  "Sare brands milke creta ki fielding set karna chahte hai😂 in terms of pricing sierra, 7xo, seltos, harrier safari petrol, duster"
+                  "you can actually carry I don't know what maybe a KUV 100 that's very much possible as well."
                 ]
               }
             ]
+          },
+          "Scorpio Classic": {
+            "overall_sentiment": "positive",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Engine Performance",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "this engine obviously powers a lot of other Mahindra cars like the Thar, the Thar Rocks, the Scorpio Classic, the Scorpio N, you name it, it does a phenomenal job"
+                ]
+              }
+            ]
+          },
+          "Bolero": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": []
           }
         }
       },
       "Mercedes-Benz": {
         "overall_sentiment": "positive",
-        "mention_count": 8,
+        "mention_count": 11,
         "models": {
-          "C 220d": {
+          "Mercedes-Benz C 220d": {
             "overall_sentiment": "positive",
-            "mention_count": 8,
+            "mention_count": 10,
             "features": [
               {
-                "name": "car features",
-                "sentiment": "neutral",
+                "name": "Build Quality",
+                "sentiment": "negative",
                 "mention_count": 1,
                 "verbatim": [
-                  "Best in segment ... features"
+                  "c 220 D is worst? Do you own one?"
                 ]
               },
               {
-                "name": "ride comfort",
+                "name": "Cabin Comfort",
                 "sentiment": "positive",
                 "mention_count": 3,
                 "verbatim": [
-                  "Best suspension under 70lakhs",
-                  "Best in segment ... comfort",
-                  "Best in segment ... luxury"
+                  "luxury",
+                  "Best in segment space",
+                  "comfort"
+                ]
+              },
+              {
+                "name": "Convenience Features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "features"
+                ]
+              },
+              {
+                "name": "Engine Performance",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "performance"
+                ]
+              },
+              {
+                "name": "Exterior And Interior Design",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Looks classy."
+                ]
+              },
+              {
+                "name": "Lighting Features",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "ambient light feels like sitting in a mercedes"
+                ]
+              },
+              {
+                "name": "Reliability And Durability",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "reliability"
+                ]
+              },
+              {
+                "name": "Ride And Handling",
+                "sentiment": "positive",
+                "mention_count": 1,
+                "verbatim": [
+                  "Best suspension under 70lakhs."
+                ]
+              }
+            ]
+          },
+          "General": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Exterior And Interior Design",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "Mercedes inspired, Mercedes inspired, Mercedes inspired. So many Mercedes inspirations in a Mahindra car."
                 ]
               }
             ]
@@ -576,88 +706,78 @@
         }
       },
       "Hyundai Motor Company": {
-        "overall_sentiment": "negative",
-        "mention_count": 2,
+        "overall_sentiment": "positive",
+        "mention_count": 3,
         "models": {
           "Creta": {
-            "overall_sentiment": "negative",
+            "overall_sentiment": "positive",
             "mention_count": 2,
             "features": [
               {
-                "name": "competitive analysis",
-                "sentiment": "negative",
-                "mention_count": 2,
+                "name": "Exterior Styling",
+                "sentiment": "neutral",
+                "mention_count": 1,
                 "verbatim": [
-                  "Sare brands milke creta ki fielding set karna chahte hai😂 in terms of pricing sierra, 7xo, seltos, harrier safari petrol, duster",
-                  "Creta se toh xuv700 hi better thi in most of the things"
+                  "That startled Creta running way was very funny dude."
                 ]
-              }
-            ]
-          }
-        }
-      },
-      "Toyota": {
-        "overall_sentiment": "positive",
-        "mention_count": 2,
-        "models": {
-          "General": {
-            "overall_sentiment": "positive",
-            "mention_count": 1,
-            "features": [
+              },
               {
-                "name": "drivetrain type",
+                "name": "Value For Money",
                 "sentiment": "positive",
                 "mention_count": 1,
                 "verbatim": [
-                  "FWD"
+                  "Sare brands milke creta ki fielding set karna chahte hai😂 in terms of pricing sierra, 7xo, seltos, harrier safari petrol, duster"
                 ]
               }
             ]
           },
-          "Hycross": {
+          "General": {
             "overall_sentiment": "neutral",
             "mention_count": 1,
             "features": [
               {
-                "name": "vehicle reliability",
+                "name": "Safety Features",
                 "sentiment": "neutral",
                 "mention_count": 1,
                 "verbatim": [
-                  "I am a hycross owner"
+                  "which obviously we have seen in Hyundai Kia cars but the difference is, they don't call it LVD here"
                 ]
               }
             ]
           }
         }
       },
-      "Maruti Suzuki": {
-        "overall_sentiment": "positive",
-        "mention_count": 1,
+      "Kia": {
+        "overall_sentiment": "neutral",
+        "mention_count": 2,
         "models": {
-          "Alto": {
-            "overall_sentiment": "positive",
+          "Seltos": {
+            "overall_sentiment": "neutral",
             "mention_count": 1,
             "features": [
               {
-                "name": "suspension system",
-                "sentiment": "positive",
+                "name": "Value For Money",
+                "sentiment": "neutral",
                 "mention_count": 1,
                 "verbatim": [
-                  "torsion beam straight out of alto"
+                  "Sare brands milke creta ki fielding set karna chahte hai😂 in terms of pricing sierra, 7xo, seltos, harrier safari petrol, duster"
                 ]
               }
             ]
-          }
-        }
-      },
-      "Renault": {
-        "overall_sentiment": "negative",
-        "mention_count": 1,
-        "models": {
-          "Duster": {
-            "overall_sentiment": "negative",
+          },
+          "General": {
+            "overall_sentiment": "neutral",
             "mention_count": 1,
-            "features": []
+            "features": [
+              {
+                "name": "Safety Features",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "which obviously we have seen in Hyundai Kia cars but the difference is, they don't call it LVD here"
+                ]
+              }
+            ]
           }
         }
       },
@@ -670,7 +790,7 @@
             "mention_count": 1,
             "features": [
               {
-                "name": "suspension system",
+                "name": "Ride And Handling",
                 "sentiment": "positive",
                 "mention_count": 1,
                 "verbatim": [
@@ -681,16 +801,36 @@
           }
         }
       },
-      "Kia": {
+      "Maruti Suzuki": {
         "overall_sentiment": "neutral",
         "mention_count": 1,
         "models": {
-          "Seltos": {
+          "Alto": {
             "overall_sentiment": "neutral",
             "mention_count": 1,
             "features": [
               {
-                "name": "price competitiveness",
+                "name": "Ride And Handling",
+                "sentiment": "neutral",
+                "mention_count": 1,
+                "verbatim": [
+                  "torsion beam straight out of alto"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Renault": {
+        "overall_sentiment": "neutral",
+        "mention_count": 1,
+        "models": {
+          "Duster": {
+            "overall_sentiment": "neutral",
+            "mention_count": 1,
+            "features": [
+              {
+                "name": "Value For Money",
                 "sentiment": "neutral",
                 "mention_count": 1,
                 "verbatim": [
@@ -701,20 +841,20 @@
           }
         }
       },
-      "Volkswagen": {
-        "overall_sentiment": "negative",
+      "Honda": {
+        "overall_sentiment": "neutral",
         "mention_count": 1,
         "models": {
-          "General": {
-            "overall_sentiment": "negative",
+          "Elevate": {
+            "overall_sentiment": "neutral",
             "mention_count": 1,
             "features": [
               {
-                "name": "feature availability",
-                "sentiment": "negative",
+                "name": "Expert Reviews",
+                "sentiment": "neutral",
                 "mention_count": 1,
                 "verbatim": [
-                  "meanwhile Volkswagen giving this feature in 2012"
+                  "Kindly do honda elevate video"
                 ]
               }
             ]

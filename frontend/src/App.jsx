@@ -3,6 +3,7 @@ import YouTubeInput from "./components/YouTubeInput";
 import StoredVideos from "./components/StoredVideos";
 import ChatInterface from "./components/ChatInterface";
 import AnalysisPanel from "./components/AnalysisPanel";
+import DownloadReport from "./components/DownloadReport";
 
 export default function App() {
   const [activeVideoId, setActiveVideoId] = useState(null);
@@ -31,6 +32,9 @@ export default function App() {
         <div style={{ borderLeft: "1px solid var(--border)", paddingLeft: 16, marginLeft: 4 }}>
           <h1>AI-Driven Automobile Insights Chatbot</h1>
           <p>Audio Intelligence · Document Analysis · RAG-Based Q&amp;A</p>
+        </div>
+        <div style={{ marginLeft: "auto" }}>
+          <DownloadReport />
         </div>
       </header>
 

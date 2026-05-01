@@ -557,22 +557,38 @@ def _dedup_models_for_brand(brand: str, company_index: dict) -> dict:
 # ── Brand-level feature dedup prompt ──────────────────────────────────────────
 
 BRAND_FEATURE_DEDUP_PROMPT = """\
-You are given a list of raw car feature names collected from multiple text chunks about cars made by "{brand}".
-There are duplicates, synonyms, and near-duplicates.
+You are given a list of raw car feature names about cars made by "{brand}".
+Map every raw feature to a high-level automobile category (2–4 words).
 
 Raw feature list:
 {features}
 
-Produce a mapping from every raw feature to a single canonical concise name (2–4 words).
-Merge synonyms and near-duplicates: e.g. "fuel economy", "mileage", "kmpl" → "fuel efficiency".
+Use broad, standard automotive categories. Examples:
+- "mileage", "fuel economy", "kmpl", "fuel consumption" → "Fuel Efficiency"
+- "ABS", "airbags", "ADAS", "lane assist", "collision warning", "ESP" → "Safety Features"
+- "seat comfort", "legroom", "headroom", "cabin space", "rear space" → "Cabin Comfort"
+- "touchscreen", "Apple CarPlay", "Android Auto", "speakers", "Bluetooth" → "Infotainment"
+- "horsepower", "torque", "acceleration", "top speed", "engine" → "Engine Performance"
+- "suspension", "ride quality", "handling", "steering" → "Ride And Handling"
+- "boot space", "cargo space", "luggage space", "trunk" → "Boot Space"
+- "build quality", "fit and finish", "panel gaps", "paint quality" → "Build Quality"
+- "ground clearance", "AWD", "4WD", "off-road" → "Off Road Capability"
+- "price", "value for money", "cost", "EMI", "on-road price" → "Value For Money"
+- "service cost", "maintenance", "after-sales", "warranty" → "After Sales Service"
+- "LED lights", "headlights", "taillights", "DRL" → "Lighting"
+- "sunroof", "panoramic roof", "moonroof" → "Sunroof"
+- "gear shift", "gearbox", "AMT", "DCT", "automatic", "manual transmission" → "Transmission"
+- "AC", "climate control", "ventilated seats", "heating" → "Climate Control"
+
+Be aggressive: always prefer a broader canonical category over a narrow one.
+Many raw features should collapse into the same category.
 
 Return ONLY a JSON object:
 {{"raw feature": "canonical name", ...}}
 
 Rules:
 - Every input feature must appear as a key exactly once.
-- Canonical names must be concise and generic (2–4 words).
-- Multiple raw features may map to the same canonical name — that is expected.
+- Canonical names must be 2–4 words, title-cased.
 - Return ONLY the JSON object."""
 
 

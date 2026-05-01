@@ -200,7 +200,7 @@ export default function YouTubeInput({ onProcessed, onVideoSelect }) {
               {loading ? (
                 <><span className="spinner" />{isTBHP ? "Scraping..." : "Processing..."}</>
               ) : (
-                <><MessageSquare size={15} />{isTBHP ? "Scrape & Index" : "Extract & Index"}</>
+                <><MessageSquare size={15} />{isTBHP ? "Scrape" : "Extract"}</>
               )}
             </button>
           </form>
@@ -277,7 +277,7 @@ export default function YouTubeInput({ onProcessed, onVideoSelect }) {
               {loading ? (
                 <><span className="spinner" />Transcribing...</>
               ) : (
-                <><Upload size={15} />Transcribe & Index</>
+                <><Upload size={15} />Transcribe</>
               )}
             </button>
           </form>
